@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="bugs" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="limits"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Потрібна допомога з Convey?</title>
+
+  <section id="getting-support">
+    <title>Отримання підтримки</title>
+
+    <p>If you are having trouble using Convey, please <link href="https://wiki.gnome.org/Apps/Geary/Contact">get in
+    touch</link> with the Convey community about the problem.</p>
+  </section>
+
+  <section id="reporting-bugs">
+    <title>Як повідомити про вади</title>
+
+    <p>Якщо ви вважаєте, що виявили ваду у Convey, будь ласка, скористайтеся <link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">настановами щодо звітування про вади</link>, щоб розробники могли виконати діагностику та виправлення вади.</p>
+
+    <p>Щоб ми могли знайти причину проблеми якомога швидше, будь ласка, вкажіть такі дані:</p>
+
+    <list>
+      <item><p>Версія Convey та спосіб встановлення (Пакунок? Flathub? Початковий код?)</p></item>
+      <item><p>Стільничне середовища (GNOME? KDE? Щось інше?)</p></item>
+      <item><p>Назва і версія операційної системи (Ubuntu 16.04? Fedora 28? Щось створене власноруч?)</p></item>
+      <item><p>Надавач послуг електронної пошти (Gmail, Yahoo!, Outlook.com чи якийсь інший?)</p></item>
+      <item><p>Кроки для відтворення вади</p></item>
+      <item><p>Що трапилося?</p></item>
+      <item><p>На які наслідки ви сподівалися?</p></item>
+    </list>
+
+    <p>Доступ до файлів журналу можна отримати за допомогою Інспектора Convey: натисніть комбінацію клавіш <keyseq><key>Alt</key><key>I</key></keyseq>, щоб відкрити його вікно, виберіть і збережіть потрібні вам файли журналу, а потім долучіть їх до звіту щодо вади.</p>
+  </section>
+
+</page>

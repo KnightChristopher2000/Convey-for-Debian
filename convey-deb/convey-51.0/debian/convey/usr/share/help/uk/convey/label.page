@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="label" xml:lang="uk">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="preferences"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+	<title>Позначення або пересування спілкування</title>
+	<section id="label-conversation">
+	<title>Позначення спілкування</title>
+	<p>Convey надає вам змогу призначити одну або декілька <em>міток</em> до кожного спілкування. Мітки Convey відповідають міткам у Gmail або звичайним текам у інших службах електронної пошти.</p>
+	<p>Щоб позначити міткою одне або декілька спілкувань, спершу позначте спілкування, а потім виконайте одну з таких дій:</p>
+	<list>
+	<item><p>Натисніть кнопку <gui>Мітка</gui> на панелі інструментів і виберіть мітку із показаного програмою спадного меню.</p></item>
+	<item><p>Натисніть і утримуйте клавішу <key>Ctrl</key>, перетягніть спілкування зі списку спілкувань на мітку на бічній панелі.</p></item>
+	</list>
+	</section>
+	<section id="move-conversation">
+	<title>Пересування спілкування до теки або мітки</title>
+	<p>Щоб пересунути одне або декілька спілкувань до теки або мітки, спершу позначте спілкування, а потім виконайте одну з таких дій:</p>
+	<list>
+	<item><p>Натисніть кнопку <gui>Пересунути</gui> на панелі інструментів і виберіть теку або мітку із показаного спадного меню.</p></item>
+	<item><p>Перетягніть спілкування зі списку спілкувань до теки або мітки на бічній панелі.</p></item>
+	</list>
+	</section>
+</page>
