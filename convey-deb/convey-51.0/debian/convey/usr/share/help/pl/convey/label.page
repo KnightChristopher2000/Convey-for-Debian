@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="label" xml:lang="pl">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="preferences"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  </info>
+	<title>Nadawanie etykiet i przenoszenie wątków</title>
+	<section id="label-conversation">
+	<title>Nadawanie etykiet wątkom</title>
+	<p>Do każdego wątku można zastosować jedną lub więcej <em>etykiet</em>. Etykiety programu Convey odpowiadają etykietom w serwisie Gmail lub zwykłym katalogom w innych serwisach pocztowych.</p>
+	<p>Aby nadać etykiety wątkom, najpierw je zaznacz, a następnie wykonaj jedno z:</p>
+	<list>
+	<item><p>Kliknij przycisk <gui>Etykieta</gui> na pasku narzędziowym i wybierz etykietę z rozwijanego menu.</p></item>
+	<item><p>Przytrzymaj klawisz <key>Ctrl</key> i przeciągnij wątki z listy wątków do etykiety na panelu bocznym.</p></item>
+	</list>
+	</section>
+	<section id="move-conversation">
+	<title>Przenoszenie wątku do katalogu lub etykiety</title>
+	<p>Aby przenieść wątki do katalogu lub etykiety, najpierw je zaznacz, a następnie wykonaj jedno z:</p>
+	<list>
+	<item><p>Kliknij przycisk <gui>Przenieś</gui> na pasku narzędziowym i wybierz katalog lub etykietę z rozwijanego menu.</p></item>
+	<item><p>Przeciągnij wątki z listy wątków do katalogu lub etykiety na panelu bocznym.</p></item>
+	</list>
+	</section>
+</page>

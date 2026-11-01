@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="overview" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#introduction"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Przegląd</title>
+
+  <p>Convey to klient poczty zbudowany wokół koncepcji wątków, przeznaczony dla środowiska GNOME 3. Umożliwia czytanie, wyszukiwanie i wysyłanie wiadomości e-mail za pomocą protego, nowoczesnego interfejsu.</p>
+
+  <p>Wątki umożliwiają czytanie pełnych dyskusji bez potrzeby szukania i klikania od wiadomości do wiadomości.</p>
+
+  <p>Główne okno programu jest podzielone na kilka obszarów: listę katalogów, listę wątków i przeglądarkę wątków.</p>
+
+  <section id="folder-list">
+    <title>Lista katalogów</title>
+
+    <p><em>Lista katalogów</em> wyświetla wszystkie <em>katalogi</em> i <em>etykiety</em> na kontach poczty. Convey używa terminu <em>etykieta</em> dla wszystkich katalogów utworzonych do organizowania wiadomości.</p>
+
+    <p>Kliknij katalog lub etykietę, aby wyświetlić zawarte w nich wątki na liście wątków.</p>
+  </section>
+
+  <section id="conversation-list">
+    <title>Lista wątków</title>
+
+    <p><em>Lista wątków</em> wyświetla listę wątków w wybranym katalogu. Nowsze wątki pojawiają się na górze.</p>
+
+    <p>Nazwa nadawcy jest pogrubiona, jeśli są od niego nieprzeczytane wiadomości. Jeśli wątek zawiera więcej niż jedną wiadomość, to wyświetlana jest ich liczba.</p>
+
+    <p>Wszystkie wiadomości ze wszystkich katalogów nie są automatycznie pobierane. Po pierwszym wejściu do Odebranych lub innego katalogu pobierane są najnowsze wiadomości. Aby zobaczyć więcej wiadomości, po prostu przewiń listę wątków w dół, a więcej wiadomości zostanie automatycznie pobranych.</p>
+
+    <p>Niektóre polecenia mogą być używane na grupach wątków. Aby zaznaczyć kilka wątków, przytrzymaj klawisz <key>Ctrl</key> i kliknij każdy wątek na liście wątków. Można też kliknąć pierwszy wątek w żądanym zakresie, a następnie przytrzymać klawisz <key>Shift</key> i kliknąć ostatni.</p>
+  </section>
+
+  <section id="conversation-viewer">
+    <title>Przeglądarka wątków</title>
+
+    <p><em>Przeglądarka wątków</em> wyświetla wszystkie wiadomości w wybranym wątku, zaczynając od najstarszych.</p>
+
+    <p>Po wyświetleniu wątku już przeczytane wiadomości są zwinięte. Kliknij zwinięte wiadomości, aby je rozwinąć. Kliknij nagłówek rozwiniętej wiadomości, aby ją zwinąć.</p>
+
+    <p>Kliknij dowolne nazwisko lub adres e-mail nadawcy lub odbiorcy wiadomości, aby otworzyć <em>menu kontaktu</em>, wyświetlające dodatkowe informacje i opcje adresu e-mail. Można założyć nowy wątek, skopiować adres e-mail do schowka i wyszukać powiązane wątki. Jeśli adres e-mail znajduje się w książce adresowej systemu, to będzie wyświetlane zdjęcie kontaktu, preferowane nazwisko oraz czy są ulubionym kontaktem. Można także otworzyć kontakt w książce adresowej. Jeśli adres e-mail nie jest jeszcze w książce, to można go dodać i zaktualizować preferencję wczytywania zdalnych obrazów od tego adresu.</p>
+
+    <p>Kliknij przycisk z gwiazdką znajdujący się obok każdej wiadomości, aby wyróżnić lub usunąć wyróżnienie wiadomości. Wyróżnienie wiadomości wyróżni cały wątek, a po powrocie do wątku wyświetlona zostanie pierwsza wyróżniona wiadomość.</p>
+
+    <p>Kliknij przycisk menu znajdujący się obok każdej wiadomości, aby otworzyć <em>menu wiadomości</em>, umożliwiające wysłanie odpowiedzi lub przekazanie konkretnej wiadomości, zaktualizowanie które wiadomości są oznaczone jako przeczytane lub nieprzeczytane, wydrukowanie wiadomości i tak dalej.</p>
+
+    <p>Załączniki są widoczne na dole wiadomości. Podwójnie kliknij załącznik, aby go otworzyć, albo użyj przycisków Otwórz i Zapisz, aby otworzyć lub zapisać zaznaczone załączniki.</p>
+  </section>
+
+</page>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="search" xml:lang="pl">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="star"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  </info>
+	<title>Wyszukiwanie</title>
+	
+	<p>Obsługiwane jest wyszukiwanie w treści wiadomości. Aby zacząć, należy wybrać katalog powiązany z kontem, w którym wyszukiwać. Następnie należy kliknąć pole wyszukiwania na pasku narzędziowym (lub nacisnąć klawisze <keyseq><key>Ctrl</key><key>S</key></keyseq>) i zacząć pisać. Wyniki pojawią się po krótkiej chwili.</p>
+	
+	<p>Wyszukiwanie obejmuje treść e-maila, adresy (do, z i DW), temat i nazwy załączników.</p>
+	
+	<p>Słowa kluczowe pasujące do wyszukiwania są wyróżnione w widoku wiadomości. Dopasowane zostaną różne formy tego samego słowa, na przykład szukanie „spacer” znajdzie też „spaceruję” i „spacerowałam”.</p>
+	
+	<section id="search-operators">
+	<title>Operatory wyszukiwania</title>
+	<p>Obsługiwane są następujące operatory ograniczające zakres wyszukiwania:</p>
+	<table frame="all" rules="rows">
+	<tr>
+		<td><p><input>załącznik:<var>nazwa pliku</var></input></p></td>
+		<td><p>Odnajduje wiadomości z załącznikami, których nazwy pasują do <var>nazwa pliku</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>udw:<var>odbiorca</var></input></p></td>
+		<td><p>Odnajduje wiadomości, w których <var>odbiorca</var> pasuje do pól „Ukryty do wiadomości”.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>treść:<var>tekst</var></input></p></td>
+		<td><p>Odnajduje wiadomości, których treść zawiera <var>tekst</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>dw:<var>odbiorca</var></input></p></td>
+		<td><p>Odnajduje wiadomości, w których <var>odbiorca</var> pasuje do pól „Do wiadomości”.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>od:<var>nadawca</var></input></p></td>
+		<td><p>Odnajduje wiadomości, w których <var>nadawca</var> pasuje do pól „Od”.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>jest:przeczytane</input></p></td>
+		<td><p>Odnajduje wiadomości oznaczone jako przeczytane.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>jest:wyróżnione</input></p></td>
+		<td><p>Odnajduje wiadomości oznaczone jako wyróżnione.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>jest:nieprzeczytane</input></p></td>
+		<td><p>Odnajduje wiadomości oznaczone jako nieprzeczytane.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>temat:<var>tekst</var></input></p></td>
+		<td><p>Odnajduje wiadomości, których temat zawiera <var>tekst</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>do:<var>odbiorca</var></input></p></td>
+		<td><p>Odnajduje wiadomości, w których <var>odbiorca</var> pasuje do pól „Do”, „Do wiadomości” lub „Ukryty do wiadomości”.</p></td>
+	</tr>
+	</table>
+
+	<p>Operatory <input>udw</input>, <input>dw</input>, <input>od</input> i <input>do</input> obsługują specjalny parametr <input>ja</input>, który wyszukuje własny adres e-mail użytkownika w odpowiednim kontekście.</p>
+	</section>
+</page>

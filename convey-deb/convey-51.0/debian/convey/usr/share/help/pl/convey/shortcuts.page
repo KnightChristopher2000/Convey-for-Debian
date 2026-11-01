@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="shortcuts" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="label"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Skróty klawiszowe</title>
+
+  <section id="features">
+    <title>Przegląd</title>
+    <p>Dostępne są skróty klawiszowe dla najczęściej wykonywanych działań. Wbudowana pomoc zawiera ich pełną listę. Aby ją otworzyć, wybierz <gui style="menuitem">Skróty klawiszowe</gui> z menu programu na pasku narzędziowym głównego okna lub użyj poniższych skrótów.</p>
+
+    <p>Można używać tych skrótów klawiszowych do otwierania pomocy w programie Convey:</p>
+    <table frame="all" rules="rows">
+      <tr>
+        <td><p>Wyświetlenie tego podręcznika użytkownika</p></td>
+        <td><p><keyseq><key>F1</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Wyświetlenie wszystkich skrótów klawiszowych</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>?</key></keyseq></p></td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="single-key-shortcuts">
+    <title>Skróty jednoklawiszowe</title>
+
+    <p>Można włączyć skróty klawiszowe do działań na wiadomościach, które nie wymagają naciśnięcia klawisza <key>Ctrl</key>. Są one takie same, jak skróty w serwisie Gmail. <link xref="preferences"/> zawiera więcej informacji.</p>
+
+    <p>W powyższej pomocy skrótów klawiszowych można znaleźć pełną listę jednoklawiszowych skrótów włączanych przez tę preferencję.</p>
+  </section>
+
+
+</page>

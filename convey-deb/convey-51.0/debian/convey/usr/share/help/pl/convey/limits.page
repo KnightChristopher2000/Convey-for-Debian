@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="limits" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ograniczenia</title>
+
+  <p>Convey jest na wczesnym etapie rozwoju. Obsługuje protokół IMAP i został przetestowany z serwisami Gmail, Yahoo i wolnym serwerem poczty Dovecot. Obsługa serwisu Outlook.com jest eksperymentalna. Convey może nie działać poprawnie z niektórymi serwerami IMAP. W tej chwili brakuje wielu funkcji, w tym trybu offline.</p>
+
+  <p>To learn more about the features we're working on and the future
+  of Convey, please visit Convey's <link href="https://wiki.gnome.org/Apps/Geary">wiki page</link>.</p>
+
+</page>

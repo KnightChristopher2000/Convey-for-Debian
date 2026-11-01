@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="preferences" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="search"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2016-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Preferencje</title>
+
+  <p>Można dostosować działanie programu w jego oknie <gui style="group">Preferencji</gui>. Aby je otworzyć, wybierz <gui style="menuitem">Preferencje</gui> z menu programu na pasku narzędziowym głównego okna. Opcje, które można zmienić:</p>
+
+  <terms>
+    <item>
+      <title><gui>Automatyczne wybieranie następnej wiadomości</gui></title>
+      <p>Po włączeniu tej opcji następna wiadomość jest automatycznie wybierana po wejściu do katalogu. Oprócz tego sąsiednia wiadomość jest automatycznie wybierana po zarchiwizowaniu wiadomości.</p>
+    </item>
+    <item>
+      <title><gui>Podgląd wątku</gui></title>
+      <p>Włącza podgląd wiadomości na liście wątków. Podgląd wyświetla kilka pierwszych wierszy każdej wiadomości.</p>
+    </item>
+    <item>
+      <title><gui>Skróty jednoklawiszowe</gui></title>
+      <p>Włącza skróty klawiszowe do działań na wiadomościach, które nie wymagają naciśnięcia klawisza <key>Ctrl</key>. Są one takie same, jak skróty w serwisie Gmail. <link xref="shortcuts"/> zawiera więcej informacji.</p>
+    </item>
+    <item>
+      <title><gui>Monitorowanie nowych wiadomości po zamknięciu</gui></title>
+      <p>Nowe wiadomości będą monitorowane nawet po zamknięciu głównego okna. W tym celu program Convey jest uruchamiany w tle po zalogowaniu się do komputera i kontynuuje działanie po zamknięciu wszystkich okien.</p>
+    </item>
+  </terms>
+
+</page>
