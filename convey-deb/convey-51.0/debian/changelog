@@ -1,0 +1,11 @@
+convey (51.0-1) UNRELEASED; urgency=medium
+
+  * Updated release.
+
+ -- Christopher M. Bryan <christoferus.21@gmail.com>  Sat, 31 Oct 2026 17:00:00 -0500
+
+convey (50.2-1-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #1148397)
+
+ -- Danial Behzadi <dani.behzi@ubuntu.com>  Sat, 26 Sep 2026 19:36:04 +0330
