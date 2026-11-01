@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="contributing" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="bugs"/>
+  </info>
+
+  <title>Допринесите Герију</title>
+
+  <p>Желите да помогнете у побољшању Герија? Постоји више начина на које можете допринети:</p>
+
+  <list>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">Пријављивање грешака</link> — пријавите нове грешке или затражите нове могућности</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Translating">Превођење</link> — преведите Геријево корисничко прочеље и корисничко упутство на нове језике</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Development">Развој</link> — исправљајте грешке и додајте нове могућности</p></item>
+  </list>
+
+  <p>Погледајте <link href="https://wiki.gnome.org/Apps/Geary/Contribute">вики</link> за више информација и могућности за новчани допринос развоју Герија.</p>
+</page>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="limits" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+  </info>
+
+  <title>Ограничења</title>
+
+  <p>Гери је још увек у раној фази развоја. Гери подржава ИМАП и тестиран је са Гугловом поштом, Јахуом и бесплатним Довекот поштанским сервером. Омогућена је експериментална подршка за Outlook.com. Гери можда још увек неће радити добро са неким ИМАП серверима. У овом тренутку Герију још увек недостају бројне могућности, укључујући ванмрежни режим рада.</p>
+
+  <p>To learn more about the features we're working on and the future
+  of Convey, please visit Convey's <link href="https://wiki.gnome.org/Apps/Geary">wiki page</link>.</p>
+
+</page>

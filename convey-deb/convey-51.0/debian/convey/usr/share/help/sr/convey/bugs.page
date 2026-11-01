@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="bugs" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="limits"/>
+  </info>
+
+  <title>Потребна вам је помоћ са Геријем?</title>
+
+  <section id="getting-support">
+    <title>Добијање подршке</title>
+
+    <p>If you are having trouble using Convey, please <link href="https://wiki.gnome.org/Apps/Geary/Contact">get in
+    touch</link> with the Convey community about the problem.</p>
+  </section>
+
+  <section id="reporting-bugs">
+    <title>Пријављивање грешака</title>
+
+    <p>Ако сумњате да сте пронашли грешку у Герију, молимо пратите <link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">смернице за пријављивање грешака</link> како би проблем могао бити дијагностикован и исправљен.</p>
+
+    <p>Како бисте помогли да се проблем дијагностикује што је брже могуће, молимо укључите следеће податке:</p>
+
+    <list>
+      <item><p>Верзија Герија и начин инсталације (Пакет? Флатхаб? Изворни код?)</p></item>
+      <item><p>Ваша радна површ (Гном? КДЕ? Нешто друго?)</p></item>
+      <item><p>Ваш оперативни систем и верзија (Убунту 16.04? Федора 28? Сами сте га саставили?)</p></item>
+      <item><p>Достављач е-поште (Гмаил, Јаху!, Outlook.com, или неко други?)</p></item>
+      <item><p>Кораци за репродуковање грешке</p></item>
+      <item><p>Шта се десило?</p></item>
+      <item><p>Шта сте очекивали да се деси?</p></item>
+    </list>
+
+    <p>Дневницима се може приступити путем Геријевог инспектора, притисните <keyseq><key>Алт</key><key>I</key></keyseq> да га отворите, изаберите и сачувајте све релевантне дневнике, и приложите их уз пријаву грешке.</p>
+  </section>
+
+</page>
