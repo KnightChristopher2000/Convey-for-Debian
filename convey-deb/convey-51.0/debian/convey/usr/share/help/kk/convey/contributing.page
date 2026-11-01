@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="contributing" xml:lang="kk">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="bugs"/>
+  </info>
+
+  <title>Convey жобасына үлес қосу</title>
+
+  <p>Convey бағдарламасын жақсартуға көмектескіңіз келе ме? Үлес қосудың бірнеше жолы бар:</p>
+
+  <list>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">Қателер туралы хабарлау</link> — жаңа қателер туралы хабарлау немесе жаңа мүмкіндіктерді сұрау</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Translating">Аудару</link> — Convey интерфейсін және пайдаланушы нұсқаулығын жаңа тілдерге аудару</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Development">Әзірлеу</link> — қателерді түзету және жаңа мүмкіндіктер қосу</p></item>
+  </list>
+
+  <p>Қосымша ақпарат және Convey әзірлемесіне қаржылай демеушілік ету опциялары үшін <link href="https://wiki.gnome.org/Apps/Geary/Contribute">вики бетін</link> қараңыз.</p>
+</page>

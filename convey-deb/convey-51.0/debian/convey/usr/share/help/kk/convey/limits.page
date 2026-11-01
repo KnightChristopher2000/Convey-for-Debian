@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="limits" xml:lang="kk">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+  </info>
+
+  <title>Шектеулер</title>
+
+  <p>Convey әлі де ерте әзірлеу кезеңінде. Convey IMAP протоколын қолдайды және Gmail, Yahoo және тегін Dovecot пошта серверімен сыналды. Outlook.com үшін эксперименталды қолдау көрсетіледі. Convey кейбір IMAP серверлерімен әлі де жақсы жұмыс істемеуі мүмкін. Қазіргі уақытта Convey-де әлі де көптеген мүмкіндіктер, соның ішінде автономды режим жоқ.</p>
+
+  <p>To learn more about the features we're working on and the future
+  of Convey, please visit Convey's <link href="https://wiki.gnome.org/Apps/Geary">wiki page</link>.</p>
+
+</page>
