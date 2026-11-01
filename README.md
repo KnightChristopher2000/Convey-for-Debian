@@ -1,1 +1,1 @@
--- UPLOAD IN PROGRESS -- DO NOT ATTEMPT TO BUILD FROM SOURCE YET --
+This is a version of Convey 51.0 for Debian. It's a .deb package derived from Convey's upstream source code. It is based on both Convey's upstream source code(https://gitlab.gnome.org/donnybeelo/convey) and Debian's unreleased packaging files for Convey(https://salsa.debian.org/gnome-team/extras/convey). The Debian-friendly source code is included in the release section for auditing and building from source.
