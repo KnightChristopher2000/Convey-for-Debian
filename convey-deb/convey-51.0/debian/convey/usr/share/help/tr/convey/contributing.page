@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="contributing" xml:lang="tr">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="bugs"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Emin Tufan Çetin</mal:name>
+      <mal:email>etcetin@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sabri Ünal</mal:name>
+      <mal:email>libreajans@gmail.com</mal:email>
+      <mal:years>2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Conveyʼye katkıda bulun</title>
+
+  <p>Conveyʼyi iyileştirmek ister misiniz? Katkıda bulunabileceğiniz birkaç yol vardır:</p>
+
+  <list>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">Hata bildirimi</link>—yeni hataları bildirin veya yeni özellikler isteyin</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Translating">Çeviri</link>—Convey’nin kullanıcı arayüzünü ve kullanım kılavuzunu yeni dillere çevirin</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Development">Geliştirme</link>—hataları gider ve yeni özellikler ekle</p></item>
+  </list>
+
+  <p>Daha çok bilgi ve Convey’nin gelişimine finansal destek seçenekleri için lütfen <link href="https://wiki.gnome.org/Apps/Geary/Contribute">wiki</link>’ye bakın.</p>
+</page>

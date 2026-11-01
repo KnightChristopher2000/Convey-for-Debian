@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="index" xml:lang="tr">
+
+  <info>
+    <title type="link" role="trail">Convey</title>
+    <title type="text">Convey</title>
+    <title type="link">Convey</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Emin Tufan Çetin</mal:name>
+      <mal:email>etcetin@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sabri Ünal</mal:name>
+      <mal:email>libreajans@gmail.com</mal:email>
+      <mal:years>2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" its:translate="no" src="figures/net.donnybeelo.Convey.svg" width="48" height="48"/> <span>Convey</span></title>
+
+  <section id="introduction" style="2column">
+    <title>Tanıtım</title>
+  </section>
+
+  <section id="overview" style="2column">
+    <title>Conveyʼyi Kullanmak</title>
+  </section>
+
+  <section id="contribute" style="2column">
+    <title>Katkıda bulunma ve destek alma</title>
+  </section>
+
+</page>

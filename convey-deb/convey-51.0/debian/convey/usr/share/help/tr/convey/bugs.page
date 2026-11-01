@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="bugs" xml:lang="tr">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="limits"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Emin Tufan Çetin</mal:name>
+      <mal:email>etcetin@gmail.com</mal:email>
+      <mal:years>2017-2023</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sabri Ünal</mal:name>
+      <mal:email>libreajans@gmail.com</mal:email>
+      <mal:years>2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Convey’de yardım mı gerekiyor?</title>
+
+  <section id="getting-support">
+    <title>Destek alma</title>
+
+    <p>If you are having trouble using Convey, please <link href="https://wiki.gnome.org/Apps/Geary/Contact">get in
+    touch</link> with the Convey community about the problem.</p>
+  </section>
+
+  <section id="reporting-bugs">
+    <title>Hata raporlama</title>
+
+    <p>Conveyʼde hata bulduğunuzu düşünüyorsanız lütfen bununla ilgili <link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">iletişime geçin</link> ki sorun saptanabilsin ve giderilsin.</p>
+
+    <p>Sorunun hızlıca saptanmasına yardım etmek için lütfen şu bilgileri ekleyin:</p>
+
+    <list>
+      <item><p>Convey sürümü ve kurulum yöntemi (Paket? Flathub? Kaynak kod?)</p></item>
+      <item><p>Masaüstünüz (GNOME? KDE? Başka bir şey?)</p></item>
+      <item><p>İşletim sisteminiz ve sürümü (Ubuntu 16.04? Fedora 28? Kendi yaptığınız?)</p></item>
+      <item><p>E-posta sağlayıcı (Gmail, Yahoo!, Outlook.com veya daha başkası?)</p></item>
+      <item><p>Hatayı yeniden üretmek için adımlar</p></item>
+      <item><p>Ne oldu?</p></item>
+      <item><p>Ne olmasını beklediniz?</p></item>
+    </list>
+
+    <p>Günlük dosyalarına Convey Denetçisi ile erişilebilir. Açmak için <keyseq><key>Alt</key><key>I</key></keyseq> tuşlarına basın. İlgili günlük dosyalarını seçip kaydedin ve bunları hata raporuna ekleyin.</p>
+  </section>
+
+</page>
