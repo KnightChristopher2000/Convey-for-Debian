@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="label" xml:lang="pt_BR">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="preferences"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2016-2019</mal:years>
+    </mal:credit>
+  </info>
+	<title>Rotulando ou movendo uma conversa</title>
+	<section id="label-conversation">
+	<title>Rotulando uma conversa</title>
+	<p>Convey permite que você aplique um ou mais <em>rótulos</em> para cada conversa. Os rótulos do Convey correspondem aos rótulos do Gmail ou a pastas comuns em outros serviços de e-mail.</p>
+	<p>Para rotular uma ou mais conversas, primeiro selecione a conversa e, então, faça uma dentre as opções abaixo:</p>
+	<list>
+	<item><p>Clique no botão <gui>Rótulo</gui> na barra de ferramentas e selecione um rótulo do menu suspenso resultante.</p></item>
+	<item><p>Segure a tecla <key>Ctrl</key> e arraste a conversa da lista de conversa para o rótulo na barra lateral.</p></item>
+	</list>
+	</section>
+	<section id="move-conversation">
+	<title>Movendo uma conversa para uma pasta ou um rótulo</title>
+	<p>Para mover uma ou mais conversas para uma pasta ou rótulo, primeiro selecione a conversa e, então, faça uma dentre as opções abaixo:</p>
+	<list>
+	<item><p>Clique no botão <gui>Mover</gui> na barra de ferramentas e selecione uma pasta ou um rótulo do menu suspenso resultante.</p></item>
+	<item><p>Arraste uma conversa da lista de conversa para a pasta ou rótulo na barra lateral.</p></item>
+	</list>
+	</section>
+</page>

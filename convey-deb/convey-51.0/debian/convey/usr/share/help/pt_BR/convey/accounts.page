@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="accounts" xml:lang="pt_BR">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="archive"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2016-2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Contas</title>
+
+  <section id="accounts-editor">
+    <title>Editor de Contas</title>
+
+    <p>Suas contas de email podem ser adicionadas, atualizadas e removidas usando o <em>editor de contas</em>. Para abri-lo, clique no menu do Convey na janela principal acima da lista de pastas, então clique <gui>Contas</gui> no menu suspenso.</p>
+
+    <p>Para alterar a ordem das contas exibidas na lista de pastas, clique e arraste para uma conta no editor de contas, ou foque em uma conta com a tecla <key>Tab</key>, então use <keyseq><key>Ctrl</key><key>↑</key></keyseq> e <keyseq><key>Ctrl</key><key>↓</key></keyseq> para reposicionar a conta selecionada.</p>
+  </section>
+
+  <section id="adding-accounts">
+    <title>Adicionando contas</title>
+
+    <p>Convey vai usar automaticamente qualquer conta de e-mail que você adicionou pelo painel de <app>Contas Online</app> nas <app>Configurações do GNOME</app>. Se você não tiver adicionado <app>Contas Online</app>, você será solicitado a adicionar uma na primeira vez que rodar o Convey.</p>
+
+    <p>Para adicionar novas contas, abra o editor de contas, escolha um provedor de e-mail disponível na lista na parte de baixo da janela. Para provedores suportados pelas <app>Contas Online</app>, o aplicativo de <app>Configurações do GNOME</app> será aberto e você solicitado a informar a conta. Para outros provedores de e-mail, você será solicitado a adicionar a conta pelo Convey. Assim que entrar, clique em <gui>Criar</gui> e as informações da conta serão checadas e adicionadas.</p>
+  </section>
+
+  <section id="editing-accounts">
+    <title>Atualizando contas existentes</title>
+
+    <p>Para atualizar contas existentes, abra o editor de contas e escolha a conta que deseja atualizar. Convey vai exibir as configurações da conta. A partir daí, você poderá adicionar e remover novos remetentes de e-mail, editar sua assinatura e várias outras configurações.</p>
+
+    <p>O menu suspenso para <gui>Baixar e-mail</gui> permite que você configure quantos e-mails o Convey manterá localmente. Convey só pode usar e-mails disponíveis localmente ao pesquisar e formar conversas.</p>
+
+    <p>Para editar as configurações do servidor da conta, deslize até o final da janela e clique em <gui>Configurações do Servidor</gui>. As configurações do servidor serão exibidas e você poderá editá-las. Depois, clique em <gui>Aplicar</gui> e o Convey vai checar as configurações e atualizar a conta. Note que contas adicionadas pelo painel de <app>Contas Online</app> nas <app>Configurações do GNOME</app> não podem ter o nome do servidor, segurança, usuário e/ou senha alterados.</p>
+
+    <p>A opção <gui>Salvar rascunho de e-mail no servidor</gui> controla se o o compositor salvará cópias das mensagens de e-mail sendo escritas na pasta <gui>Rascunhos</gui>. Se não selecionada, você não poderá salvar os rascunhos das mensagens quando fechar o compositor.</p>
+
+    <p>A opção <gui>Salvar e-mail enviado no servidor</gui> controla se o Convey vai salvar uma cópia do e-mail que foi enviado para a pasta <gui>Enviados</gui>. Se não selecionado, você não poderá ver e-mails enviados, a não ser que o servidor os salve automaticamente para você.</p>
+  </section>
+
+  <section id="removing-accounts">
+    <title>Removendo contas</title>
+
+    <p>Contas adicionadas pelo painel de <app>Contas Online</app> nas <app>Configurações do GNOME</app> também devem ser removidas por lá. Para isso, abra o painel de <app>Contas Online</app> e clique em <gui>Remover</gui>.</p>
+
+    <p>Para remover uma conta adicionada pelo Convey, abra o editor de contas e escolha a conta que deseja remover. O Convey vai apresentar as configurações da conta. Deslize até o fim da janela e clique em <gui>Remover Conta</gui>. Você será solicitado a confirmar a remoção da conta. Assim que confirmar, se mudar de ideia, você ainda poderá desfazer a remoção da conta clicando em <gui>Desfazer</gui> na notificação ou digitando <keyseq><key>Ctrl</key><key>U</key></keyseq>.</p>
+  </section>
+
+</page>

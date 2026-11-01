@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive" xml:lang="pt_BR">
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="shortcuts"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2016-2019</mal:years>
+    </mal:credit>
+  </info>
+  <title>Arquivo, lixeira e mensagens excluídas</title>
+
+  <p>O Convey permite que você arquive mensagens se o servidor suportar isso. Clicando no botão <gui style="button">Arquivar</gui> na barra de ferramentas a conversa será movida da pasta atual para a pasta <gui>Arquivo</gui> para a maior parte dos serviços de e-mail ou <gui>Todos os e-mails</gui> para o GMail. Arquivar os e-mails ajuda na organização ao mover mensagens antigas e respondidas para outro lugar.</p>
+
+  <p>Para mover conversas para a <gui>Lixeira</gui>, selecione e clique no botão <gui style="button">Lixeira</gui>. Para deletar conversas permanentemente, segure <key>Shift</key> e clique no botão <gui style="button">Deletar</gui> que aparece no lugar do botão da <gui>Lixeira</gui>, ou abra a conversa na pasta <gui>Lixeira</gui> e clique no botão <gui style="button">Deletar</gui>.</p>
+
+  <note style="tip">
+    <title>Desfazendo mudanças</title>
+    <p>Note que você sempre pode desarquivar ou restaurar mensagens deletadas se você mudar de ideia. Clique em <gui style="button">Desfazer</gui> na notificação que aparece, digite <keyseq><key>Ctrl</key><key>Z</key></keyseq> ou abra a pasta, encontre a mensagem e a mova novamente para a <gui>Caixa de entrada</gui></p>
+  </note>
+
+  <p>Mesmo que <gui style="button">Arquivar</gui> e <gui style="button">Deletar</gui> removam as conversas de sua <gui>Caixa de entrada</gui>, há uma diferença importante. Clicando em <gui style="button">Arquivar</gui> garante que as conversas podem ser encontradas mais tarde. Clicando em <gui style="button">Deletar</gui> fará com que as conversas não apareçam na pesquisa e que sejam excluídas no futuro.</p>
+
+</page>

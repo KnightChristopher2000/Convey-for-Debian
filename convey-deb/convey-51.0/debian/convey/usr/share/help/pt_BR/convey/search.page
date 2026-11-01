@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="search" xml:lang="pt_BR">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="star"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2016-2019</mal:years>
+    </mal:credit>
+  </info>
+	<title>Pesquisando</title>
+	
+	<p>Convey oferece suporte a pesquisa completa de texto por conta. Para iniciar uma pesquisa, selecione uma pasta associada com a conta na qual você gostaria de pesquisar. Então, clique na caixa de pesquisa na barra de ferramentas (ou pressione<keyseq><key>Ctrl</key><key>S</key></keyseq>) e comece a digitar. Resultados aparecerão após uma breve atraso.</p>
+	
+	<p>A pesquisa completa de texto inclui texto de e-mail, endereços de e-mail (para, de e cc), linhas de assunto e nomes de arquivos de anexos.</p>
+	
+	<p>Palavras-chave que correspondem à sua pesquisa são destacadas na visão da mensagem. Convey vai corresponder formas diferentes da mesma mensagem; por exemplo, pesquisar por “caminha” também retornará “caminhando” e “caminhada”.</p>
+	
+	<section id="search-operators">
+	<title>Operadores de pesquisa</title>
+	<p>Convey oferece suporte aos seguintes operadores para limitar o escopo das pesquisa:</p>
+	<table frame="all" rules="rows">
+	<tr>
+		<td><p><input>attachment:<var>nome-de-arquivo</var></input></p></td>
+		<td><p>Localiza mensagens com anexos cujo nome corresponda a <var>nome-de-arquivo</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>bcc:<var>destinatário</var></input></p></td>
+		<td><p>Localiza mensagens cujo <var>destinatário</var> corresponde ao campo CCO.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>body:<var>texto</var></input></p></td>
+		<td><p>Localiza mensagens cujo corpo contém <var>texto</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cc:<var>destinatário</var></input></p></td>
+		<td><p>Localiza mensagens cujo <var>destinatário</var> corresponde ao campo CC.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>from:<var>remetente</var></input></p></td>
+		<td><p>Localiza mensagens cujo <var>remetente</var> corresponde ao campo De.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:lida</input></p></td>
+		<td><p>Localiza mensagens que foram marcadas como lidas.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:com-estrela</input></p></td>
+		<td><p>Localiza mensagens que foram marcadas com estrela.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:não-lida</input></p></td>
+		<td><p>Localiza mensagens que foram marcadas como não lidas.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>subject:<var>texto</var></input></p></td>
+		<td><p>Localiza mensagens cujo assunto contém <var>texto</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>to:<var>destinatário</var></input></p></td>
+		<td><p>Localiza mensagens cujo <var>destinatário</var> corresponde ao campo Para, CC ou CCO.</p></td>
+	</tr>
+	</table>
+
+	<p>Como um caso especial, os operadores <input>cco</input>, <input>cc</input>, <input>de</input> e <input>para</input> oferecem suporte a <input>me</input> como seu argumento, o qual pesquisa pelo endereço de e-mail da conta no contexto apropriado.</p>
+	</section>
+</page>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="index" xml:lang="pt_BR">
+
+  <info>
+    <title type="link" role="trail">Convey</title>
+    <title type="text">Convey</title>
+    <title type="link">Convey</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2016-2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" its:translate="no" src="figures/net.donnybeelo.Convey.svg" width="48" height="48"/> <span>Convey</span></title>
+
+  <section id="introduction" style="2column">
+    <title>Introdução</title>
+  </section>
+
+  <section id="overview" style="2column">
+    <title>Usando o Convey</title>
+  </section>
+
+  <section id="contribute" style="2column">
+    <title>Contribuindo e obtendo suporte</title>
+  </section>
+
+</page>

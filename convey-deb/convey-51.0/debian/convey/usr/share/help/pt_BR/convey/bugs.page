@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="bugs" xml:lang="pt_BR">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="limits"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2016-2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Precisa de ajuda com o Convey?</title>
+
+  <section id="getting-support">
+    <title>Obtendo suporte</title>
+
+    <p>If you are having trouble using Convey, please <link href="https://wiki.gnome.org/Apps/Geary/Contact">get in
+    touch</link> with the Convey community about the problem.</p>
+  </section>
+
+  <section id="reporting-bugs">
+    <title>Reportando bugs</title>
+
+    <p>Se você suspeita que encontrou um erro no Convey, por favor siga as orientações <link href="https://wiki.gnome.org/Apps/Geary/Contact">para reportar erros</link> para que ele possa ser corrigido.</p>
+
+    <p>Para ajudar a diagnosticar o problema o mais rápido possível, inclua as seguintes informações:</p>
+
+    <list>
+      <item><p>Versão Convey e método de instalação (Pacote? Flathub? Código-fonte?)</p></item>
+      <item><p>Seu ambiente gráfico (GNOME? KDE? Outra coisa?)</p></item>
+      <item><p>Seu sistema operacional e versão (Ubuntu 16.04? Fedora 28? Seu próprio?)</p></item>
+      <item><p>Provedor de e-mail (Gmail, Yahoo!, Outlook.com ou outra pessoa?)</p></item>
+      <item><p>Passos para reproduzir o erro</p></item>
+      <item><p>O que aconteceu?</p></item>
+      <item><p>O que você esperava acontecer?</p></item>
+    </list>
+
+    <p>Arquivos de log podem ser acessados pelo Inspetor do Convey. Digite <keyseq><key>Alt</key><key>I</key></keyseq> para abrir, selecione e salve os arquivos de log relevantes e anexe para reportar erros.</p>
+  </section>
+
+</page>

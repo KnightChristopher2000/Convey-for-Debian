@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="star" xml:lang="pt_BR">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="write"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2016-2019</mal:years>
+    </mal:credit>
+  </info>
+	<title>Marcando estrela em uma mensagem ou marcar como lida/não lida</title>
+	<section id="star-messages">
+	<title>Mensagens marcadas com estrela</title>
+	<p>Você pode marcar estrela nas mensagens para indicar que elas são importantes para você. Para isto, clique em seu ícone de estrela na lista de conversa. Você pode marcar com estrela uma mensagem individual clicando na estrela no canto direito superior da própria mensagem.</p>
+	<p>Com contas de Gmail, mensagens marcadas com estrela aparecem na pasta Importante na lista de pastas.</p>
+	</section>
+	<section id="mark-read-unread">
+	<title>Marcando mensagens como lidas ou não lidas</title>
+	<p>Convey marca mensagens como lidas automaticamente na medida em que você as lê. Para alternar manualmente uma conversa como lida ou não lida, clique no ícone de círculo na lista de conversa.</p>
+	
+	<p>Alternativamente, <gui>Marcar como não lida</gui> no menu <gui>Marcar</gui> na barra de ferramentas pode ser usado para alternar o status de leitura das conversas selecionadas.</p>
+	
+	<p>Para marcar uma mensagem individual como lida, selecione <gui>Marcar como lida</gui> a partir do menu suspenso.</p>
+	
+	</section>
+</page>
