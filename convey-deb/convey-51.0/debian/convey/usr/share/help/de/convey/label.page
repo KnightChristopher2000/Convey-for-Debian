@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="label" xml:lang="de">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="preferences"/>
+    </info>
+	<title>Eine Konversation mit einer Beschriftung versehen oder verschieben</title>
+	<section id="label-conversation">
+	<title>Eine Konversation mit einer Beschriftung versehen</title>
+	<p>Mit Convey können Sie einer Konversation eine oder mehrere <em>Beschriftungen</em> zuweisen. Conveys Beschriftungen entsprechen Gmail-Markierungen oder normalen Ordnern anderer E-Mail-Dienste.</p>
+	<p>Um eine oder mehrere Konversationen mit einer Beschriftung zu versehen, wählen Sie zuerst die Konversation(en) aus und können dann einen der folgenden Wege nutzen:</p>
+	<list>
+	<item><p>Klicken Sie den <gui>Beschriftung</gui>-Knopf in der Werkzeugleiste und wählen Sie eine Beschriftung aus dem erscheinenden Auswahlmenü.</p></item>
+	<item><p>Drücken Sie die <key>Strg</key>-Taste und ziehen Sie die Konversation(en) aus der Konversationsliste auf die Beschriftung in der Seitenleiste.</p></item>
+	</list>
+	</section>
+	<section id="move-conversation">
+	<title>Verschieben einer Konversation in einen Ordner oder eine Beschriftung</title>
+	<p>Um eine oder mehrere Konversationen in einen Ordner oder eine Beschriftung zu verschieben, wählen Sie zunächst die Konversation(en) aus und können dann einen der folgenden Wege nutzen:</p>
+	<list>
+	<item><p>Klicken Sie den <gui>Verschieben</gui> Knopf in der Werkzeugleiste und wählen Sie einen Ordner oder eine Beschriftung aus dem erscheinenden Auswahlmenü aus.</p></item>
+	<item><p>Ziehen Sie die Konversation(en) aus der Konversationsliste auf den Ordner oder die Beschriftung in der Seitenleiste.</p></item>
+	</list>
+	</section>
+</page>

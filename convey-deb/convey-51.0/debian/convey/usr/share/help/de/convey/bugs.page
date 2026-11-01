@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="bugs" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="limits"/>
+  </info>
+
+  <title>Need help with Convey?</title>
+
+  <section id="getting-support">
+    <title>Getting support</title>
+
+    <p>If you are having trouble using Convey, please <link href="https://wiki.gnome.org/Apps/Geary/Contact">get in
+    touch</link> with the Convey community about the problem.</p>
+  </section>
+
+  <section id="reporting-bugs">
+    <title>Reporting bugs</title>
+
+    <p>If you suspect you have found a bug in Convey, please follow the
+    <link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">bug
+    reporting guidelines</link> so the problem can be diagnosed and
+    fixed.</p>
+
+    <p>Sie können dabei helfen, das Problem so schnell wie möglich zu diagnostizieren, indem Sie folgende Informationen übermitteln:</p>
+
+    <list>
+      <item><p>Die Version von Convey und die Installationsmethode (Paket? Flathub? Quellcode?)</p></item>
+      <item><p>Ihre Arbeitsumgebung (GNOME? KDE? Andere?)</p></item>
+      <item><p>Ihr Betriebssystem und dessen Version (Ubuntu 16.04? Fedora 28? Ihr eigenes?)</p></item>
+      <item><p>E-Mail-Dienstanbieter (Gmail, Yahoo!, Outlook.com oder etwas anderes?)</p></item>
+      <item><p>Schritte, um den Fehler zu reproduzieren</p></item>
+      <item><p>Was ist passiert?</p></item>
+      <item><p>Was hätte erwartungsgemäß passieren sollen?</p></item>
+    </list>
+
+    <p>Log files can be accessed via the Convey Inspector, press
+    <keyseq><key>Alt</key><key>I</key></keyseq> to open it, select and
+    save any relevant log files, and attach them to the bug
+    report.</p>
+  </section>
+
+</page>

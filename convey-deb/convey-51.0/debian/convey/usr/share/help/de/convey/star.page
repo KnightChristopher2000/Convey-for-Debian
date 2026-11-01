@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="star" xml:lang="de">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="write"/>
+    </info>
+	<title>Eine Nachricht mit Sternchen versehen oder als gelesen/ungelesen markieren</title>
+	<section id="star-messages">
+	<title>Nachrichten mit Sternchen versehen </title>
+	<p>Sie können Nachrichten mit Sternchen versehen, um sie als besonders wichtig zu kennzeichnen. Um eine Konversation mit einem Sternchen zu versehen, klicken Sie auf das Sternchen-Symbol in der Konversationsliste. Eine einzelne Nachricht können Sie mit einem Sternchen versehen, indem Sie auf das Sternchen-Symbol in der oberen rechten Ecke der Nachricht klicken.</p>
+	<p>Bei Gmail-Konten erscheinen mit Sternchen markierte Nachrichten im <gui>Markiert</gui>-Ordner in der Ordnerliste.</p>
+	</section>
+	<section id="mark-read-unread">
+	<title>Nachrichten als gelesen oder ungelesen markieren</title>
+	<p>Convey markiert Nachrichten automatisch als gelesen, während Sie sie lesen. Um eine Konversation von Hand als gelesen oder ungelesen zu markieren, klicken Sie auf das Kreis-Symbol in der Konversationsliste.</p>
+	
+	<p>Alternativ kann auch <gui>Als ungelesen markieren</gui> aus dem <gui>Markierungen</gui>-Menü in der Werkzeugleiste verwendet werden, um den Gelesen-Status der Konversation zu ändern.</p>
+	
+	<p>Um eine einzelne Nachricht als gelesen zu markieren, wählen Sie <gui>Als gelesen markieren</gui> aus dem Auswahlmenü.</p>
+	
+	</section>
+</page>

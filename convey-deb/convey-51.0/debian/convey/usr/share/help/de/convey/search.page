@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="search" xml:lang="de">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="star"/>
+    </info>
+	<title>Suche</title>
+	
+	<p>Convey unterstützt eine Volltextsuche je Konto. Um eine Suche zu starten, wählen Sie einen Ordner des zu durchsuchenden Kontos. Dann klicken Sie auf das Suchfeld in der Werkzeugleiste (oder Sie drücken <keyseq><key>Strg</key><key>S</key></keyseq>) und beginnen zu tippen. Die Ergebnisse werden nach einer kurzen Verzögerung angezeigt.</p>
+	
+	<p>Die Volltextsuche umfasst den Text der E-Mail, E-Mail-Adressen (An, Von und Blindkopie), Betreffzeilen und Dateinamen von Anhängen.</p>
+	
+	<p>Stichwörter, die mit Ihrer Suche übereinstimmen, werden in der Nachrichten-Ansicht hervorgehoben. Convey findet Übereinstimmungen verschiedener Formen eines Wortes, beispielsweise würde eine Suche nach »Eis« auch »Eisberg« und »Eisen« finden.</p>
+	
+	<section id="search-operators">
+	<title>Such-Schalter</title>
+	<p>Convey bietet die folgenden Schalter, um den Suchraum zu begrenzen:</p>
+	<table frame="all" rules="rows">
+	<tr>
+		<td><p><input>attachment:<var>Dateiname</var></input></p></td>
+		<td><p>Findet Nachrichten mit Anhängen, deren Name <var>Dateiname</var> entspricht.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>bcc:<var>Empfänger</var></input></p></td>
+		<td><p>Finds messages where <var>recipient</var> matches email BCC fields.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>body:<var>Text</var></input></p></td>
+		<td><p>Findet Nachrichten deren Inhalt <var>Text</var> enthält.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cc:<var>Empfänger</var></input></p></td>
+		<td><p>Finds messages where <var>recipient</var> matches email CC fields.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>from:<var>Absender</var></input></p></td>
+		<td><p>Finds messages where <var>sender</var> matches email From fields.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:read</input></p></td>
+		<td><p>Findet Nachrichten, die als gelesen markiert sind.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:starred</input></p></td>
+		<td><p>Findet Nachrichten, die mit einem Sternchen markiert sind.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:unread</input></p></td>
+		<td><p>Findet Nachrichten, die als ungelesen markiert sind.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>subject:<var>Text</var></input></p></td>
+		<td><p>Findet Nachrichten mit <var>Text</var> im Betreff-Feld.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>to:<var>Empfänger</var></input></p></td>
+		<td><p>Finds messages where <var>recipient</var> matches email To, CC, or BCC fields.</p></td>
+	</tr>
+	</table>
+
+	<p>Als Besonderheit akzeptieren die Schalter <input>bcc</input>, <input>cc</input>, <input>from</input> und <input>to</input> das Argument <input>me</input>. Damit wird in den genannten Feldern nach der E-Mail-Adresse des Kontos gesucht.</p>
+	</section>
+</page>
