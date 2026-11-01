@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016 Software Freedom Conservancy Inc. -->
+<!-- Copyright 2016, 2019 Michael Gratton <mike@vee.net> -->
+<component type="desktop-application">
+  <id>net.donnybeelo.Convey</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-2.1-or-later</project_license>
+  <!-- Translators: The application name -->
+  <name>Convey</name>
+  <name xml:lang="zh-Hant-TW">Convey</name>
+  <name xml:lang="zh-Hans-CN">Convey</name>
+  <name xml:lang="uk">Convey</name>
+  <name xml:lang="tr">Convey</name>
+  <name xml:lang="sv">Convey</name>
+  <name xml:lang="sr-Latn">Geri</name>
+  <name xml:lang="sr-Cyrl">Гери</name>
+  <name xml:lang="sl">Convey</name>
+  <name xml:lang="sk">Convey</name>
+  <name xml:lang="ru">Convey</name>
+  <name xml:lang="ro">Convey</name>
+  <name xml:lang="pt-BR">Convey</name>
+  <name xml:lang="pt">Convey</name>
+  <name xml:lang="pl">Convey</name>
+  <name xml:lang="oc">Convey</name>
+  <name xml:lang="nl">Convey</name>
+  <name xml:lang="nb">Convey</name>
+  <name xml:lang="lt">Convey</name>
+  <name xml:lang="kk-Cyrl">Convey</name>
+  <name xml:lang="ka">Convey</name>
+  <name xml:lang="ja">Convey</name>
+  <name xml:lang="it">Convey</name>
+  <name xml:lang="ie">Convey</name>
+  <name xml:lang="id">Convey</name>
+  <name xml:lang="hu">Convey</name>
+  <name xml:lang="hr">Convey</name>
+  <name xml:lang="he">Convey</name>
+  <name xml:lang="gl">Convey</name>
+  <name xml:lang="fur">Convey</name>
+  <name xml:lang="fr">Convey</name>
+  <name xml:lang="fi">Convey</name>
+  <name xml:lang="fa">گیری</name>
+  <name xml:lang="eu">Convey</name>
+  <name xml:lang="es">Convey</name>
+  <name xml:lang="eo">Convey</name>
+  <name xml:lang="en-GB">Convey</name>
+  <name xml:lang="el">Convey</name>
+  <name xml:lang="de">Convey</name>
+  <name xml:lang="da">Convey</name>
+  <name xml:lang="cs">Convey</name>
+  <name xml:lang="ca">Convey</name>
+  <name xml:lang="bs-Latn">Convey</name>
+  <name xml:lang="be-Cyrl">Convey</name>
+  <developer id="net.donnybeelo">
+    <!-- Translators: The developer's name -->
+    <name>Daniel Elia</name>
+  </developer>
+  <!-- Translators: The application's summary / tagline -->
+  <summary>Send and receive email</summary>
+  <summary xml:lang="zh-Hant-TW">寄送與收受郵件</summary>
+  <summary xml:lang="zh-Hans-CN">发送并接收电子邮件</summary>
+  <summary xml:lang="uk">Надіслати та одержати пошту</summary>
+  <summary xml:lang="tr">E-posta gönder ve al</summary>
+  <summary xml:lang="sv">Skicka och ta emot e-post</summary>
+  <summary xml:lang="sr-Latn">Šalje i prima e-poštu</summary>
+  <summary xml:lang="sr-Cyrl">Шаље и прима е-пошту</summary>
+  <summary xml:lang="sl">Prejemanje in pošiljanje sporočil</summary>
+  <summary xml:lang="sk">Odosiela a prijíma emaily</summary>
+  <summary xml:lang="ru">Отправка и получение эл. почты</summary>
+  <summary xml:lang="ro">Trimite și primește emailuri</summary>
+  <summary xml:lang="pt-BR">Envie e receba e-mail</summary>
+  <summary xml:lang="pt">Enviar e receber mensagens</summary>
+  <summary xml:lang="pl">Wysyłanie i odbieranie poczty</summary>
+  <summary xml:lang="oc">Mandar e recebre de corrièrs electronics</summary>
+  <summary xml:lang="nl">E-mail verzenden en ontvangen</summary>
+  <summary xml:lang="nb">Send og motta e-post</summary>
+  <summary xml:lang="ms">Hantar dan terima emel</summary>
+  <summary xml:lang="lt">Siųsti ir gauti paštą</summary>
+  <summary xml:lang="km">ផ្ញើ​និង​ទទួល​អ៊ីមែល</summary>
+  <summary xml:lang="kk-Cyrl">Эл. поштаны жіберу және қабылдау</summary>
+  <summary xml:lang="ka">ელფოსტის გაგზავნა და მიღება</summary>
+  <summary xml:lang="ja">メールの送信と受信</summary>
+  <summary xml:lang="it">Invia e riceve email</summary>
+  <summary xml:lang="ie">Inviar un reciver e-postage</summary>
+  <summary xml:lang="id">Kirim dan terima surel</summary>
+  <summary xml:lang="hu">E-mailek küldése és fogadása</summary>
+  <summary xml:lang="hr">Primi i pošalji e-poštu</summary>
+  <summary xml:lang="he">שליחה וקבלה של דוא״ל</summary>
+  <summary xml:lang="gl">Enviar e recibir correo</summary>
+  <summary xml:lang="fur">Invie e ricêf e-mail</summary>
+  <summary xml:lang="fr">Envoyer et recevoir des courriels</summary>
+  <summary xml:lang="fi">Lähetä ja vastaanota sähköpostia</summary>
+  <summary xml:lang="fa">فرستادن و گرفتن رایانامه</summary>
+  <summary xml:lang="eu">Bidali eta jaso mezuak</summary>
+  <summary xml:lang="et">Send and receive email</summary>
+  <summary xml:lang="es">Envíe y reciba mensajes de correo electrónico</summary>
+  <summary xml:lang="eo">Sendi kaj ricevi retpoŝton</summary>
+  <summary xml:lang="en-GB">Send and receive email</summary>
+  <summary xml:lang="en-CA">Send and receive e-mail</summary>
+  <summary xml:lang="el">Αποστολή και λήψη ηλεκτρονικού ταχυδρομείου</summary>
+  <summary xml:lang="de">E-Mails senden und empfangen</summary>
+  <summary xml:lang="da">Send og modtag e-mail</summary>
+  <summary xml:lang="cs">Odesílejte a přijímejte e-maily</summary>
+  <summary xml:lang="ca">Envieu i rebeu correus electrònics</summary>
+  <summary xml:lang="bs-Latn">Šaljite i primajte e-poštu</summary>
+  <summary xml:lang="be-Cyrl">Адпраўленне і атрыманне электроннай пошты</summary>
+  <summary xml:lang="ar">ارسال و استقبال البريد الالكتروني</summary>
+  <description>
+    <p>
+      Convey is an email application built around conversations, for
+      the GNOME desktop. It allows you to read, find and send email
+      with a straightforward, modern interface.
+    </p>
+    <p xml:lang="zh-Hant-TW">Convey 是一款為 GNOME 桌面打造、以對話為核心的電子郵件應用程式。其現代化且符合直覺的介面，讓您能夠輕鬆地閱讀、搜尋、寄送電子郵件。</p>
+    <p xml:lang="zh-Hans-CN">Convey 是个 GNOME 桌面下围绕会话构建的电子邮件应用。它允许您使用一个直观、现代的用户界面阅读、查找和发送电子邮件。</p>
+    <p xml:lang="uk">Convey — програма для роботи з електронною поштою, базовою концепцією якої є «спілкування». Програму призначено для стільничного середовища GNOME. Вона надає вам змогу читати, шукати та надсилати електронну пошту. Інтерфейс програми є простим і сучасним.</p>
+    <p xml:lang="tr">Convey, GNOME masaüstü için konuşmalar etrafında inşa edilmiş bir e-posta uygulamasıdır. Dolambaçsız çağdaş bir arayüzle e-posta okumanızı, bulmanızı ve göndermenizi sağlar.</p>
+    <p xml:lang="sv">Convey är ett e-postprogram byggt kring konversationer för GNOME-skrivbordet. Det låter dig läsa, söka och sända e-post med ett enkelt modernt gränssnitt.</p>
+    <p xml:lang="sr-Cyrl">Гери је програм за е-пошту заснован на разговорима, намењен Гномовој радној површи. Омогућава вам да читате, проналазите и шаљете е-пошту кроз једноставно, савремено прочеље.</p>
+    <p xml:lang="sl">Program Convey je odjemalec elektronske pošte za namizje GNOME, zasnovan za napredno zlaganja pogovorov. Omogoča branje, iskanje in pošiljanje sporočil v preglednem modernem vmesniku.</p>
+    <p xml:lang="ru">Convey — приложение эл. почты для рабочего стола GNOME, построенное по принципу обмена сообщениями — беседами. Позволяет читать, находить и отправлять эл. почту с простым, современным интерфейсом.</p>
+    <p xml:lang="ro">Convey este o aplicație de e-mail construită în jurul conversațiilor, pentru desktopul GNOME. Vă permite să citiți, să găsiți și să trimiteți e-mailuri cu o interfață simplă și modernă.</p>
+    <p xml:lang="pt-BR">Convey é um aplicativo de e-mail construído em conversas, para o ambiente do GNOME. Ele permite que você leia, localize e envie e-mail com uma interface simples e moderna.</p>
+    <p xml:lang="pt">O Convey é uma aplicação de correio eletrónico criada em torno de conversas, para o ambiente de trabalho GNOME. Permite-lhe ler, encontrar e enviar correio eletrónico com uma interface simples e moderna.</p>
+    <p xml:lang="pl">Convey to nowoczesny klient poczty dla środowiska GNOME zbudowany wokół wątków. Umożliwia czytanie, wyszukiwanie i wysyłanie wiadomości za pomocą prostego, nowoczesnego interfejsu.</p>
+    <p xml:lang="nl">Convey is een e-mailtoepassing die draait om gesprekken, voor de GNOME-bureaubladomgeving. Via de duidelijke, moderne interface kunt u e-mails lezen, zoeken en verzenden.</p>
+    <p xml:lang="kk-Cyrl">Convey - бұл сөйлесулер негізінде жасалған эл. пошта қолданбасы, GNOME жұмыс үстелі үшін арналған. Оның көмегімен тура, замануи интерфейсін қолданып, эл. поштаны оқу, табу және жіберуге болады.</p>
+    <p xml:lang="it">Convey è un'applicazione di posta elettronica basata sulle conversazioni, per l'ambiente desktop GNOME. Permette di leggere, trovare e inviare email con un'interfaccia semplice e moderna.</p>
+    <p xml:lang="id">Convey adalah aplikasi surel yang dibangun di sekitar percakapan, bagi desktop GNOME. Memungkinkan Anda membaca, mencari, dan mengirim surel dengan antar muka yang modern, mudah.</p>
+    <p xml:lang="hu">A Convey egy e-mail alkalmazás, amely a társalgások köré szerveződik, és a GNOME asztalhoz készült. Segítségével e-maileket olvashat, kereshet és küldhet egy lényegre törő és modern felületen.</p>
+    <p xml:lang="he">‏Convey הוא יישם דוא״ל הבנוי סביב תכתובות, עבור שולחן העבודה GNOME. הוא מאפשר לקרוא, למצוא ולשלוח דוא״ל עם ממשק חדיש ופשוט.</p>
+    <p xml:lang="gl">Convey é unha aplicación de correo-e construída ao redor das conversas, feita para o escritorio GNOME 3. Permítelle ler, buscar e enviar correos de forma rápida e nunha interface moderna.</p>
+    <p xml:lang="fr">Convey est une application de messagerie construite autour de conversations, pour le bureau GNOME. Elle permet de lire, rechercher et envoyer des courriels de façon simple, avec une interface élégante.</p>
+    <p xml:lang="fi">Convey on keskustelujen ympärille rakennettu sähköpostisovellus Gnome-työpöydälle. Sen avulla voit lukea, etsiä ja lähettää sähköpostia modernin käyttöliittymän kautta.</p>
+    <p xml:lang="fa">گیری برنامهٔ رایانامه‌ای ساخته برای میزکار گنوم حول گفت‌وگوست. این برنامه می‌گذارد رایانامه‌ها را با رابطی ساده و نوین خوانده، جسته و بفرستید.</p>
+    <p xml:lang="en-GB">Convey is an email application built around conversations, for the GNOME desktop. It allows you to read, find and send email with a straightforward, modern interface.</p>
+    <p xml:lang="el">Το Convey είναι μια εφαρμογή ηλεκτρονικού ταχυδρομείου που βασίζεται σε συνομιλίες για την επιφάνεια εργασίας GNOME. Σας επιτρέπει να διαβάζετε, να βρίσκετε και να στέλνετε μηνύματα ηλεκτρονικού ταχυδρομείου με μια απλή, σύγχρονη διεπαφή.</p>
+    <p xml:lang="de">Convey ist ein E-Mail-Programm für GNOME mit Fokus auf Konversationen. Es ermöglicht das einfache Lesen, Finden und Schreiben von E-Mails in einer übersichtlichen und modernen Benutzeroberfläche.</p>
+    <p xml:lang="da">Convey er et lille e-mailprogram til GNOME-skrivebordet, som er bygget op omkring samtaler. Det lader dig læse, finde og sende e-mail via en enkel, moderne brugerflade.</p>
+    <p xml:lang="cs">Convey je poštovní aplikace pro uživatelské prostředí GNOME, která se soustředí na konverzace jako celek. Umožňuje číst, vyhledávat a odesílat e-maily v přímočarém a moderním prostředí.</p>
+    <p>
+      Conversations allow you to read a complete discussion without
+      having to find and click from message to message.
+    </p>
+    <p xml:lang="zh-Hant-TW">對話讓您能夠輕易地檢閱整場討論而無需在一條又一條的訊息中不停翻閱。</p>
+    <p xml:lang="zh-Hans-CN">会话允许您阅读一个完整讨论而不用一条条消息的查找和点击。</p>
+    <p xml:lang="uk">За допомогою можливості «спілкування» ви можете читати усе обговорення певного питання без потреби у пересуванні між його окремими повідомленнями.</p>
+    <p xml:lang="tr">Konuşmalar, arayıp bulmanızı ve iletiden iletiye tıklamanızı gerektirmeden tüm tartışmayı okumanızı sağlar.</p>
+    <p xml:lang="sv">Konversationer låter dig läsa en fullständig diskussion utan att behöva hitta och klicka från meddelande till meddelande.</p>
+    <p xml:lang="sr-Latn">Razgovori vam omogućavaju da pročitate čitav razgovor a da ne morate da tražite i klikate od poruke do poruke.</p>
+    <p xml:lang="sr-Cyrl">Преписке вам омогућавају да прочитате читав разговор а да не морате да тражите и кликате од поруке до поруке.</p>
+    <p xml:lang="sl">Sistem pogovorov omogoča branje niza sporočil brez odvečnega klikanja med sporočili.</p>
+    <p xml:lang="sk">Rozhovory vám umožňujú prečítať kompletnú diskusiu bez nutnosti vyhľadania a klikania zo správy na správu.</p>
+    <p xml:lang="ru">Беседы позволяют читать переписку целиком без необходимости искать и переходить от сообщения к сообщению.</p>
+    <p xml:lang="ro">Conversațiile vă permit să citiți o discuție completă fără a trebui să căutați și să navigați de la mesaj la mesaj.</p>
+    <p xml:lang="pt-BR">As conversas permitem que você leia uma discussão completa sem ter que procurar e clicar de mensagem em mensagem.</p>
+    <p xml:lang="pt">As Conversas permitem-lhe ler uma discussão inteira sem ter de encontrar todas as mensagens e navegar entre elas.</p>
+    <p xml:lang="pl">Wątki umożliwiają czytanie pełnych dyskusji bez potrzeby wyszukiwania i klikania poszczególnych wiadomości.</p>
+    <p xml:lang="nl">Met gesprekken kunt u een volledige discussie lezen zonder te hoeven zoeken of van bericht naar bericht te hoeven klikken.</p>
+    <p xml:lang="nb">Samtaler lar deg lese en hel diskusjon uten å måtte trykke deg videre fra melding til melding.</p>
+    <p xml:lang="lt">Pokalbiai leidžia skaityti pilnas diskusijas be laiškų ieškojimo ir spaudinėjimo ant jų.</p>
+    <p xml:lang="kk-Cyrl">Сөйлесулер көмегімен сіз талқылауды толығымен оқи аласыз, бір хаттан екінші хатқа іздеп, шертуді орындамай-ақ.</p>
+    <p xml:lang="ja">やり取りしたメッセージを一々探し出すことなく、抜けのないディスカッションを読むことが可能です。</p>
+    <p xml:lang="it">Le conversazioni permettono di leggere un'intera discussione senza dover cercare e fare clic su ogni messaggio.</p>
+    <p xml:lang="id">Percakapan memungkinkan Anda membaca diskusi lengkap tanpa perlu mencari dan mengklik dari pesan ke pesan.</p>
+    <p xml:lang="hu">A társalgások segítségével teljes beszélgetéseket olvashat el anélkül, hogy egyesével végig kellene kattintania a leveleken.</p>
+    <p xml:lang="hr">Razgovori vam omogućuju čitanje potpune rasprave bez potrebe za pronalaženjem i klikanjem iz poruke u poruku.</p>
+    <p xml:lang="he">תכתובות מאפשר לך לקרוא דיון שלם ללא הצורך למצוא וללחוץ מהודעה להודעה.</p>
+    <p xml:lang="gl">As conversas permítenlle ler unha discusión completa sen ter que buscar e premer cada mensaxe.</p>
+    <p xml:lang="fur">Lis conversazions ti permetin di lei une discussion complete cence vê di cjatâ e fâ clic di messaç in messaç.</p>
+    <p xml:lang="fr">Les conversations permettent de lire les échanges sans avoir à naviguer d’un message à un autre.</p>
+    <p xml:lang="fi">Keskusteluiden avulla voit lukea koko viestiketjun ilman, että joudut napsauttamaan viestistä toiseen itse.</p>
+    <p xml:lang="fa">گفت‌وگوها می‌گذارد بحثی را بدون نیاز به یافتن و کلیک پیام به پیام بخوانید.</p>
+    <p xml:lang="eu">Berriketak erabilita, eztabaida osoak irakur daitezke mezu batetik hurrengora jauzi egin behar izan gabe.</p>
+    <p xml:lang="es">Las conversaciones le permiten leer un hilo completo si tener que buscar y pulsa cada mensaje individual.</p>
+    <p xml:lang="en-GB">Conversations allow you to read a complete discussion without having to find and click from message to message.</p>
+    <p xml:lang="el">Οι συνομιλίες σάς επιτρέπουν να διαβάσετε μια πλήρη συζήτηση χωρίς να χρειαστεί να βρείτε και να κάνετε κλικ από μήνυμα σε μήνυμα.</p>
+    <p xml:lang="de">Konversationen ermöglichen das Lesen eines gesamten Diskussionsstrangs, ohne Nachrichten einzeln suchen zu müssen.</p>
+    <p xml:lang="da">Samtaler lader dig læse en hel samtale uden at skulle finde hver enkelt besked frem én ad gangen.</p>
+    <p xml:lang="cs">Díky zaměření na konverzace můžete číst ucelené diskuze bez nutnosti vyhledávat jednotlivé navazující zprávy a klikat na ně.</p>
+    <p xml:lang="ca">Les converses us permeten llegir una conversa completa sense haver de buscar i fer clic de missatge en missatge.</p>
+    <p xml:lang="be-Cyrl">Гутаркі дазваляюць пабачыць усю размову без неабходнасці пераключэння паміж лістамі.</p>
+    <p>
+      Convey is a fork of Geary, originally developed by the Geary
+      Development Team and the Software Freedom Conservancy.
+    </p>
+    <p>Convey’s features include:</p>
+    <p xml:lang="zh-Hant-TW">Convey 的特色包含：</p>
+    <p xml:lang="zh-Hans-CN">Convey 的特性包括：</p>
+    <p xml:lang="uk">Серед можливостей Convey такі:</p>
+    <p xml:lang="tr">Convey’nin özellikleri şunlardır:</p>
+    <p xml:lang="sv">Conveys egenskaper omfattar:</p>
+    <p xml:lang="sr-Latn">U Gerijeve funkcije spadaju:</p>
+    <p xml:lang="sr-Cyrl">У Геријеве функције спадају:</p>
+    <p xml:lang="sl">Program Convey omogoča:</p>
+    <p xml:lang="sk">Funkcie aplikácie Convey zahŕňajú:</p>
+    <p xml:lang="ru">К функциям Convey относятся:</p>
+    <p xml:lang="ro">Funcționalitățile lui Convey includ:</p>
+    <p xml:lang="pt-BR">Os recursos do Convey incluem:</p>
+    <p xml:lang="pt">As funcionalidades do Convey incluem:</p>
+    <p xml:lang="pl">Funkcje programu Convey:</p>
+    <p xml:lang="nl">Functies van Convey zijn:</p>
+    <p xml:lang="nb">Her er noen av Conveys funksjoner:</p>
+    <p xml:lang="kk-Cyrl">Convey мүмкіндіктерінің ішінде:</p>
+    <p xml:lang="ka">Convey-ის ფუნქციები შეიცავს:</p>
+    <p xml:lang="ja">Convey には以下の機能があります</p>
+    <p xml:lang="it">Le funzionalità di Convey comprendono:</p>
+    <p xml:lang="id">Fitur Convey termasuk:</p>
+    <p xml:lang="hu">A Convey néhány funkciója:</p>
+    <p xml:lang="hr">Conveyjeve značajke uključuju:</p>
+    <p xml:lang="he">תכונות Convey כוללות:</p>
+    <p xml:lang="gl">Entre as características de Convey están:</p>
+    <p xml:lang="fur">Lis funzionalitâts di Convey a includin:</p>
+    <p xml:lang="fr">Convey intègre les fonctionnalités suivantes :</p>
+    <p xml:lang="fi">Conveyn ominaisuuksiin kuuluu muun muassa:</p>
+    <p xml:lang="fa">ویژگی‌های گیری شامل:</p>
+    <p xml:lang="eu">Convey-ren eginbide nagusiak honakoak dira:</p>
+    <p xml:lang="es">Entre las características de Convey se incluyen:</p>
+    <p xml:lang="en-GB">Convey’s features include:</p>
+    <p xml:lang="el">Τα χαρακτηριστικά του Convey περιλαμβάνουν:</p>
+    <p xml:lang="de">Funktionen von Convey umfassen:</p>
+    <p xml:lang="da">Convey tilbyder:</p>
+    <p xml:lang="cs">Mezi funkcemi aplikace Convey najdete:</p>
+    <p xml:lang="ca">Les característiques de Convey inclouen:</p>
+    <p xml:lang="be-Cyrl">Магчымасці Convey:</p>
+    <ul>
+      <li>Quick email account setup</li>
+      <li xml:lang="zh-Hant-TW">快速設定電子郵件帳號</li>
+      <li xml:lang="zh-Hans-CN">快速设置电子邮件帐号</li>
+      <li xml:lang="uk">Швидке налаштовування облікового запису електронної пошти</li>
+      <li xml:lang="tr">Hızlı e-posta hesabı kurulumu</li>
+      <li xml:lang="sv">Snabb inställning av e-postkonto</li>
+      <li xml:lang="sr-Latn">Brzo podešavanje naloga e-pošte</li>
+      <li xml:lang="sr-Cyrl">Брзо подешавање налога е-поште</li>
+      <li xml:lang="sl">Hitro nastavljanje računov elektronske pošte</li>
+      <li xml:lang="sk">Rýchle nastavenie emailového účtu</li>
+      <li xml:lang="ru">Быстрая настройка учётной записи эл. почты</li>
+      <li xml:lang="ro">Configurare rapidă a contului de email</li>
+      <li xml:lang="pt-BR">Configuração rápida de conta de e-mail</li>
+      <li xml:lang="pt">Configuração rápida de contas de correio eletrónico</li>
+      <li xml:lang="pl">Szybkie ustawianie konta poczty</li>
+      <li xml:lang="nl">Snel instellen van e-mailaccount</li>
+      <li xml:lang="nb">Raskt oppsett av e-postkonto</li>
+      <li xml:lang="lt">Greitas el. pašto paskyros nustatymas</li>
+      <li xml:lang="kk-Cyrl">Эл. пошта тіркелгісін жылдам баптау</li>
+      <li xml:lang="ka">სწრაფ ელფოსტის ანგარიშის მორგება</li>
+      <li xml:lang="ja">メールアカウントを素早くセットアップ</li>
+      <li xml:lang="it">Rapida configurazione dell'account di posta</li>
+      <li xml:lang="id">Penyiapan akun surel cepat</li>
+      <li xml:lang="hu">Gyors e-mailfiók beállítás</li>
+      <li xml:lang="hr">Brzo podešavanje računa e-pošte</li>
+      <li xml:lang="he">הגדרה מהירה של חשבון דוא״ל</li>
+      <li xml:lang="gl">Configuración de contas de correo rápida</li>
+      <li xml:lang="fur">Configurazion rapide dal account e-mail</li>
+      <li xml:lang="fr">Configuration rapide du compte de messagerie</li>
+      <li xml:lang="fi">Nopea sähköpostitilin asetusten teko</li>
+      <li xml:lang="fa">برپایی حساب رایانامهٔ سریع</li>
+      <li xml:lang="eu">Posta-kontuen konfigurazio azkarra</li>
+      <li xml:lang="es">Configuración rápida de la cuenta de correo</li>
+      <li xml:lang="en-GB">Quick email account setup</li>
+      <li xml:lang="el">Γρήγορη ρύθμιση λογαριασμού ηλεκτρονικού ταχυδρομείου</li>
+      <li xml:lang="de">Schnelle Konto-Einrichtung</li>
+      <li xml:lang="da">Hurtig opsætning af e-mailkonto</li>
+      <li xml:lang="cs">Rychlé nastavení poštovního účtu</li>
+      <li xml:lang="ca">Configuració ràpida de comptes de correu electrònic</li>
+      <li xml:lang="be-Cyrl">Хуткая наладка акаўнта электроннай пошты</li>
+      <li>Shows related messages together in conversations</li>
+      <li xml:lang="zh-Hant-TW">以對話方式顯示相關訊息</li>
+      <li xml:lang="zh-Hans-CN">在会话中集中显示相关消息</li>
+      <li xml:lang="uk">Показ пов'язаних між собою повідомлень у форматі спілкувань</li>
+      <li xml:lang="tr">İlişkili iletileri konuşmalarda bir arada gösterir</li>
+      <li xml:lang="sv">Visa relaterade meddelanden tillsammans i konversationer</li>
+      <li xml:lang="sr-Latn">Zajednički prikaz povezanih poruka u razgovoru</li>
+      <li xml:lang="sr-Cyrl">Заједнички приказ повезаних порука у преписци</li>
+      <li xml:lang="sl">Zbiranje povezanih sporočil v niti pogovora</li>
+      <li xml:lang="sk">Zobrazenie spolu súvisiacich správ v rozhovoroch</li>
+      <li xml:lang="ru">Отображение связанных сообщений в режиме беседы</li>
+      <li xml:lang="ro">Arată mesajele înrudite în conversații</li>
+      <li xml:lang="pt-BR">Mostrar mensagens relacionadas juntas, nas conversas</li>
+      <li xml:lang="pt">Mostra mensagens relacionadas agregadas em conversas</li>
+      <li xml:lang="pl">Wyświetlanie powiązanych wiadomości w jednym wątku</li>
+      <li xml:lang="nl">Groepeert gerelateerde berichten in gesprekken</li>
+      <li xml:lang="nb">Viser relaterte meldinger som samtaler</li>
+      <li xml:lang="lt">Rodo susijusius laiškus kartu pokalbiuose</li>
+      <li xml:lang="kk-Cyrl">Өзара байланысқан хабарламаларды сөйлесуде бірге көрсетеді</li>
+      <li xml:lang="ja">関連したメッセージをまとめてスレッドに表示</li>
+      <li xml:lang="it">Raggruppa i messaggi correlati in conversazioni</li>
+      <li xml:lang="id">Menampilkan pesan-pesan yang berhubungan bersama-sama dalam percakapan</li>
+      <li xml:lang="hu">A kapcsolódó leveleket együtt jeleníti meg a beszélgetésekben</li>
+      <li xml:lang="hr">Prikazuje povezane poruke zajedno u razgovoru</li>
+      <li xml:lang="he">הצגת הודעות קשורות יחד בתכתובות</li>
+      <li xml:lang="gl">Mostrar mensaxes relacionadas conxuntamente en conversas</li>
+      <li xml:lang="fur">Al mostre adun i messaçs colegâts in conversazions</li>
+      <li xml:lang="fr">Affichage des messages liés sous forme de conversation</li>
+      <li xml:lang="fi">Näyttää toisiinsa liittyvät viestit yhdessä keskustelumuodossa</li>
+      <li xml:lang="fa">نمایش پیام‌های مربوط به هم در گفت‌گوها</li>
+      <li xml:lang="eu">Elkarri lotutako mezuak berriketa moduan erakusten ditu</li>
+      <li xml:lang="es">Mostrar mensajes relacionados entre ellos en las conversaciones</li>
+      <li xml:lang="en-GB">Shows related messages together in conversations</li>
+      <li xml:lang="el">Εμφανίζει τα σχετικά μηνύματα μαζί σε συνομιλίες</li>
+      <li xml:lang="de">Verwandte Nachrichten gebündelt in Konversationen anzeigen</li>
+      <li xml:lang="da">Viser relaterede beskeder sammen i samtaler</li>
+      <li xml:lang="cs">Zobrazení souvisejících zpráv dohromady v podobě konverzace</li>
+      <li xml:lang="ca">Mostra missatges relacionats junts en converses</li>
+      <li xml:lang="be-Cyrl">Паказвае звязаныя лісты разам у размовах</li>
+      <li>Fast, full text and keyword search</li>
+      <li xml:lang="zh-Hant-TW">快速的全文關鍵字搜尋</li>
+      <li xml:lang="zh-Hans-CN">快速的全文本和关键词搜索</li>
+      <li xml:lang="uk">Швидкий повнотекстовий пошук за ключовими словами</li>
+      <li xml:lang="tr">Hızlı, tam metin ve anahtar sözcük arama</li>
+      <li xml:lang="sv">Snabb heltext- och nyckelordssökning</li>
+      <li xml:lang="sr-Latn">Brza pretraga po čitavom tekstu i ključnoj reči</li>
+      <li xml:lang="sr-Cyrl">Брза претрага по читавом тексту и кључној речи</li>
+      <li xml:lang="sl">Hitro iskanje po besedilu sporočil s ključnimi besedami</li>
+      <li xml:lang="sk">Rýchle, fulltextové vyhľadávanie a hľadanie podľa kľúčového slova</li>
+      <li xml:lang="ru">Быстрый полнотекстовый поиск и поиск по ключевым словам</li>
+      <li xml:lang="ro">Căutare rapidă după un termen în tot textul</li>
+      <li xml:lang="pt-BR">Pesquisa rápida, de texto completo e de palavra-chave</li>
+      <li xml:lang="pt">Procura rápida, no corpo do texto e por palavras-chave</li>
+      <li xml:lang="pl">Szybkie wyszukiwanie w wiadomościach i słowach kluczowych</li>
+      <li xml:lang="nl">Snel zoeken in volledige tekst met zoekwoorden</li>
+      <li xml:lang="nb">Raskt søk på nøkkelord og innholdstekst</li>
+      <li xml:lang="lt">Greita viso teksto be raktinių žodžių paieška</li>
+      <li xml:lang="kk-Cyrl">Жылдам, толық мәтіндік және кілт сөздерін іздеу</li>
+      <li xml:lang="ka">სწრაფი, სრული ტექსტით და საკვანძო სიტყვით ძებნა</li>
+      <li xml:lang="ja">高速な全文検索とキーワード検索</li>
+      <li xml:lang="it">Ricerca rapida a testo intero ("full text") e per parole chiave</li>
+      <li xml:lang="id">Pencarian kata kunci dan teks penuh yang cepat</li>
+      <li xml:lang="hu">Gyors, teljes szöveges és kulcsszavas keresés</li>
+      <li xml:lang="hr">Brza pretraga po potpunom tekstu i ključnoj riječi</li>
+      <li xml:lang="he">חיפוש מילים מהיר ובכל הטקסט</li>
+      <li xml:lang="gl">Busca rápida, de texto completo e por palabras chave</li>
+      <li xml:lang="fur">Ricercje veloce di peraulis clâf e test complet</li>
+      <li xml:lang="fr">Recherche rapide, par mot-clé ou par texte</li>
+      <li xml:lang="fi">Nopea haku koko tekstin ja avainsanojen tuella</li>
+      <li xml:lang="fa">جست‌وجوی سریع کلیدواژه‌ای و متن کامل</li>
+      <li xml:lang="eu">Bilaketa azkarra, testu osoena zein gako-hitzena</li>
+      <li xml:lang="es">Búsqueda de palabras clave rápida y por texto completo</li>
+      <li xml:lang="en-GB">Fast, full text and keyword search</li>
+      <li xml:lang="el">Γρήγορη πλήρης αναζήτηση κειμένου και λέξεων-κλειδιών</li>
+      <li xml:lang="de">Schnelle Volltext- und Schlüsselwortsuche</li>
+      <li xml:lang="da">Hurtig fuldtekst- og nøgleordssøgning</li>
+      <li xml:lang="cs">Rychlé vyhledávání v celém textu a na základě klíčových slov</li>
+      <li xml:lang="ca">Ràpid, text complet i recerca per paraula clau</li>
+      <li xml:lang="be-Cyrl">Хуткі пошук тэксту і пошук па ключавых словах</li>
+      <li>Full-featured HTML and plain text message composer</li>
+      <li xml:lang="zh-Hant-TW">全功能的 HTML 格式及純文字訊息編撰器</li>
+      <li xml:lang="zh-Hans-CN">全功能的 HTML 和纯文本消息编辑器</li>
+      <li xml:lang="uk">Редактор повідомлень із повноцінною підтримкою створення повідомлень у форматі HTML та звичайному текстовому форматі</li>
+      <li xml:lang="tr">Tam donanımlı HTML ve düz metin ileti oluşturucu</li>
+      <li xml:lang="sv">Fullständig HTML- och textbehandlare</li>
+      <li xml:lang="sr-Latn">Potpuno funkcionalan sastavljač poruke u HTML-u i običnom tekstu</li>
+      <li xml:lang="sr-Cyrl">Потпуно функционалан састављач поруке у ХТМЛ-у и обичном тексту</li>
+      <li xml:lang="sl">Zmogljivo skladanje sporočil v besedilnem ali oblikovanem zapisu HTML</li>
+      <li xml:lang="sk">Plnohodnotný nástroj na tvorbu správ vo formáte HTML a v čistom texte</li>
+      <li xml:lang="ru">Полнофункциональный режим составления писем в виде простого текста, а также с HTML разметкой</li>
+      <li xml:lang="ro">Compunător de mesaje text și HTML cu multiple funcționalități</li>
+      <li xml:lang="pt-BR">Compositor repleto de recursos para mensagens em HTML e texto simples</li>
+      <li xml:lang="pt">Editor completo para mensagens em HTML e em texto simples</li>
+      <li xml:lang="pl">Wiele funkcji tworzenia wiadomości HTML i w zwykłym tekście</li>
+      <li xml:lang="nl">Berichten opstellen in HTML en platte tekst met veel functies</li>
+      <li xml:lang="nb">Meldingsbehandler med fullverdig støtte for HTML og ren tekst</li>
+      <li xml:lang="lt">Pilno funkcionalumo HTML ir grynojo teksto laiko redaktorius</li>
+      <li xml:lang="kk-Cyrl">Кең мүмкіндікті HTML және ашық мәтін хаттарын құрастыру түзеткіші</li>
+      <li xml:lang="ja">十分なテキスト/HTML メール作成機能</li>
+      <li xml:lang="it">Compositore dei messaggi in HTML e testo semplice</li>
+      <li xml:lang="id">Penyusun pesan teks polos dan HTML berfitur lengkap</li>
+      <li xml:lang="hu">Teljes funkcionalitású HTML és egyszerű szöveges levélszerkesztő</li>
+      <li xml:lang="hr">Potpuno funkcionalan sastavljač poruke u HTML-u i običnom tekstu</li>
+      <li xml:lang="he">תמיכה מלאה ב־HTML וביצירת הודעות בטקסט פשוט</li>
+      <li xml:lang="gl">Compositor de mensaxes HTML completo ou de texto plano</li>
+      <li xml:lang="fur">Redatôr complet di messaçs in HTML e test sempliç</li>
+      <li xml:lang="fr">Édition de courriel en texte simple ou enrichi en HTML</li>
+      <li xml:lang="fi">Monipuolinen HTML- ja raakatekstilähetys</li>
+      <li xml:lang="fa">پیام‌نویس متن خام و HTML با امکانات کامل</li>
+      <li xml:lang="eu">HTML formatuko zein testu soileko mezuen konposatzailea</li>
+      <li xml:lang="es">Editor completo de HYML y texto plano</li>
+      <li xml:lang="en-GB">Full-featured HTML and plain text message composer</li>
+      <li xml:lang="el">Πλήρης συνθέτης μηνυμάτων HTML και απλού κειμένου</li>
+      <li xml:lang="de">Voll ausgestatteter HTML- und Klartext-Nachrichteneditor</li>
+      <li xml:lang="da">Mange funktioner til redigering af HTML-beskeder samt ren tekst</li>
+      <li xml:lang="cs">Plnohodnotný editor zpráv v HTML i prostém textu</li>
+      <li xml:lang="ca">HTML amb totes les funcions i redacció de missatge de text</li>
+      <li xml:lang="be-Cyrl">Паўнавартасны рэдактар HTML і простага тэксту</li>
+      <li>Desktop notification of new mail</li>
+      <li xml:lang="zh-Hant-TW">有新郵件時顯示桌面通知</li>
+      <li xml:lang="zh-Hans-CN">新邮件桌面通知</li>
+      <li xml:lang="uk">Сповіщення про нову пошту на стільниці</li>
+      <li xml:lang="tr">Yeni postanın masaüstü bildirimi</li>
+      <li xml:lang="sv">Skrivbordsaviseringar för ny e-post</li>
+      <li xml:lang="sr-Latn">Obaveštenje o novoj pošti na radnoj površi</li>
+      <li xml:lang="sr-Cyrl">Обавештење о новој пошти на радној површи</li>
+      <li xml:lang="sl">Namizna obvestila o prispeli pošti</li>
+      <li xml:lang="sk">Upozornenie pracovného prostredia na novú poštu</li>
+      <li xml:lang="ru">Уведомления о новых сообщениях</li>
+      <li xml:lang="ro">Notificări desktop pentru noile emailuri</li>
+      <li xml:lang="pt-BR">Notificação na área de trabalho de novo e-mail</li>
+      <li xml:lang="pt">Notificações de novo correio no ambiente de trabalho</li>
+      <li xml:lang="pl">Powiadomienia o nowych wiadomościach na pulpicie</li>
+      <li xml:lang="nl">Bureaubladmelding voor nieuwe e-mail</li>
+      <li xml:lang="nb">Vis skrivebordsvarsel ved ny e-post</li>
+      <li xml:lang="lt">Darbalaukio pranešimai gavus naują laišką</li>
+      <li xml:lang="kk-Cyrl">Жаңа хаттар үшін жұмыс үстел хабарламаларын көрсету</li>
+      <li xml:lang="ja">新着メールのデスクトップ通知</li>
+      <li xml:lang="it">Notifiche desktop di nuova posta</li>
+      <li xml:lang="id">Pemberitahuan desktop atas surat baru</li>
+      <li xml:lang="hu">Asztali értesítések új levél érkezésekor</li>
+      <li xml:lang="hr">Obavijest radnog okruženja o novoj pošti</li>
+      <li xml:lang="he">הצגת התרעות על קבלת דואר חדש</li>
+      <li xml:lang="gl">Notificacións de escritorio para cada novo correo</li>
+      <li xml:lang="fur">Notifiche sul scritori de gnove pueste</li>
+      <li xml:lang="fr">Notification de nouveaux messages</li>
+      <li xml:lang="fi">Työpöytäilmoitukset uusista viesteistä</li>
+      <li xml:lang="fa">آگاهی میزکار برای نامهٔ جدید</li>
+      <li xml:lang="eu">Mezu berrien jakinarazpena mahaigainean</li>
+      <li xml:lang="es">Notificaciones de escritorio cuando llegue correo nuevo</li>
+      <li xml:lang="en-GB">Desktop notification of new mail</li>
+      <li xml:lang="el">Εμφάνιση ειδοποιήσεων για νέα μηνύματα</li>
+      <li xml:lang="de">Benachrichtigung bei neuer E-Mail</li>
+      <li xml:lang="da">Skrivebordspåmindelser om ny e-mail</li>
+      <li xml:lang="cs">Upozornění na nové zprávy přímo v uživatelském prostředí</li>
+      <li xml:lang="ca">Notificació a l'escriptori quan arribi correu nou</li>
+      <li xml:lang="be-Cyrl">Апавяшчэнні аб новых лістах на працоўным стале</li>
+      <li>Compatible with GMail, Yahoo! Mail, Outlook.com and other IMAP servers</li>
+      <li xml:lang="zh-Hant-TW">與 Gmail，Yahoo! Mail，Outlook.com 以及其它 IMAP 伺服器相容</li>
+      <li xml:lang="zh-Hans-CN">与 GMail、雅虎邮箱、Outlook.com 和其它 IMAP 服务器兼容</li>
+      <li xml:lang="uk">Сумісність із GMail, Yahoo! Mail, Outlook.com та іншими серверами IMAP</li>
+      <li xml:lang="tr">GMail, Yahoo! Mail, Outlook.com ve diğer IMAP sunucularıyla uyumludur</li>
+      <li xml:lang="sv">Kompatibel med GMail, Yahoo! Mail, Outlook.com och andra IMAP-servrar</li>
+      <li xml:lang="sr-Latn">Saglasan je sa G-poštom, Jahu! poštom, Autlukom i drugim IMAP serverima</li>
+      <li xml:lang="sr-Cyrl">Сагласан је са Г-поштом, Јаху! поштом, Аутлуком и другим ИМАП серверима</li>
+      <li xml:lang="sl">Podprti so sistemi spletne pošte, kot so Gmail, Yahoo!, Outlook.com in drugi strežniki IMAP</li>
+      <li xml:lang="sk">Kompatibilita so servermi GMail, Yahoo! Mail, Outlook.com a inými servermi typu IMAP</li>
+      <li xml:lang="ru">Совместим с GMail, Yahoo! Mail, Outlook.com и другими IMAP серверами</li>
+      <li xml:lang="ro">Compatibil cu GMail, Yahoo! Mail, Outlook.com și alte servere IMAP</li>
+      <li xml:lang="pt-BR">Compatível com GMail, Yahoo! Mail, Outlook.com e outros servidores IMAP</li>
+      <li xml:lang="pt">Compatível com o Gmail, o Yahoo! Mail, o Outlook.com, e outros servidores IMAP</li>
+      <li xml:lang="pl">Zgodność z serwisami Gmail, Yahoo! Mail, Outlook.com i innymi serwerami IMAP</li>
+      <li xml:lang="nl">Werkt met Gmail, Yahoo! Mail, Outlook.com en andere IMAP-servers</li>
+      <li xml:lang="nb">Fungerer med GMail, Yahoo! Mail, Outlook.com og andre IMAP-tjenere</li>
+      <li xml:lang="lt">Suderinama su GMail, Yahoo! Mail. Outlook.com ir kitais IMAP serveriais</li>
+      <li xml:lang="kk-Cyrl">GMail, Yahoo! Mail, Outlook.com және басқа да IMAP серверлерімен үйлесімді</li>
+      <li xml:lang="ja">Gmail、Yahoo! Mail (Yahoo.com)、Outlook.com、その他の IMAP 対応サービスとの互換</li>
+      <li xml:lang="it">Compatibile con GMail, Yahoo! Mail, Outlook.com e altri server IMAP</li>
+      <li xml:lang="id">Kompatibel dengan GMail, Yahoo! Mail, Outlook.com, dan peladen IMAP lain</li>
+      <li xml:lang="hu">Kompatibilis a GMaillel, a Yahoo! Maillel, az Outlook.commal és más IMAP kiszolgálókkal</li>
+      <li xml:lang="hr">Kompatibilno s GMailom, Yahoo! Mailom, Outlook.com i ostalim IMAP poslužiteljima</li>
+      <li xml:lang="he">תואם עם Gmail, Yahoo! Mail, Outlook.com ושרתי IMAP אחרים</li>
+      <li xml:lang="gl">Compatíbel con GMail, Yahoo! Mail, Outlook.com e outros servidores IMAP</li>
+      <li xml:lang="fur">Compatibil cun GMail, Yahoo! Mail, Outlook.com e altris servidôrs IMAP</li>
+      <li xml:lang="fr">Compatible avec GMail, Yahoo! Mail, Outlook.com et autres serveurs IMAP</li>
+      <li xml:lang="fi">Yhteensopiva GMailin, Yahoo! Mailin, Outlook.comin ja muiden IMAP-palvelinten kanssa</li>
+      <li xml:lang="fa">سازگار با جی‌میل، یاهو!، اوت‌لوک و دیگر کارسازهای IMAP</li>
+      <li xml:lang="eu">GMail, Yahoo! Mail, Outlook.com eta beste IMAP zerbitzari batzuekin bateragarria</li>
+      <li xml:lang="es">Compatible con GMail, Yahoo! Mail, Outlook.com y otros servidores IMAP</li>
+      <li xml:lang="en-GB">Compatible with GMail, Yahoo! Mail, Outlook.com and other IMAP servers</li>
+      <li xml:lang="el">Συμβατό με το GMail, το Yahoo! Mail, Outlook.com και άλλους διακομιστές IMAP</li>
+      <li xml:lang="de">Kompatibel mit GMail, Yahoo! Mail, Outlook.com und weiteren IMAP-Servern</li>
+      <li xml:lang="da">Kompatibel med GMail, Yahoo! Mail, Outlook.com og andre IMAP-servere</li>
+      <li xml:lang="cs">Kompatibilitu s Gmail, Yahoo! Mail, Outlook.com a dalšími servery IMAP</li>
+      <li xml:lang="ca">Compatible amb GMail, Yahoo! Mail, Outlook.com i d'altres servidors IMAP</li>
+      <li xml:lang="be-Cyrl">Працуе з GMail, Yahoo! Mail, Outlook.com і іншымі серверамі IMAP</li>
+    </ul>
+  </description>
+  <url type="homepage">https://gitlab.gnome.org/donnybeelo/convey</url>
+  <url type="bugtracker">https://gitlab.gnome.org/donnybeelo/convey/-/work_items</url>
+  <url type="vcs-browser">https://gitlab.gnome.org/donnybeelo/convey</url>
+  <url type="contact">https://gitlab.gnome.org/donnybeelo</url>
+  <!-- Screenshots are pinned to the release tag so store listings stay
+       stable. Bump these alongside each new release. -->
+  <screenshots>
+    <screenshot type="default">
+      <caption>Convey showing an inbox of conversations</caption>
+      <image>https://gitlab.gnome.org/donnybeelo/convey/-/raw/51.0/desktop/screenshots/main-window.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Convey displaying a conversation</caption>
+      <caption xml:lang="zh-Hant-TW">Convey 在展示對話</caption>
+      <caption xml:lang="zh-Hans-CN">Convey 正在展示一个会话</caption>
+      <caption xml:lang="uk">Спілкування у вікні Convey</caption>
+      <caption xml:lang="tr">Convey bir konuşmayı gösteriyor</caption>
+      <caption xml:lang="sv">Convey visande en konversation</caption>
+      <caption xml:lang="sr-Cyrl">Гери приказује преписку</caption>
+      <caption xml:lang="sl">Prikaz sporočil, zbranih v pogovorno nit</caption>
+      <caption xml:lang="sk">Aplikácia Convey zobrazujúca rozhovor</caption>
+      <caption xml:lang="ru">Интерфейс обмена сообщениями Convey</caption>
+      <caption xml:lang="ro">Convey afișând o conversație</caption>
+      <caption xml:lang="pt-BR">Convey exibindo uma conversa</caption>
+      <caption xml:lang="pt">O Convey a mostrar uma conversa</caption>
+      <caption xml:lang="pl">Widok wątku</caption>
+      <caption xml:lang="nl">Weergave van een gesprek in Convey</caption>
+      <caption xml:lang="kk-Cyrl">Convey сөйлесуді көрсетуде</caption>
+      <caption xml:lang="ja">スレッド表示中の Convey</caption>
+      <caption xml:lang="it">L'applicazione che mostra una conversazione</caption>
+      <caption xml:lang="id">Convey menampilkan percakapan</caption>
+      <caption xml:lang="hu">A Convey egy beszélgetést jelenít meg</caption>
+      <caption xml:lang="hr">Convey prikazuje razgovor</caption>
+      <caption xml:lang="he">‏Convey מציג תכתובת</caption>
+      <caption xml:lang="gl">Convey mostrando unha conversa</caption>
+      <caption xml:lang="fur">Convey che al mostre une conversazion</caption>
+      <caption xml:lang="fr">Convey affichant une conversation</caption>
+      <caption xml:lang="fi">Convey ja viestiketju</caption>
+      <caption xml:lang="fa">گیری در حال نمایش یک گفت‌وگو</caption>
+      <caption xml:lang="eu">Convey berriketa bat bistaratzen</caption>
+      <caption xml:lang="es">Convey mostrando una conversación</caption>
+      <caption xml:lang="en-GB">Convey displaying a conversation</caption>
+      <caption xml:lang="el">Το Convey εμφανίζει μια συζήτηση</caption>
+      <caption xml:lang="de">Convey zeigt eine Konversationsvorschau an</caption>
+      <caption xml:lang="da">Convey som en samtale ser ud</caption>
+      <caption xml:lang="cs">Convey zobrazující konverzaci</caption>
+      <caption xml:lang="ca">Convey mostrant una conversa</caption>
+      <caption xml:lang="be-Cyrl">Convey адлюстроўвае гутарку</caption>
+      <image>https://gitlab.gnome.org/donnybeelo/convey/-/raw/51.0/desktop/screenshots/conversation.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Convey showing the rich text composer</caption>
+      <caption xml:lang="zh-Hant-TW">Convey 的富文字編撰器</caption>
+      <caption xml:lang="zh-Hans-CN">Convey 正在显示富文本编辑器</caption>
+      <caption xml:lang="uk">Редактор форматованого тексту у Convey</caption>
+      <caption xml:lang="tr">Convey zengin metin oluşturucusunu gösteriyor</caption>
+      <caption xml:lang="sv">Convey visande rich text-redigeraren</caption>
+      <caption xml:lang="sr-Cyrl">Гери приказује састављача богатог текста</caption>
+      <caption xml:lang="sl">Program Convey z odprtim oknom skladalnika vsebine</caption>
+      <caption xml:lang="sk">Aplikácia Convey zobrazujúca tvorcu správ s formátovaným textom</caption>
+      <caption xml:lang="ru">Интерфейс редактирования текста Convey</caption>
+      <caption xml:lang="ro">Convey afișând compunătorul de text bogat</caption>
+      <caption xml:lang="pt-BR">Convey mostrando um compositor de texto rico</caption>
+      <caption xml:lang="pt">O Convey a mostrar o editor de texto melhorado</caption>
+      <caption xml:lang="pl">Okno tworzenia wiadomości z formatowaniem</caption>
+      <caption xml:lang="nl">Tekstverwerker met opmaakmogelijkheden in Convey</caption>
+      <caption xml:lang="kk-Cyrl">Convey мәтінді мүмкіндіктері кең түзеткішін көрсетуде</caption>
+      <caption xml:lang="ja">HTML メール作成中の Convey</caption>
+      <caption xml:lang="it">L'applicazione che mostra il compositore di testo formattato</caption>
+      <caption xml:lang="id">Convey menunjukkan penyusun rich text</caption>
+      <caption xml:lang="hu">A Convey gazdag szövegszerkesztője</caption>
+      <caption xml:lang="hr">Convey prikazuje sastavljača obogaćenog tekstom</caption>
+      <caption xml:lang="he">‏Convey מציג יצירת הודעה בטקסט עשיר</caption>
+      <caption xml:lang="gl">Convey mostrando o compositor de texto enriquecido</caption>
+      <caption xml:lang="fur">Convey che al mostre il redatôr di test formatât</caption>
+      <caption xml:lang="fr">Convey montrant l’éditeur de texte enrichi</caption>
+      <caption xml:lang="fi">Convey ja viestin kirjoitusikkuna</caption>
+      <caption xml:lang="fa">گیری در حال نمایش متن‌نویس متن غنی</caption>
+      <caption xml:lang="eu">Convey testu aberatseko konposatzailea erakusten</caption>
+      <caption xml:lang="es">Convey mostrando el editor de texto enriquecido</caption>
+      <caption xml:lang="en-GB">Convey showing the rich text composer</caption>
+      <caption xml:lang="el">Το Convey εμφανίζει τον συνθέτη πλούσιου κειμένου</caption>
+      <caption xml:lang="de">Convey zeigt den Editor für formatierten Text</caption>
+      <caption xml:lang="da">Convey som redigering af formateret tekst ser ud</caption>
+      <caption xml:lang="cs">Convey se zobrazeným editorem formátovaného textu</caption>
+      <caption xml:lang="ca">Convey mostrant l'editor de text enriquit</caption>
+      <caption xml:lang="be-Cyrl">Convey адлюстроўвае фарматаваны тэкст рэдактара</caption>
+      <image>https://gitlab.gnome.org/donnybeelo/convey/-/raw/51.0/desktop/screenshots/composer.png</image>
+    </screenshot>
+  </screenshots>
+  <branding>
+    <color type="primary" scheme_preference="light">#ffd53d</color>
+    <color type="primary" scheme_preference="dark">#804400</color>
+  </branding>
+  <provides>
+    <id>net.donnybeelo.Convey.desktop</id>
+  </provides>
+  <launchable type="desktop-id">net.donnybeelo.Convey.desktop</launchable>
+  <translation type="gettext">convey</translation>
+  <releases>
+    <release version="51.0" date="2026-10-22">
+      <description>
+        <p>Features:</p>
+        <ul>
+          <li>A new look, combining the conversation list with the message viewer</li>
+          <li>PGP encryption and decryption with Autocrypt support</li>
+          <li>A signature for each sender address</li>
+          <li>Formatting and images in signatures</li>
+          <li>Show the conversation subject above the conversation viewer</li>
+          <li>Configurable line order in the conversation list</li>
+          <li>Add an unread filter to the search bar</li>
+          <li>Add a button to unsubscribe from mailing lists</li>
+          <li>Add Reply to List button for mailing lists</li>
+          <li>Add proper spell-check support</li>
+          <li>Manual proxy configuration</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Search all accounts at once from All Inboxes</li>
+          <li>Discard untouched replies instead of saving empty drafts</li>
+          <li>Mark emails read when scrolling a conversation thread</li>
+          <li>Email colours now follow GNOME's light and dark switch when HTML override is enabled</li>
+          <li>Stop spam in Outlook accounts from sending notifications</li>
+          <li>Fix unread counts not resetting after deleting email</li>
+          <li>Handle long messages instead of failing to render</li>
+          <li>Fix duplicate emails opening from notifications</li>
+          <li>Fix mailto: links being ignored when Convey isn't already running</li>
+          <li>Fix "View Source" not working for Flatpak builds</li>
+          <li>Point the bug report and website links to Convey instead of Geary</li>
+          <li>Fix clicking a folder's arrow not expanding or collapsing it</li>
+          <li>"Automatically select next message" honoured after deleting</li>
+          <li>Fix special folders not being found in some cases</li>
+          <li>Force Ctrl+Z to only act within the textbox when a textbox is focused</li>
+          <li>Fix the email font not following the system's document font</li>
+          <li>Fix saved drafts gaining extra line breaks in Microsoft accounts</li>
+          <li>Make "Delete" the default in permanent delete dialogs</li>
+        </ul>
+      </description>
+    </release>
+    <release version="50.2-1" date="2026-09-20">
+      <description>
+        <ul>
+          <li>Show nested folders on Microsoft accounts</li>
+          <li>Create subfolders from the folder list context menu within the app</li>
+          <li>Open GNOME Online Accounts directly when adding an account</li>
+        </ul>
+      </description>
+    </release>
+    <release version="50.2" date="2026-09-16">
+      <description>
+        <ul>
+          <li>Refreshed application icons, screenshots and branding colours</li>
+          <li>Add a combined "All Inboxes" view spanning every account</li>
+          <li>Reopen the inbox last viewed at launch, or a fixed one of your choosing</li>
+          <li>Remember which parts of the folder list were left collapsed</li>
+          <li>Add a Starred folder for Microsoft accounts, showing its total count</li>
+          <li>Page through large folders on Graph accounts</li>
+        </ul>
+      </description>
+    </release>
+    <release version="50.1" date="2026-09-11">
+      <description>
+        <ul>
+          <li>Persist folders from Graph accounts so they load offline</li>
+          <li>Fix unpredictable folder keyboard navigation</li>
+          <li>Deselect conversations on Escape, disable autoselect in Trash and Junk</li>
+          <li>Fix dark mode rendering in certain emails</li>
+          <li>Fix context menu positioning in the message body</li>
+          <li>Replace libcanberra and gsound with GStreamer for notification sounds</li>
+          <li>Drop the unused libspelling dependency</li>
+          <li>Numerous user interface and styling fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="50.0" date="2026-08-26">
+      <description>
+        <p>The first Convey release, forked from Geary 46.0.</p>
+        <p>Enhancements included in this release:</p>
+        <ul>
+          <li>Ported the interface to GTK4 and libadwaita</li>
+          <li>Added a Microsoft Graph backend for Outlook and Microsoft 365 accounts</li>
+          <li>Rebranded as Convey, with new application icons</li>
+          <li>Create, rename and delete folders from the sidebar</li>
+          <li>Reworked conversation list with keyboard navigation between panes</li>
+          <li>Message colours now follow the system light and dark preference immediately</li>
+          <li>Redrawn notification avatars, rendered at the display's pixel density</li>
+          <li>Reworked address completion as a navigable dropdown</li>
+          <li>Ported plugins to libpeas-2 and migrated to gcr-4 and gck-2</li>
+          <li>Numerous bug fixes and user interface improvements</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-contacts">intense</content_attribute>
+  </content_rating>
+  <recommends>
+    <control>touch</control>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </recommends>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+</component>
