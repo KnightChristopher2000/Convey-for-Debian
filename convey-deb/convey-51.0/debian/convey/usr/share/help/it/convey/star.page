@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="star" xml:lang="it">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="write"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Federico Bruni</mal:name>
+      <mal:email>fede@inventati.org</mal:email>
+      <mal:years>2014-2020</mal:years>
+    </mal:credit>
+  </info>
+	<title>Segnare un messaggio come speciale o come letto/non letto</title>
+	<section id="star-messages">
+	<title>Segnare un messaggio come speciale</title>
+	<p>È possibile segnare un messaggio come speciale per indicare che è importante. Per contrassegnare una conversazione con una stella, si clicca sull'icona della stella nell'elenco delle conversazioni. È possibile anche segnare come speciale un singolo messaggio cliccando la stella sull'angolo superiore destro del messaggio.</p>
+	<p>Negli account Gmail i messaggi speciali appaiono nella cartella Speciali dell'elenco delle cartelle.</p>
+	</section>
+	<section id="mark-read-unread">
+	<title>Segnare i messaggi come letti o non letti</title>
+	<p>Convey contrassegna automaticamente i messaggi come letti quando vengono letti. Per segnare manualmente una conversazione come letta o non letta fare clic sull'icona del cerchio nell'elenco delle conversazioni.</p>
+	
+	<p>Oppure si può usare l'opzione <gui>Segna come non letto</gui> del menù <gui>Segna</gui> della barra degli strumenti per modificare lo stato di lettura delle conversazioni selezionate.</p>
+	
+	<p>Per contrassegnare un singolo messaggio come letto, selezionare <gui>Segna come letto</gui> dal menù a discesa.</p>
+	
+	</section>
+</page>

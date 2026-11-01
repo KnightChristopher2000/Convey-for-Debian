@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="overview" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#introduction"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Federico Bruni</mal:name>
+      <mal:email>fede@inventati.org</mal:email>
+      <mal:years>2014-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Panoramica</title>
+
+  <p>Convey è un'applicazione di posta elettronica basata sulle conversazioni, per l'ambiente desktop GNOME 3. Permette di leggere, trovare e inviare email con un'interfaccia semplice e moderna.</p>
+
+  <p>Le conversazioni permettono di leggere un'intera discussione senza dover cercare e fare clic su ogni messaggio.</p>
+
+  <p>La finestra principale di Convey è divisa in varie aree: l'elenco delle cartelle, l'elenco delle conversazioni e il visualizzatore delle conversazioni.</p>
+
+  <section id="folder-list">
+    <title>Elenco delle cartelle</title>
+
+    <p>L'<em>elenco delle cartelle</em> mostra tutte le <em>cartelle</em> e le <em>etichette</em> dei propri account di posta. Convey usa il termine <em>etichetta</em> per indicare qualsiasi cartella creata per organizzare i propri messaggi.</p>
+
+    <p>Selezionare una cartella o un'etichetta per mostrare le conversazioni che contiene nell'elenco delle conversazioni.</p>
+  </section>
+
+  <section id="conversation-list">
+    <title>Elenco delle conversazioni</title>
+
+    <p>L'<em>elenco delle conversazioni</em> mostra le conversazioni presenti nella cartella selezionata. Le conversazioni più recenti appaiono in cima.</p>
+
+    <p>Il nome del mittente appare in grassetto se ci sono dei messaggi non letti inviati da quel mittente. Se una conversazione ha più di un messaggio, Convey indica il numero di messaggi nella conversazione.</p>
+
+    <p>Convey non scarica automaticamente tutti i messaggi di tutte le cartelle di posta. Quando si apre la prima volta la posta in arrivo o qualsiasi altra cartella, Convey scarica i messaggi più recenti di quella cartella. Per vedere più messaggi, scorrere in giù l'elenco delle conversazioni: Convey recupererà automaticamente altri messaggi.</p>
+
+    <p>Alcuni comandi in Convey possono agire su un gruppo di conversazioni. Per selezionare più di una conversazione, tenere premuto il tasto <key>Ctrl</key> e fare clic su ogni conversazione nell'elenco delle conversazioni. Oppure fare clic sulla prima conversazione di una serie consecutiva, tenere premuto il tasto <key>Maiusc</key> e fare clic sull'ultima conversazione.</p>
+  </section>
+
+  <section id="conversation-viewer">
+    <title>Visualizzatore delle conversazioni</title>
+
+    <p>Il <em>visualizzatore delle conversazioni</em> mostra tutti i messaggi email della conversazione selezionata, col messaggio più vecchio in cima.</p>
+
+    <p>Quando si legge una conversazione, Convey contrae i messaggi già letti. Fare clic sui messaggi compressi per espanderli e sull'intestazione di un messaggio espanso per contrarlo.</p>
+
+    <p>Fare clic su sul nome o sull'indirizzo email di un qualsiasi mittente o destinatario in un messaggio per aprire il <em>menù dei contatti</em>, che mostrerà ulteriori informazioni e opzioni relative all'indirizzo email. È possibile iniziare una nuova conversazione, copiare l'indirizzo email negli appunti e cercare conversazioni correlate. Se l'indirizzo email è presente nella rubrica personale del desktop, apparirà la foto del contatto, il nome preferito e se è un contatto preferito. Si può anche aprire il contatto nella rubrica. Se l'indirizzo email non è già presente, si può scegliere di aggiungerlo alla rubrica e aggiornare la preferenza di caricamento dell'immagine remota per quell'indirizzo.</p>
+
+    <p>Fare clic sul pulsante della stella presente su ciascun messaggio per contrassegnarlo o meno come speciale. Contrassegnare un messaggio come speciale aggiunge l'intera conversazione agli speciali; Convey mostrerà il primo messaggio speciale di una conversazione quando si ritorna ad essa.</p>
+
+    <p>Fare clic sul pulsante menù presente su ciascun messaggio per aprire il <em>menù dei messaggi</em>, che permette di rispondere a e inoltrare uno specifico messaggio, aggiornare quali messaggi siano contrassegnati come letti o non letti, stampare un messaggio e così via.</p>
+
+    <p>Gli allegati di un messaggio appaiono in fondo al messaggio. Fare un doppio clic sull'allegato per aprirlo o usare i pulsanti Apri e Salva per salvare gli allegati selezionati.</p>
+  </section>
+
+</page>

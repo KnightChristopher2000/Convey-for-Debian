@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="accounts" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="archive"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Federico Bruni</mal:name>
+      <mal:email>fede@inventati.org</mal:email>
+      <mal:years>2014-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Account</title>
+
+  <section id="accounts-editor">
+    <title>Editor degli account</title>
+
+    <p>Gli account email possono essere aggiunti, aggiornati e eliminati usando l'<em>editor degli account</em>. Per aprirlo, fare clic sul pulsante del menù dell'applicazione nella finestra principale sopra l'elenco delle cartelle e poi su <gui>Account</gui> nel menù a comparsa.</p>
+
+    <p>Per cambiare l'ordine di visualizzazione degli account nell'elenco delle cartelle, nell'editor degli account fare clic su un account e trascinarlo; oppure spostare lo stato attivo su un account tramite il tasto <key>Tab</key> e usare <keyseq><key>Ctrl</key><key>↑</key></keyseq> e <keyseq><key>Ctrl</key><key>↓</key></keyseq> per riposizionare l'account selezionato.</p>
+  </section>
+
+  <section id="adding-accounts">
+    <title>Aggiungere account</title>
+
+    <p>Convey userà automaticamente qualsiasi account email aggiunto tramite il pannello <app>Account online</app> delle <app>Impostazioni di GNOME</app>. Se non è stato aggiunto alcun account a <app>Account online</app>, verrà richiesto di aggiungere un account al primo avvio di Convey.</p>
+
+    <p>Per aggiungere ulteriori account, aprire l'editor degli account e scegliere il fornitore di email appropriato dall'elenco in fondo alla finestra. Per i fornitori supportati da <app>Account Online</app>, si aprirà <app>Impostazioni GNOME</app> dove verranno chieste le informazioni sull'account. Per gli altri fornitori di email, i dati degli account saranno chiesti da Convey. Dopo averli inseriti, fare clic su <gui>Crea</gui> e i dati saranno controllati e poi aggiunti.</p>
+  </section>
+
+  <section id="editing-accounts">
+    <title>Aggiornare account esistenti</title>
+
+    <p>Per aggiornare account esistenti, aprire l'editor degli account e scegliere l'account da aggiornare. Convey mostrerà le impostazioni dell'account, dove si possono aggiungere e togliere ulteriori indirizzi email del mittente, cambiare la firma e molte altre impostazioni.</p>
+
+    <p>L'impostazione <gui>Scarica posta</gui> permette di configurare quanta posta Convey debba scaricare e conservare in locale. Convey può usare solo la posta disponibile localmente quando mostra o ricerca le conversazioni.</p>
+
+    <p>Per modificare le impostazioni del server dell'account, scorrere in fondo alla finestra e fare clic su <gui>Impostazioni del server</gui>. Dopo aver modificato le impostazioni, fare clic su <gui>Applica</gui> e Convey controllerà le impostazioni e aggiornerà l'account. Non è possibile modificare le impostazioni (nome del server, tipo di sicurezza e credenziali) di account aggiunti tramite il pannello <app>Account online</app> di <app>Impostazioni GNOME</app>.</p>
+
+    <p>La casella di spunta <gui>Salva le bozze sul server</gui> stabilisce se il compositore debba salvare copie dei messaggi non inviati nella cartella <gui>Bozze</gui>. Se deselezionata, non sarà possibile salvare le bozze quando si chiude la finestra di composizione.</p>
+
+    <p>La casella di spunta <gui>Salva la posta inviata sul server</gui> stabilisce se Convey debba salvare una copia delle email inviate nella cartella <gui>Inviata</gui>. Se deselezionata, non sarà possibile visualizzare i messaggi inviati, a meno che il server non li salvi automaticamente.</p>
+  </section>
+
+  <section id="removing-accounts">
+    <title>Rimuovere account</title>
+
+    <p>Gli account aggiunti tramite il pannello <app>Account online</app> di <app>Impostazioni GNOME</app> devono essere rimossi da lì. Per farlo, aprire <app>Account online</app>, selezionare l'account e fare clic su <gui>Rimuovi</gui>.</p>
+
+    <p>Per rimuovere un account aggiunto tramite Convey, aprire l'editor degli account e scegliere l'account da rimuovere. Convey mostrerà le impostazioni dell'account. Scorrere in fondo alla finestra e fare clic su <gui>Rimuovi account</gui>. Verrà chiesta la conferma di rimozione account. Dopo aver confermato, se si cambia idea è ancora possibile annullare la rimozione dell'account facendo clic su <gui>Annulla</gui> nella notifica a comparsa oppure con la scorciatoia <keyseq><key>Ctrl</key><key>U</key></keyseq>.</p>
+  </section>
+
+</page>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="shortcuts" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="label"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Federico Bruni</mal:name>
+      <mal:email>fede@inventati.org</mal:email>
+      <mal:years>2014-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Scorciatoie da tastiera</title>
+
+  <section id="features">
+    <title>Panoramica</title>
+    <p>Convey ha scorciatoie da tastiera per le operazioni più comuni. Usa l'aiuto integrato per scoprire l'elenco completo. Per aprirlo, selezionare <gui style="menuitem">Scorciatoie da tastiera</gui> dal menù dell'applicazione sulla barra degli strumenti della finestra principale, oppure usando le scorciatoie elencate sotto.</p>
+
+    <p>Si possono usare le seguenti scorciatoie da tastiera per accedere al manuale in linea dall'applicazione:</p>
+    <table frame="all" rules="rows">
+      <tr>
+        <td><p>Mostra questo manuale utente</p></td>
+        <td><p><keyseq><key>F1</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Mostra tutte le scorciatoie da tastiera</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>?</key></keyseq></p></td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="single-key-shortcuts">
+    <title>Scorciatoie a tasto singolo</title>
+
+    <p>Si possono abilitare le scorciatoie da tastiera per le azioni email che non richiedono l'uso di <key>Ctrl</key>. Corrispondono alle scorciatoie usate da GMail. Maggiori dettagli in <link xref="preferences"/>.</p>
+
+    <p>L'elenco completo delle scorciatoie a tasto singolo abilitate da questa preferenza si trovano nella finestra delle scorciatoie da tastiera, sopra.</p>
+  </section>
+
+
+</page>

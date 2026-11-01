@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="write" xml:lang="it">
+  <info>
+    <link type="guide" xref="index#overview"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Federico Bruni</mal:name>
+      <mal:email>fede@inventati.org</mal:email>
+      <mal:years>2014-2020</mal:years>
+    </mal:credit>
+  </info>
+  <title>Composizione di una nuova email e risposta</title>
+
+  <section id="overview">
+    <title>Composizione e risposta</title>
+
+    <p>Per iniziare una nuova conversazione email, fare clic sul pulsante <gui style="button">Componi</gui> della barra degli strumenti. Comporre l'indirizzo email delle persone a cui è destinato il messaggio nel campo <gui style="input">A</gui> e una linea di oggetto nel campo <gui style="input">Oggetto</gui>. Si può quindi scrivere il proprio messaggio nell'area di testo sottostante. Quando il messaggio è pronto per essere inviato, fare clic su <gui style="button">Invia</gui> o digitare <keyseq><key>Ctrl</key><key>Invio</key></keyseq> per inviare il messaggio.</p>
+
+    <note style="tip">
+      <title>Annullamento invio</title>
+      <p>Quando si invia un'email, Convey aspetterà 5 secondi prima di consegnare il messaggio. Nel corso di questo tempo, è possibile fare clic su <gui style="button">Annulla</gui> sulla notifica a comparsa che appare oppure digitare <keyseq><key>Ctrl</key><key>Z</key></keyseq> per riaprire l'email e aggiungere delle modifiche.</p>
+    </note>
+
+    <p>Per mostrare i campi <gui style="input">Cc</gui>, <gui style="input">Ccn</gui> e <gui style="input">Rispondi a</gui>, fare clic sul pulsante <gui style="input">Più opzioni</gui> alla fine del campo <gui style="input">A</gui>. Cc permette di inviare una copia dell'email ad altri destinatari secondari. Ccn è simile, ma l'elenco degli indirizzi in Ccn è nascosto ai destinatari. Il campo «Rispondi a» contiene l'indirizzo email a cui rispondere, se si desidera che i destinatari rispondano a un indirizzo email diverso da quello del mittente.</p>
+
+    <p>Quando si inserisce un indirizzo email in uno qualsiasi di questi campi, Convey fornirà suggerimenti presi dalla rubrica del desktop e dai messaggi email precedentemente inviati e ricevuti. Per scegliere uno di questi suggerimenti, basta fare clic su di esso.</p>
+
+    <p>Per rispondere alla conversazione attualmente selezionata, fare clic su uno dei pulsanti <gui style="button">Rispondi</gui>, <gui style="button">Rispondi a tutti</gui> o <gui style="button">Inoltra</gui> nella barra degli strumenti. Così si aprirà una nuovo compositore di risposta o di inoltro email per l'ultimo messaggio della conversazione.</p>
+
+    <p>In risposta, il messaggio a cui si risponde viene citato e copiato in fondo alla nuova risposta. Per eliminarlo basta premere <key>Backspace</key> prima di scrivere la risposta. Altrimenti, si può citare il testo in modo selettivo selezionando il testo desiderato in un messaggio e facendo clic su <gui style="button">Rispondi</gui> o <gui style="button">Rispondi a tutti</gui>, così che sia citato solo il testo selezionato.</p>
+
+    <p>Per rispondere a un messaggio in particolare, aprire il menù dei messaggi nell'angolo superiore del messaggio e scegliere <gui>Rispondi</gui>, <gui>Rispondi a tutti</gui> o <gui>Inoltra</gui>.</p>
+  </section>
+
+  <section id="features">
+    <title>Formattazione del testo, immagini e allegati</title>
+
+    <p>Il compositore email di Convey permette di usare stili di testo come il <em>grassetto</em> e il <em>corsivo</em>, indentare il testo per citarlo e creare collegamenti a pagine web. Basta selezionare il testo e fare clic sul pulsante apposito nella barra degli strumenti di formattazione in fondo al compositore.</p>
+
+    <p>Gli elenchi puntati e numerati si inseriscono o si tolgono facendo clic sui pulsanti <gui style="button">Elenco puntato</gui> e <gui style="button">Elenco numerato</gui> della barra degli strumenti di formattazione. Il livello di indentazione degli elementi dell'elenco può essere modificato usando i pulsanti <gui style="button">Indenta</gui> e <gui style="button">Rimuovi indentazione</gui> della barra degli strumenti di formattazione.</p>
+
+    <p>Le immagini possono essere inserite nei messaggi formattati facendo clic sul pulsante <gui style="button">Inserisci immagine</gui> della barra degli strumenti di formattazione e selezionando l'immagine da allegare, oppure trascinando un'immagine dall'applicazione <gui>File</gui> dentro al corpo dell'email e poi rilasciarla, oppure incollando un'immagine copiata negli appunti da un'altra applicazione.</p>
+
+    <p>Documenti, musica, video e altri file possono essere allegati all'email facendo clic sul pulsante <gui style="button">Allega file</gui> in fondo alla finestra del compositore e selezionando il documento da allegare, oppure trascinando un file dall'applicazione <gui>File</gui> alla finestra del compositore e rilasciandolo sui campi testuali in cima alla finestra o sulla barra degli strumenti in basso.</p>
+
+    <p>Sono disponibili varie scorciatoie da tastiera nella finestra di composizione, come è spiegato dettagliatamente in <link xref="shortcuts"/>.</p>
+
+    <p>Si può indicare nelle opzioni <link xref="accounts"/> una firma da inserire in fondo all'email nella finestra di composizione.</p>
+  </section>
+
+  <section id="spellcheck">
+    <title>Controllo ortografico</title>
+
+    <p>Convey fornisce il controllo ortografico in una o più lingue mentre si digita il testo nella finestra di composizione dell'email. Per abilitarlo, assicurarsi di avere installati i dizionari del controllo ortografico per le lingue desiderate. Consultare il manuale del proprio computer per sapere come installare dizionari se non presenti.</p>
+
+    <p>Per selezionare le lingue per il controllo ortografico, fare clic sul pulsante <gui style="button">Controllo ortografico</gui> della barra degli strumenti di formattazione, e apparirà la finestra a comparsa per la scelta della lingua. Fare clic su una lingua dell'elenco per attivarla o disattivarla, e fare clic sul pulsante <gui style="button">-</gui> per toglierla dall'elenco. Se una lingua non appare nell'elenco, cercarla scrivendo il suo nome nella casella di ricerca, quindi fare clic sul pulsante <gui style="button">+</gui> per aggiungerla.</p>
+  </section>
+
+  <section id="drafts">
+    <title>Salvataggio bozze e ripristino messaggi scartati</title>
+
+    <p>Se si usa un server mail che supporta le bozze, Convey salverà il messaggio sul server automaticamente dopo un breve ritardo, mentre lo si scrive.</p>
+
+    <p>Per modificare una bozza esistente, entrare nella cartella <gui>Bozze</gui> dell'elenco cartelle, selezionare il messaggio e fare clic su "Modifica bozza" nel visualizzatore della conversazione.</p>
+
+    <p>Convey elimina la bozza quando il messaggio viene inviato.</p>
+
+    <note style="tip">
+      <p>Se si salva o si scarta un'email appena composta, la si può riaprire facendo clic su <gui style="button">Annulla</gui> nella notifica che appare oppure digitando <keyseq><key>Ctrl</key><key>Z</key></keyseq>. I compositori possono essere riaperti fino a un massimo di 30 minuti dopo che sono stati chiusi. Al termine di questo periodo occorre riaprire il messaggio dalla cartella <gui>Bozze</gui>, se presente.</p>
+    </note>
+  </section>
+
+  <section id="plain-text">
+    <title>Messaggi di testo semplice</title>
+
+    <p>Convey può inviare anche messaggi di testo semplice. Premere il pulsante <gui style="button">Più opzioni</gui> alla fine della barra degli strumenti in basso e scegliere «Testo formattato» o «Testo semplice». La modalità a testo semplice è utile per inviare email alle mailing list che proibiscono i messaggi con testo formattato (HTML) o per inviare email a persone che non usano client di posta moderni come Convey.</p>
+
+    <p>In modalità testo semplice, il testo tornerà a capo automaticamente usando interruzioni di linea leggere in modo che non sia più largo di 74 caratteri, mentre il testo citato sarà avvolto usando un carattere “&gt;” per ciascun livello di citazione.</p>
+  </section>
+
+</page>
