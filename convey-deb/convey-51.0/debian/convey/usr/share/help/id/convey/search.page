@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="search" xml:lang="id">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="star"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2020, 2021.</mal:years>
+    </mal:credit>
+  </info>
+	<title>Pencarian</title>
+	
+	<p>Convey mendukung pencarian teks lengkap per akun. Untuk memulai pencarian, pilih folder yang terkait dengan akun yang ingin Anda cari. Lalu klik kotak pencarian di bilah alat (atau tekan <keyseq><key>Ctrl</key><key>S</key></keyseq>) dan mulailah mengetik. Hasil akan muncul setelah penundaan singkat.</p>
+	
+	<p>Pencarian teks lengkap mencakup teks surel, alamat surel (ke, dari, dan cc), baris subjek dan nama berkas lampiran.</p>
+	
+	<p>Kata kunci yang cocok dengan pencarian Anda disorot dalam tampilan pesan. Convey akan mencocokkan berbagai bentuk kata yang sama, misalnya mencari "walk" juga akan cocok dengan "walking" dan "walked."</p>
+	
+	<section id="search-operators">
+	<title>Operator pencarian</title>
+	<p>Convey mendukung operator berikut untuk membatasi cakupan pencarian:</p>
+	<table frame="all" rules="rows">
+	<tr>
+		<td><p><input>attachment:<var>namaberkas</var></input></p></td>
+		<td><p>Menemukan pesan dengan lampiran yang namanya cocok <var>namaberkas</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>bcc:<var>penerima</var></input></p></td>
+		<td><p>Menemukan pesan dimana <var>penerima</var> cocok dengan bidang BCC surel.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>body:<var>teks</var></input></p></td>
+		<td><p>Menemukan pesan yang isinya berisi <var>teks</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cc:<var>penerima</var></input></p></td>
+		<td><p>Menemukan pesan dimana <var>penerima</var> cocok dengan bidang CC surel.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>from:<var>pengirim</var></input></p></td>
+		<td><p>Menemukan pesan di mana <var>pengirim</var> cocok dengan surel bidang From.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:read</input></p></td>
+		<td><p>Menemukan pesan yang telah ditandai sebagai sudah dibaca.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:starred</input></p></td>
+		<td><p>Menemukan pesan yang telah ditandai sebagai berbintang.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:unread</input></p></td>
+		<td><p>Menemukan pesan yang telah ditandai sebagai belum dibaca.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>subject:<var>teks</var></input></p></td>
+		<td><p>Menemukan pesan yang subjeknya berisi <var>teks</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>to:<var>penerima</var></input></p></td>
+		<td><p>Menemukan pesan di mana <var>penerima</var> cocok dengan bidang surel To, CC, atau BCC.</p></td>
+	</tr>
+	</table>
+
+	<p>Sebagai kasus khusus, operator <input>bcc</input>, <input>cc</input>, <input>from</input>, dan <input>to</input> mendukung <input>me</input> sebagai argumen mereka, yang mencari alamat surel akun dalam konteks yang sesuai.</p>
+	</section>
+</page>

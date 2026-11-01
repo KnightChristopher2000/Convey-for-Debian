@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="label" xml:lang="id">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="preferences"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2020, 2021.</mal:years>
+    </mal:credit>
+  </info>
+	<title>Melabeli atau memindahkan percakapan</title>
+	<section id="label-conversation">
+	<title>Melabeli percakapan</title>
+	<p>Convey memungkinkan Anda menerapkan satu atau beberapa <em>label</em> ke setiap percakapan. Label Convey sesuai dengan label di Gmail, atau folder biasa di layanan surel lainnya.</p>
+	<p>Untuk memberi label satu atau beberapa percakapan, pertama pilih percakapan, lalu lakukan salah satu hal berikut ini:</p>
+	<list>
+	<item><p>Klik tombol <gui>Label</gui> pada bilah alat dan pilih label dari menu tarik-turun yang dihasilkan.</p></item>
+	<item><p>Tahan tombol <key>Ctrl</key> dan seret percakapan dari daftar percakapan ke label di bilah samping.</p></item>
+	</list>
+	</section>
+	<section id="move-conversation">
+	<title>Memindahkan percakapan ke folder atau label</title>
+	<p>Untuk memindahkan satu atau beberapa percakapan ke folder atau label, pertama pilih percakapan, lalu lakukan salah satu hal berikut ini:</p>
+	<list>
+	<item><p>Klik tombol <gui>Pindahkan</gui> pada bilah alat dan pilih folder atau label dari menu tarik-turun yang dihasilkan.</p></item>
+	<item><p>Seret percakapan dari daftar percakapan ke folder atau label di bilah samping.</p></item>
+	</list>
+	</section>
+</page>

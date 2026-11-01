@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="index" xml:lang="id">
+
+  <info>
+    <title type="link" role="trail">Convey</title>
+    <title type="text">Convey</title>
+    <title type="link">Convey</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2020, 2021.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" its:translate="no" src="figures/net.donnybeelo.Convey.svg" width="48" height="48"/> <span>Convey</span></title>
+
+  <section id="introduction" style="2column">
+    <title>Perkenalan</title>
+  </section>
+
+  <section id="overview" style="2column">
+    <title>Menggunakan Convey</title>
+  </section>
+
+  <section id="contribute" style="2column">
+    <title>Berkontribusi dan mendapatkan dukungan</title>
+  </section>
+
+</page>

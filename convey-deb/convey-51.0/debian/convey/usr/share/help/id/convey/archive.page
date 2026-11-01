@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive" xml:lang="id">
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="shortcuts"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2020, 2021.</mal:years>
+    </mal:credit>
+  </info>
+  <title>Mengarsipkan, membuang, dan menghapus pesan</title>
+
+  <p>Convey memungkinkan Anda mengarsipkan pesan jika server mendukungnya. Mengklik tombol bilah alat <gui style="button">Arsip</gui> memindahkan percakapan dari folder saat ini ke folder <gui>Arsip</gui> bagi sebagian besar layanan surel, atau ke <gui>Semua Surel</gui> untuk GMail. Mengarsipkan membantu menjaga surel Anda terorganisir dengan memindahkan surel lama dan balasan agar tidak menghalangi.</p>
+
+  <p>Untuk memindahkan percakapan ke folder <gui>Tong Sampah</gui>, pilih percakapan tersebut dan klik tombol bilah alat <gui style="button">Tong Sampah</gui>. Untuk menghapus percakapan secara permanen, tahan <key>Shift</key> dan klik tombol <gui style="button">Hapus</gui> yang muncul menggantikan tombol <gui>Tong Sampah</gui>, atau buka percakapan di folder <gui>Tong Sampah</gui> dan klik <gui style="button">Hapus</gui> di sana.</p>
+
+  <note style="tip">
+    <title>Membatalkan perubahan</title>
+    <p>Perhatikan bahwa Anda selalu dapat membatalkan pengarsipan atau memindahkan pesan ke tong sampah jika Anda berubah pikiran. Klik <gui style="button">Batalkan</gui> pada pemberitahuan pop-up yang muncul, atau ketik <keyseq><key>Ctrl</key><key>Z</key></keyseq>, atau buka folder, temukan pesan, lalu pindahkan kembali ke <gui>Kotak Masuk</gui> Anda</p>
+  </note>
+
+  <p>Meskipun <gui style="button">Arsip</gui> dan <gui style="button">Tong Sampah</gui> menghapus percakapan dari folder <gui>Kotak Masuk</gui> Anda, ada perbedaan penting. Mengklik <gui style="button">Arsip</gui> akan memastikan percakapan Anda disimpan sehingga Anda bisa menemukannya lagi nanti. Mengklik <gui style="button">Tong Sampah</gui> akan menyebabkan percakapan disembunyikan dari <link xref="search"/>, dan kemungkinan akan dihapus di masa mendatang.</p>
+
+</page>

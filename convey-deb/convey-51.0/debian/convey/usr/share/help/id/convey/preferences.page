@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="preferences" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="search"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2020, 2021.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Preferensi</title>
+
+  <p>Convey memungkinkan Anda untuk menyesuaikan cara kerjanya melalui jendela <gui style="group">Preferensi</gui>. Untuk membuka jendela, pilih <gui style="menuitem">Preferensi</gui> dari menu aplikasi di bilah alat jendela utama. Anda bisa mengubah opsi berikut:</p>
+
+  <terms>
+    <item>
+      <title><gui>Otomatis memilih pesan berikutnya</gui></title>
+      <p>Ketika opsi ini diaktifkan, Convey secara otomatis memilih pesan terbaru dalam folder saat Anda memasuki folder. Selain itu, setelah mengarsipkan pesan, Convey secara otomatis memilih pesan yang berdekatan.</p>
+    </item>
+    <item>
+      <title><gui>Menampilkan pratinjau percakapan</gui></title>
+      <p>Mengaktifkan pratinjau pesan dalam daftar percakapan. Pratinjau memperlihatkan beberapa baris pertama dari setiap pesan.</p>
+    </item>
+    <item>
+      <title><gui>Menggunakan pintasan surel satu tombol</gui></title>
+      <p>Aktifkan pintasan papan ketik untuk tindakan surel yang tidak memerlukan penekanan <key>Ctrl</key>. Ini cocok dengan pintasan yang digunakan oleh GMail. Lihat <link xref="shortcuts"/> untuk detailnya.</p>
+    </item>
+    <item>
+      <title><gui>Amati surel baru saat ditutup</gui></title>
+      <p>Convey akan mengamati akun Anda untuk surel baru bahkan ketika jendela utama tidak terbuka. Untuk melakukan ini, itu akan dimulai secara diam-diam ketika Anda masuk ke komputer Anda, dan itu akan terus berjalan setelah Anda menutup semua jendela.</p>
+    </item>
+  </terms>
+
+</page>

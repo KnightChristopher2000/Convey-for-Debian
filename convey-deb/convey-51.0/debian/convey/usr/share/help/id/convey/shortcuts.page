@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="shortcuts" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="label"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2020, 2021.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pintasan papan tik</title>
+
+  <section id="features">
+    <title>Ringkasan</title>
+    <p>Convey memiliki pintasan papan ketik untuk operasi yang paling umum. Gunakan bantuan bawaan untuk menemukan daftar lengkap. Untuk membuka bantuan pintasan, pilih <gui style="menuitem">Pintasan Papan Ketik</gui> dari menu aplikasi di bilah alat jendela utama, atau menggunakan pintasan papan ketik yang tercantum di bawah ini.</p>
+
+    <p>Pintasan papan ketik berikut ini dapat digunakan untuk mengakses bantuan daring dari Convey:</p>
+    <table frame="all" rules="rows">
+      <tr>
+        <td><p>Display this help manual</p></td>
+        <td><p><keyseq><key>F1</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Menampilkan semua pintasan papan ketik</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>?</key></keyseq></p></td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="single-key-shortcuts">
+    <title>Pintasan tombol tunggal</title>
+
+    <p>Anda bisa mengaktifkan pintasan papan ketik untuk tindakan surel yang tidak memerlukan penekanan <key>Ctrl</key>. Ini cocok dengan pintasan yang digunakan oleh GMail. Lihat <link xref="preferences"/> untuk detailnya.</p>
+
+    <p>Daftar lengkap pintasan tombol tunggal yang diaktifkan oleh preferensi ini dapat ditemukan melalui bantuan pintasan papan ketik, di atas.</p>
+  </section>
+
+
+</page>
