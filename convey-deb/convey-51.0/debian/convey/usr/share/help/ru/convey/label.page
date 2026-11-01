@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="label" xml:lang="ru">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="preferences"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2023</mal:years>
+    </mal:credit>
+  </info>
+	<title>Отметить или переместить беседы</title>
+	<section id="label-conversation">
+	<title>Отметить беседу</title>
+	<p>Convey позволяет применять одну или несколько <em>меток</em> к каждой беседе. Метки Convey соответствуют меткам в Gmail или обычным папкам в других почтовых сервисах.</p>
+	<p>Чтобы отметить одну или несколько бесед, сначала выберите беседу(ы), а затем выполните одно из следующих действий:</p>
+	<list>
+	<item><p>Щёлкните кнопку <gui>Метка</gui> на панели инструментов и выберите метку из появившегося раскрывающегося меню.</p></item>
+	<item><p>Удерживая нажатой клавишу <key>Ctrl</key>, перетащите беседу(ы) из списка бесед на метку на боковой панели.</p></item>
+	</list>
+	</section>
+	<section id="move-conversation">
+	<title>Переместить беседу в папку или метку</title>
+	<p>Чтобы переместить одну или несколько бесед в папку или на метку, сначала выберите беседу(ы), а затем выполните одно из следующих действий:</p>
+	<list>
+	<item><p>Щёлкните кнопку <gui>Переместить</gui> на панели инструментов и в появившемся раскрывающемся меню выберите папку или метку.</p></item>
+	<item><p>Перетащите беседу(ы) из списка бесед в папку или метку на боковой панели.</p></item>
+	</list>
+	</section>
+</page>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="limits" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ограничения</title>
+
+  <p>Convey всё ещё находится на ранней стадии разработки. Convey поддерживает IMAP и был протестирован с Gmail, Yahoo и бесплатным почтовым сервером Dovecot. Предоставляется экспериментальная поддержка Outlook.com. Convey может пока не работать с некоторыми серверами IMAP. В настоящее время Convey по-прежнему не хватает многих функций, включая автономный режим.</p>
+
+  <p>To learn more about the features we're working on and the future
+  of Convey, please visit Convey's <link href="https://wiki.gnome.org/Apps/Geary">wiki page</link>.</p>
+
+</page>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="bugs" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="limits"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Нужна помощь с Convey?</title>
+
+  <section id="getting-support">
+    <title>Получение поддержки</title>
+
+    <p>If you are having trouble using Convey, please <link href="https://wiki.gnome.org/Apps/Geary/Contact">get in
+    touch</link> with the Convey community about the problem.</p>
+  </section>
+
+  <section id="reporting-bugs">
+    <title>Сообщение об ошибках</title>
+
+    <p>Если вы подозреваете, что обнаружили ошибку в Convey, следуйте <link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">руководству по сообщениям об ошибках</link>, чтобы можно было диагностировать проблему и устранить её.</p>
+
+    <p>Чтобы помочь диагностировать проблему как можно быстрее, пожалуйста, включите в сообщение следующую информацию:</p>
+
+    <list>
+      <item><p>Версия Convey и метод установки (Пакет? Flathub? Исходный код?)</p></item>
+      <item><p>Ваш рабочий стол (GNOME? KDE? Что-то другое?)</p></item>
+      <item><p>Ваша операционная система и её версия (Ubuntu 16.04? Fedora 28? Собственная сборка?)</p></item>
+      <item><p>Поставщик электронной почты (Gmail, Yahoo!, Outlook.com или кто-то ещё?)</p></item>
+      <item><p>Действия по воспроизведению ошибки</p></item>
+      <item><p>Что случилось?</p></item>
+      <item><p>Что вы ожидали?</p></item>
+    </list>
+
+    <p>Доступ к файлам журнала можно получить через Convey Inspector, нажмите <keyseq><key>Alt</key><key>I</key></keyseq>, чтобы открыть его, выберите и сохраните любые соответствующие файлы журнала и прикрепите их к отчёту об ошибке.</p>
+  </section>
+
+</page>

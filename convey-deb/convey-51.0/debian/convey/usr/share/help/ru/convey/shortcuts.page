@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="shortcuts" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="label"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ser82-png</mal:name>
+      <mal:email>asvmail.as@gmail.com</mal:email>
+      <mal:years>2022-2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Комбинации клавиш</title>
+
+  <section id="features">
+    <title>Обзор</title>
+    <p>У Convey есть сочетания клавиш для наиболее распространенных операций. Используйте встроенную справку, чтобы открыть полный их список. Для открытия справки по сочетаниям клавиш, выберите <gui style="menuitem">Комбинации клавиш</gui> в меню на панели инструментов главного окна или используйте комбинации клавиш, перечисленные ниже.</p>
+
+    <p>Для доступа к интерактивной справке от Convey можно использовать следующие сочетания клавиш:</p>
+    <table frame="all" rules="rows">
+      <tr>
+        <td><p>Показать справочное руководство</p></td>
+        <td><p><keyseq><key>F1</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Показать все комбинации клавиш</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>?</key></keyseq></p></td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="single-key-shortcuts">
+    <title>Простые комбинации клавиш</title>
+
+    <p>Вы можете включить комбинации клавиш для действий с электронной почтой, которые не требуют нажатия <key>Ctrl</key>. Они соответствуют клавишам, используемым GMail. Подробнее смотрите <link xref="preferences"/>.</p>
+
+    <p>Полный список комбинаций клавиш, включаемых этой настройкой, можно найти в справке по комбинациям клавиш.</p>
+  </section>
+
+
+</page>
