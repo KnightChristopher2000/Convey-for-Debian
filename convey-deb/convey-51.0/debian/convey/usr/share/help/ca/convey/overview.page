@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="overview" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#introduction"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jaume Jorba</mal:name>
+      <mal:email>jaume.jorba@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Visió general</title>
+
+  <p>Convey és una aplicació de correu electrònic creada al voltant de converses, per a l'escriptori del GNOME 3. Permet llegir, trobar i enviar correu electrònic amb una interfície moderna i senzilla.</p>
+
+  <p>Les converses us permeten llegir una discussió completa sense haver de cercar i fer clic de missatge a missatge.</p>
+
+  <p>La finestra principal de Convey es divideix en diverses àrees: la llista de carpetes, la llista de converses i el visualitzador de converses.</p>
+
+  <section id="folder-list">
+    <title>Llista de carpetes</title>
+
+    <p>La <em>llista de carpetes</em> mostra totes les <em>carpetes</em> i <em>etiquetes</em> dels vostres comptes de correu electrònic. Convey utilitza el terme <em>etiqueta</em> per qualsevol carpeta que hàgiu creat per a organitzar els vostres missatges de correu.</p>
+
+    <p>Seleccioneu una carpeta o etiqueta per a mostrar les converses que conté en forma de llista.</p>
+  </section>
+
+  <section id="conversation-list">
+    <title>Llista de converses</title>
+
+    <p>La <em>llista de converses</em> mostra la llista de converses de la carpeta seleccionada. Les converses més noves apareixen a la part superior.</p>
+
+    <p>El nom de cada remitent apareix en negreta si hi ha missatges sense llegir d'aquest. Si una conversa té més d'un missatge, Convey mostra el nombre de missatges a la conversa.</p>
+
+    <p>Convey no descarrega automàticament tots els missatges a totes les carpetes de correu. Quan visiteu la vostra safata d'entrada o qualsevol altra carpeta, Convey descarrega els missatges més recents de la carpeta. Per a veure més missatges, simplement desplaceu-vos cap avall per la llista de converses i Convey buscarà més missatges automàticament.</p>
+
+    <p>Algunes ordres de Convey poden actuar sobre un grup de converses. Per a seleccionar diverses converses, mantingueu premuda la tecla <key>Ctrl</key> i feu clic a cada conversa de la llista de converses que vulgueu seleccionar. Alternativament, podeu fer clic al primer element de la conversa, mantenir premuda la tecla <key>Maj</key> i fer clic a la darrera conversa que vulgueu seleccionar.</p>
+  </section>
+
+  <section id="conversation-viewer">
+    <title>Visor de converses</title>
+
+    <p>El <em>visor de converses</em> mostra tots els missatges de correu de la conversa seleccionada, amb els missatges més antics a la part superior.</p>
+
+    <p>Quan visualitzeu una conversa, Convey col·lapsa els missatges llegits. Feu clic als missatges col·lapsats per a expandir-los. Feu clic a l'encapçalament d'un missatge expandit per a col·lapsar-lo.</p>
+
+    <p>Feu clic a qualsevol nom d'emissor, destinatari, o a qualsevol adreça de correu electrònic d'un missatge per a obrir el <em>menú de contactes</em>, el qual mostra informació i opcions addicionals per a l'adreça de correu electrònic seleccionada. Podeu iniciar una nova conversa, copiar l'adreça de correu electrònic al porta-retalls i buscar converses relacionades. Si l’adreça de correu electrònic existeix a la llibreta d'adreces, es mostrarà la foto del contacte, el nom preferit i si és un contacte favorit. També podeu obrir el contacte a la llibreta d'adreces. Si l'adreça de correu electrònic encara no és a la llibreta d'adreces, podeu triar afegir-la i actualitzar la imatge remota per l'adreça.</p>
+
+    <p>Feu clic a l'estrella present a cada missatge per a marcar o desmarcar el missatge com a destacat. Destacar un missatge destacarà tota la conversa i Convey mostrarà el primer missatge destacat de la conversa en tornar.</p>
+
+    <p>Feu clic al botó menú present a cada missatge per a obrir el <em>menú de missatges</em>, que permet respondre i reenviar un missatge específic, actualitzar els missatges marcats com a llegits o sense llegir, imprimir un missatge, etc.</p>
+
+    <p>Qualsevol fitxer adjunt apareix a la part inferior del missatge. Feu doble clic en un fitxer adjunt per a obrir-lo, o utilitzeu els botons Obre i Desa per a obrir i desar els fitxers adjunts seleccionats.</p>
+  </section>
+
+</page>

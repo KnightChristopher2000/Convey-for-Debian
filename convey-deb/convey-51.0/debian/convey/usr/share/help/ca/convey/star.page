@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="star" xml:lang="ca">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="write"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jaume Jorba</mal:name>
+      <mal:email>jaume.jorba@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+	<title>Destacar un missatge o marcar-lo com a llegit/no llegit</title>
+	<section id="star-messages">
+	<title>Missatges destacats</title>
+	<p>Podeu assenyalar els missatges importants amb una estrella. Per a marcar una conversa amb una estrella, feu clic a la icona estrella de la llista de converses. Podeu destacar un missatge individual fent clic a l'estrella situada a la part superior dreta del missatge.</p>
+	<p>Als comptes Gmail, els missatges destacats apareixen a la carpeta Destacats de la llista de carpetes.</p>
+	</section>
+	<section id="mark-read-unread">
+	<title>Marcar missatges com a llegits o no llegits</title>
+	<p>Convey marca els missatges de forma automàtica mentre els llegiu. Per a commutar manualment una conversa entre llegida i no llegida, feu clic a la icona amb un cercle a la llista de converses.</p>
+	
+	<p>Alternativament la <gui>Marca de no llegit</gui> al menú <gui>Marca</gui> a la barra d'eines es pot fer servir per a commutar l'estat de lectura de les converses seleccionades.</p>
+	
+	<p>Per a marcar un missatge com a llegit, seleccioneu <gui>Marca com a llegit</gui> al menú desplegable.</p>
+	
+	</section>
+</page>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="label" xml:lang="ca">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="preferences"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jaume Jorba</mal:name>
+      <mal:email>jaume.jorba@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+	<title>Etiquetar o moure una conversa</title>
+	<section id="label-conversation">
+	<title>Etiquetar una conversa</title>
+	<p>Convey us permet aplicar una o més <em>etiquetes</em> a cada conversa. Les etiquetes de Convey es corresponen amb les etiquetes a Gmail, o a carpetes en altres serveis de correu.</p>
+	<p>Per a etiquetar una o més converses, primer seleccioneu la conversa(es), aleshores feu qualsevol de les següents coses:</p>
+	<list>
+	<item><p>Feu clic al botó <gui>Etiqueta</gui> a la barra d'eines i seleccioneu una etiqueta al menú desplegable.</p></item>
+	<item><p>Mantingueu premuda la tecla <key>Ctrl</key> i arrossegueu la conversa(es) de la llista de converses a l'etiqueta de la barra lateral.</p></item>
+	</list>
+	</section>
+	<section id="move-conversation">
+	<title>Moure una conversa a una carpeta o etiqueta</title>
+	<p>Per a moure una o més converses a una carpeta o etiqueta, primer seleccioneu la(es) conversa(es), aleshores feu qualsevol de les següents coses:</p>
+	<list>
+	<item><p>Feu clic al botó <gui>Moure</gui> a la barra d'eines i seleccioneu una carpeta o etiqueta del menú desplegable.</p></item>
+	<item><p>Arrossegueu la(es) conversa(es) de la llista de converses a la carpeta o etiqueta de la barra lateral.</p></item>
+	</list>
+	</section>
+</page>

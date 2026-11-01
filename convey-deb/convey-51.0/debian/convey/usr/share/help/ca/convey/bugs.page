@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="bugs" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="limits"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jaume Jorba</mal:name>
+      <mal:email>jaume.jorba@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Need help with Convey?</title>
+
+  <section id="getting-support">
+    <title>Getting support</title>
+
+    <p>If you are having trouble using Convey, please <link href="https://wiki.gnome.org/Apps/Geary/Contact">get in
+    touch</link> with the Convey community about the problem.</p>
+  </section>
+
+  <section id="reporting-bugs">
+    <title>Reporting bugs</title>
+
+    <p>If you suspect you have found a bug in Convey, please follow the
+    <link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">bug
+    reporting guidelines</link> so the problem can be diagnosed and
+    fixed.</p>
+
+    <p>Per a ajudar a diagnosticar el problema el més ràpid possible, si us plau, incloeu la següent informació:</p>
+
+    <list>
+      <item><p>Versió de Convey i mètode d'instal·lació (Paquet? Flathub? Codi font?)</p></item>
+      <item><p>El vostre escriptori (GNOME? KDE? Alguna cosa més?)</p></item>
+      <item><p>El sistema i versió del vostre sistema operatiu (Ubuntu 16.04? Fedora 28? El vostre propi?)</p></item>
+      <item><p>Proveïdor del correu electrònic (Google, Yahoo!, Outlook.com, o algun altre?)</p></item>
+      <item><p>Passos per a reproduir l'error</p></item>
+      <item><p>Què ha passat?</p></item>
+      <item><p>Què esperàveu que passés?</p></item>
+    </list>
+
+    <p>Log files can be accessed via the Convey Inspector, press
+    <keyseq><key>Alt</key><key>I</key></keyseq> to open it, select and
+    save any relevant log files, and attach them to the bug
+    report.</p>
+  </section>
+
+</page>

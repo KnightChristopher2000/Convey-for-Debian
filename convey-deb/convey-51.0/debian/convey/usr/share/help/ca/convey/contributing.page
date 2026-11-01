@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="contributing" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="bugs"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jaume Jorba</mal:name>
+      <mal:email>jaume.jorba@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Contribuir a Convey</title>
+
+  <p>Vol ajudar a millorar Convey? Hi ha diferents maneres de contribuir-hi:</p>
+
+  <list>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">Informa d'un error</link>—informa de nous errors o sol·licita noves funcionalitats</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Translating">Traducció</link>—traducció de la interfície i manual d'usuari de Convey a nous llenguatges</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Development">Desenvolupament</link>—fixar errors i afegir noves funcionalitats</p></item>
+  </list>
+
+  <p>See <link href="https://wiki.gnome.org/Apps/Geary/Contribute">the
+  wiki</link> for more information and options for contributing
+  financially to Convey's development.</p>
+</page>

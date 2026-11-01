@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="search" xml:lang="ca">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="star"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jaume Jorba</mal:name>
+      <mal:email>jaume.jorba@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+	<title>Cercar</title>
+	
+	<p>Convey admet una cerca de text completa per compte. Per a iniciar una cerca, seleccioneu una carpeta associada al compte què voleu cercar. A continuació, feu clic al quadre de cerca a la barra d'eines (o premeu <keyseq><key>Ctrl</key><key>S</key></keyseq>) i comenceu a teclejar. Els resultats apareixeran després d'un breu retard.</p>
+	
+	<p>La cerca de text completa, inclou el text del correu electrònic, les adreces (a, des de i cc), els assumptes i els noms dels fitxers adjunts.</p>
+	
+	<p>Les paraules clau que coincideixen amb la vostra cerca es destaquen a la vista de missatges. Convey cerca diferents formes d'una mateixa paraula, per exemple la cerca "caminar" també coincidirà amb "caminant" i "caminat".</p>
+	
+	<section id="search-operators">
+	<title>Operadors de cerca</title>
+	<p>Convey admet els operadors següents per a limitar l'abast de les cerques:</p>
+	<table frame="all" rules="rows">
+	<tr>
+		<td><p><input>adjunt:<var>nom del fitxer</var></input></p></td>
+		<td><p>Cerca els missatges amb fitxers adjunts en els quals nom coincideix amb <var>nom del fitxer</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>Cco:<var>destinatari</var></input></p></td>
+		<td><p>Cerca els missatges en els quals <var>destinatari</var> coincideix amb els camps correu BCC.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cos:<var>text</var></input></p></td>
+		<td><p>Cerca els missatges en els quals cos conté <var>text</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cc:<var>destinatari</var></input></p></td>
+		<td><p>Troba els missatges en els quals el <var>destinatari</var> coincideix amb el camp CC del correu.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>de:<var>remitent</var></input></p></td>
+		<td><p>Troba els missatges en els quals el <var>remitent</var> coincideix amb el camp CC del correu.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>és:llegit</input></p></td>
+		<td><p>Troba missatges que s'hagin marcat com a llegits.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>és:destacat</input></p></td>
+		<td><p>Troba missatges que s'hagin marcat com a destacats.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>és:no llegit</input></p></td>
+		<td><p>Troba missatges que s'hagin marcat com a no llegits.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>assumpte:<var>text</var></input></p></td>
+		<td><p>Troba missatges que a assumpte continguin <var>text</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>Per a:<var>destinatari</var></input></p></td>
+		<td><p>Troba els missatges en els quals el camp <var>destinatari</var> coincideix amb els camps Per a, Cc o Cco.</p></td>
+	</tr>
+	</table>
+
+	<p>Com a casos especials, els operadors <input>Cco</input>, <input>cc</input>, <input>de</input>, i <input>per a</input> suporten com a argument <input>me</input>, que cerca l'adreça de correu electrònic del compte en el context apropiat.</p>
+	</section>
+</page>

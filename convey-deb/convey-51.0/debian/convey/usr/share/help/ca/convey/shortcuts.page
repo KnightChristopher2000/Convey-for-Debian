@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="shortcuts" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="label"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jaume Jorba</mal:name>
+      <mal:email>jaume.jorba@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Dreceres de teclat</title>
+
+  <section id="features">
+    <title>Visió general</title>
+    <p>Convey té dreceres de teclat per a les operacions més habituals. Utilitzeu l'ajuda integrada per a conèixer la llista completa. Per a obrir l'ajuda de les dreceres, seleccioneu <gui style="menuitem">Dreceres de teclat</gui> al menú de l'aplicació de la barra d'eines de la finestra principal, o bé utilitzeu les dreceres de teclat a la llista següent.</p>
+
+    <p>Les següents dreceres de teclat es poden utilitzar per a accedir a l'ajuda en línia de Convey:</p>
+    <table frame="all" rules="rows">
+      <tr>
+        <td><p>Display this help manual</p></td>
+        <td><p><keyseq><key>F1</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Mostra totes les dreceres de teclat</p></td>
+        <td><p><keyseq><key>Ctrl</key><key>?</key></keyseq></p></td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="single-key-shortcuts">
+    <title>Dreceres d'una sola tecla</title>
+
+    <p>Podeu habilitar les dreceres de teclat per a accions de correu electrònic que no necessiten prémer <key>Ctrl</key>. Aquestes coincideixen amb les dreceres utilitzades per GMail. Veure <link xref="preferences"/> per detalls.</p>
+
+    <p>La llista completa de les dreceres d'una sola tecla habilitades per aquesta preferència es poden trobar a l'ajuda de les dreceres de teclat.</p>
+  </section>
+
+
+</page>
