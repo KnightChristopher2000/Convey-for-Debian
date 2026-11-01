@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="write" xml:lang="cs">
+  <info>
+    <link type="guide" xref="index#overview"/>
+  </info>
+  <title>Psaní nových e-mailů a odpovídání</title>
+
+  <section id="overview">
+    <title>Psaní zpráv a odpovídání</title>
+
+    <p>Abyste začali novou e-mailovou konverzaci, klikněte na tlačítko <gui style="button">Napsat zprávu</gui> na nástrojové liště. Zadejte e-mailové adresy lidí, kterým se má zpráva poslat, do textového pole <gui style="input">Komu</gui> a do pole <gui style="input">Předmět</gui> zadejte předmět zprávy. Vlastní text zprávy se píše do textové oblasti pod těmito poli. Až je zpráva nachystaná k odeslání, klikněte na <gui style="button">Odeslat</gui>, nebo zmáčkněte <keyseq><key>Ctrl</key><key>Enter</key></keyseq>, a zpráva se odešle.</p>
+
+    <note style="tip">
+      <title>Zrušení odesílání</title>
+      <p>Při odesílání e-mailu Convey čeká 5 sekund před tím, než zprávu skutečně doručí. Během této doby máte šanci odeslání zastavit kliknutím na <gui style="button">Zpět</gui> ve vyskakovacím upozornění, které se objeví, nebo zmáčknutím <keyseq><key>Ctrl</key><key>Z</key></keyseq>. Zpráva se znovu otevře v editoru a můžete pokračovat v úpravách.</p>
+    </note>
+
+    <p>Aby se vám zobrazila pole <gui style="input">Kopie</gui>, <gui style="input">Skrytá kopie</gui> a <gui style="input">Odpověď</gui>, klikněte na tlačítko <gui style="input">Další volby</gui> na konci pole <gui style="input">Komu</gui>. „Kopie“ slouží k zaslání kopie zprávy dalším příjemcům, kteří by měli vzít zprávu na vědomí. „Skrytá kopie“ funguje podobně, jen hlavní příjemci neuvidí příjmce kopií. Pole „Odpověď“ určuje e-mailovou adresu, na kterou se má odpovídat v případě, že chcete aby se lišila od adresy odesílatele.</p>
+
+    <p>Když zadáváte e-mailovou adresu do některého z těchto polí, Convey vám bude nabízet návrhy z vašeho adresáře a z dříve odeslaných a přijatých e-mailových zpráv. Pokud se pro některý z návrhů rozhodnete, stačí na něj kliknout.</p>
+
+    <p>Pokud chcete odpovědět na právě vybranou konverzaci, klikněte na tlačítko <gui style="button">Odpovědět</gui>, <gui style="button">Odpovědět všem</gui> nebo <gui style="button">Přeposlat</gui> na nástrojové liště. Otevře se editor s novou odpovědí, respektive přeposílanou zprávou, vycházející z poslední zprávy v konverzaci.</p>
+
+    <p>Při odpovídání je původní zpráva označena jako citace a zkopírována do spodní části odpovědi. Než začnete psát, můžet ji smazat zmáčknutím <key>Backspace</key>. Případně lze citovat jen vybranou část zprávy tím, že ve zprávě vyberete požadovaný text a kliknete na <gui style="button">Odpovědět</gui>, <gui style="button">Odpovědět všem</gui>. Pak se ocituje jen vybraná část.</p>
+
+    <p>Když chcete odpovědět na konkrétní zprávu, otevřete nabídku zprávy v pravém horním rohu zprávy a zvolte <gui>Odpovědět</gui>, <gui>Odpovědět všem</gui> nebo <gui>Přeposlat</gui>.</p>
+  </section>
+
+  <section id="features">
+    <title>Formátování textu, obrázky a přílohy</title>
+
+    <p>V Convey v editoru zpráv můžete používat různé styly textu, jako <em>tučný</em> nebo <em>kurzíva</em>, odsazení citací a odkazy na webové stránky. Stačí text vybrat a pak kliknout na příslušné tlačítko na nástrojové liště v dolní části editoru.</p>
+
+    <p>Seznamy s odrážkami a číslované seznamy lze vytvářet a rušit kliknutím na <gui style="button">Seznam s odrážkami</gui> a <gui style="button">Číslovaný seznam</gui> na nástrojové liště formátování. Úroveň odsazení položek seznamu se dá upravit pomocí tlačítek <gui style="button">Osadit</gui> a <gui style="button">Zrušit odsazení</gui> na téže liště.</p>
+
+    <p>Obrázky se do formátovaného textu vkládají kliknutím na tlačítko <gui style="button">Vložit obrázek</gui> na nástrojové liště formátování a následným vybráním obrázku, nebo přetažením obrázku z aplikace <gui>Soubory</gui> do těla zprávy a následným upuštěním, a nebo vložením obrázku ze schránky, kam jste jej předtím zkopírovali z jiné aplikace.</p>
+
+    <p>Dokumenty, hudbu, videa a další soubory lze do e-mailu připojit jako přílohu kliknutím na tlačítko <gui style="button">Přiložit soubor</gui> v dolní části okna editoru a následným vybráním souboru, který chcete přiložit. Nebo můžete soubor přetáhnout z aplikace <gui>Soubory</gui> do okna editoru a tam jej upustit buď na některé z textových polí v horní části okna nebo na nástrojovou lištu v dolní části.</p>
+
+    <p>Řada klávesových zkratek je dostupná v editoru zpráv, podrobnosti viz <link xref="shortcuts"/>.</p>
+
+    <p>V dialogovém okně <link xref="accounts"/> v editoru můžete vytvořit podpis, který se bude vkládat do patičky e-mailu.</p>
+  </section>
+
+  <section id="spellcheck">
+    <title>Kontrola pravopisu</title>
+
+    <p>Convey podporuje kontrolu pravopisu během psaní e-mailu v jednom či více jazycích. Když ji chcete zapnout, nejprve si ověřte, že máte v počítači nainstalované slovníky pro kontrolu pravopisu v požadovaných jazycích. Pokud je nemáte, najdete v nápovědě svého systému, jak slovníky nainstalovat.</p>
+
+    <p>Pro vybrání kontrolovaného jazyka klikněte na tlačítko <gui style="button">Vybrat jazyk pro kontrolu pravopisu</gui> na nástrojové liště formátování a objeví se vyskakovací dialogové okno s výběrem jazyka. Kliknutím na jazyk v seznamu jej povolíte nebo zakážete a kliknutím na tlačítko <gui style="button">-</gui> jej ze seznamu odeberete pryč. Jestliže se jazyk v seznamu nenachází, vyhledejte jej zapsáním jeho názvu do vyhledávacího pole a pak jej kliknutím na tlačítko <gui style="button">+</gui> přidejte.</p>
+  </section>
+
+  <section id="drafts">
+    <title>Ukládání konceptů a obnovování zahozených zpráv</title>
+
+    <p>Na poštovních serverech, které podporují koncepty, ukládá Gerary zprávy automaticky v krátkých intervalech během psaní na dotyčný server.</p>
+
+    <p>Když chcete pokračovat ve psaní stávajícího konceptu, vyberte v seznamu složek složku <gui>Koncepty</gui>, vyberte zprávu a klikněte v prohlížeči konverzací na „Upravit koncept“ .</p>
+
+    <p>Po odeslání zprávy Convey koncept smaže.</p>
+
+    <note style="tip">
+      <p>Když uložíte nebo zahodíte rozepsaný e-mail, můžete jej znovu otevřít kliknutím na <gui style="button">Zpět</gui> ve vyskakovacím upozornění, které se objeví, nebo zmáčknkutím <keyseq><key>Ctrl</key><key>Z</key></keyseq>. Editor lze znovu otevřít do 30 minut od chvíle, kdy byl zavřen. Po uplynutí této doby již musíte zprávu znovu otevřít jedině ze složky <gui>Koncepty</gui>, pokud se tam nachází.</p>
+    </note>
+  </section>
+
+  <section id="plain-text">
+    <title>Čistě textové zprávy</title>
+
+    <p>Convey může odesílat také zprávy v podobě prostého textu. Zmáčkněte tlačítko <gui style="button">Další volby</gui> na konci dolní nástrojové lišty a pak si vyberte mezi „Formátovaným textem“ nebo „Prostým textem“. Prostý text se hodí, když posíláte e-mail do poštovní konference, které často zprávy s formátovaným textem (HTML) zakazují, nebo když posíláte zprávy lidem, kteří nemají takový moderní poštovní program, jako je Convey.</p>
+
+    <p>V režimu prostého textu bude text automaticky zalamován pomocí měkkého zalomení tak, aby nebyl širší než 74 zanků, a odsazený text bude uvozen pomocí znaku „&gt;“ pro každou úroveň odsazení.</p>
+  </section>
+
+</page>

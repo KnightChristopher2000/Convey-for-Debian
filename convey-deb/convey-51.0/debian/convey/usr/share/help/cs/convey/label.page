@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="label" xml:lang="cs">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="preferences"/>
+    </info>
+	<title>Přiřazování štítků a přesun konverzací</title>
+	<section id="label-conversation">
+	<title>Přidělení štítku konverzaci</title>
+	<p>Convey umožňuje každé konverzaci přidělit jeden nebo i více <em>štítků</em>. Štítky jsou u Convey to stejné jako štítky u Gmailu nebo běžné složky u jiných poštovních služeb.</p>
+	<p>Když chcte jedné či více konverzacím přidělit štítek, nejprve je vyberte a potom použijte jeden z následujících postupů:</p>
+	<list>
+	<item><p>Klikněte na tlačítko <gui>Štítek</gui> na nástrojové liště a vyberte štítek z výsledné rozbalovací nabídky.</p></item>
+	<item><p>Držte zmáčknutou klávesu <key>Ctrl</key> a přetáhněte konverzaci či konverzace ze seznamu konverzací do štítku v postranním panelu.</p></item>
+	</list>
+	</section>
+	<section id="move-conversation">
+	<title>Přesunutí konverzace do složky nebo štítku</title>
+	<p>Když chcete jednu nebo více konverzací přesunout do složky nebo štítku, nejprve je vyberte a pak použijte jeden z následujících postupů:</p>
+	<list>
+	<item><p>Klikněte na tlačítko <gui>Přesunout</gui> na nástrojové liště a vyberte složku nebo štítek z výsledné rozbalovací nabídky.</p></item>
+	<item><p>Přetáhněte konverzaci či konverzace ze seznamu konverzací do složky nebo štítku v postranním panelu.</p></item>
+	</list>
+	</section>
+</page>

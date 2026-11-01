@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="contributing" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="bugs"/>
+  </info>
+
+  <title>Přispívání do Convey</title>
+
+  <p>Chcete pomáhat vylepšovat aplikaci Convey? Zde je několik způsobů, jak můžete přispět:</p>
+
+  <list>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">Hlášení chyb</link> — hlaste nové chyby nebo navrhujte novou funkcionalitu</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Translating">Překládání</link> — překládejte uživatelské rozhraní aplikace Convey a její uživatelskou příručku do svého rodného jazyka</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Development">Programátorský vývoj</link> — opravujte chyby a přidávejte nové funkce</p></item>
+  </list>
+
+  <p>Více informací a možností finančního přispívání na vývoj Convey viz <link href="https://wiki.gnome.org/Apps/Geary/Contribute">wiki</link></p>
+</page>

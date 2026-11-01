@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="overview" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#introduction"/>
+  </info>
+
+  <title>Přehled</title>
+
+  <p>Convey je e-mailová aplikace pro uživatelské prostředí GNOME, postavená na konverzacích. Umožňuje číst, vyhledávat a posílat e-maily přímočarým způsobem a v moderním rozhraní.</p>
+
+  <p>Díky konverzacím můžete číst ucelené diskuze bez hledání příslušných zpráv a překlikávání z jedné na druhou.</p>
+
+  <p>Hlavní okno Convey je rozděleno na několik částí: seznam složek, seznam konverzací a zobrazení konverzací.</p>
+
+  <section id="folder-list">
+    <title>Seznam složek</title>
+
+    <p><em>Seznam složek</em> zobrazuje všechny <em>složky</em> a <em>štítky</em> ve vašem poštovním účtu. Convey používá výraz <em>štítek</em> pro libovolnou složku, kterou jste vytvořili za účelem roztřídění svých zpráv. </p>
+
+    <p>Vyberte složku nebo štítek, ze kterých se mají zobrazit konverzace do seznamu konverzací.</p>
+  </section>
+
+  <section id="conversation-list">
+    <title>Seznam konverzací</title>
+
+    <p><em>Seznam konverzací</em> zobrazuje seznam konverzací ve vybrané složce. Nejnovější konverzace se zobrazují nahoře.</p>
+
+    <p>Jméno každého odesilatele, od kterého máte nějakou nepřečtenou zprávu, se zobrazí tučně. Pokud je v konverzaci více než jedna zpráva, zobrazí Convey počet zpráv v konverzaci.</p>
+
+    <p>Convey automaticky nestahuje všechny zprávy ve všech vašich poštovních složkách. Když poprvé navštívíte svoji složku s doručenou poštou (nebo nějakou jinou), Convey stáhne nejnovější zprávy ve složce. Abyste viděli více zpráv, stačí se v seznamu konverzace posouvat dolů a další zprávy se boudou automaticky získávat.</p>
+
+    <p>Některé příkazy lze v Convey použít na skupinu konverzací. Abyste označili více konverzací, držte zmáčknutou klávesu <key>Ctrl</key> a postupně v seznamu konverzací klikněte na každou konverzaci, kterou chcete vybrat. Případně můžete označit celý blok tak, že kliknete na první konverzaci, podržíte <key>Shift</key> a kliknete na poslední konverzaci.</p>
+  </section>
+
+  <section id="conversation-viewer">
+    <title>Zobrazení konverzací</title>
+
+    <p>V <em>zobrazení konverzací</em> jsou zobrazeny všechny zprávy z vybrané konverzace, přičemž nejstarší zpráva je nejvíc nahoře.</p>
+
+    <p>Když si zobrazíte konverzaci, Convey sbalí zprávy, které jste již četli. Kliknutím na sbalené zprávy je rozbalíte. Kliknutím na hlavičku rozbalené zprávy je sbalíte.</p>
+
+    <p>Kliknutím na jméno nebo e-mailovou adresu odesilatele nebo příjemce zprávy se otevře <em>nabídka kontaktu</em>, které zobrazuje dodatečné údaje a volby pro e-mailovou adresu. Můžete tak začít novou konverzaci, zkopírovat e-mailovou adresu do schránky a vyhledat související konverzace. Pokud se e-mailová adresa nachází ve vašem hlavním adresáři pro uživatelském prostředí, ukáže se vám fotografie, upřednostňované jméno a jestli se jedná o oblíbený kontakt. Můžete také kontakt otevřít v adresáři. Pokud se v něm e-mailová adresa prozatím nenachází, můžete si zvolit, že ji tam chcete přidat a aktualizovat nastavení týkající se načítání vzdálených obrázků u této e-mailové adresy.</p>
+
+    <p>Kliknutím na hvězdičku u jednotlivých zpráv je označíte, případně zrušíte jejich označení, jako s hvězdičkou. Zpráva s hvězdičkou způsobí, že je celá konverzace s hvězdičkou a při návratu do konverzace Convey zobrazí právě první zprávu s hvězdičkou.</p>
+
+    <p>Kliknutím na tlačítko nabídky u jednotlivých zpráv otevřete <em>nabídku zprávy</em>, pomocí které můžete odpovědě na konkrétní zprávu, přeposlat ji, označit ji jako přečtenou nebo nepřečtenou, vytisknout ji apod.</p>
+
+    <p>Případné přílohy zprávy se objeví ve spodní části zprávy. Dvojitým kliknutím na přílohu ji otevřete, nebo použijte tlačítka Otevřít a Uložit k otevření, respektive uložení, vybraných příloh.</p>
+  </section>
+
+</page>

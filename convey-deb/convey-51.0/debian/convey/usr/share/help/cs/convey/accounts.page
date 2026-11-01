@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="accounts" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="archive"/>
+  </info>
+
+  <title>Účty</title>
+
+  <section id="accounts-editor">
+    <title>Editor účtů</title>
+
+    <p>Poštovní účty můžete přidávat, měnit a odebírat pomocí <em>editoru účtů</em>. Když jej chcete otevřít, zmáčkněte tlačítko nabídky v hlavním okně aplikace Convey na seznamem složek a vyberte v rozbalené nabídce položku <gui>Účty</gui>.</p>
+
+    <p>Pokud chcete změnit pořadí účtů zobrazených v seznamu složek, přetáhněte v editoru účtů myší účet na požadované místo, nebo jej zaměřte pomocí klávesy <key>Tab</key> a pak ke změně pozice použijte <keyseq><key>Ctrl</key><key>↑</key></keyseq> a <keyseq><key>Ctrl</key><key>↓</key></keyseq>.</p>
+  </section>
+
+  <section id="adding-accounts">
+    <title>Přidávání účtů</title>
+
+    <p>Convey bude automaticky používat libovolný poštovní účet, který jste přidali přes panel <app>Účty on-line</app> v <app>Nastaveních GNOME</app>. Pokud v <app>Účtech on-line</app> žádný účet přidaný nemáte, budete na přidání účtu dotázáni při prvním spuštění aplikace Convey.</p>
+
+    <p>Když chcete přidat další účet, otevřete editor účtů a pak zvolte v seznamu v dolní části okna příslušného poskytovatele e-mailu. Pro poskytovatele podporované v <app>Účtech on-line</app> bude otevřeno <app>Nastaveních GNOME</app> a k zadání údajů budete vyzváni tam. Pro ostatní poskytovatele e-mailu budete na údaje dotázáni přímo aplikací Convey. Až je zadáte, zmáčkněte <gui>Vytvořit</gui> a údaje budou zkontrolovány a přidány.</p>
+  </section>
+
+  <section id="editing-accounts">
+    <title>Změna stávajících účtů</title>
+
+    <p>Když chcete změnit stávající účet, otevřete editor účtů a vyberte požadovaný účet. Convey zobrazí jeho nastavení a vy pak můžete přidávat a odebírat dodatečné e-mailové adresy odesilatele, upravovat podpis e-mailu a měnit různá jiná nastavení.</p>
+
+    <p>Nastavení <gui>Stahovat e-maily</gui> umožňuje určit, kolik zpráv bude Convey stahovat a uchovávat místně. Jen místně uložené zprávy může Convey zobrazovat a vyhledávat pro konverzace.</p>
+
+    <p>Když chcete upravit nastavení serveru pro daný účet, posuňte se do spodní části okna a zmáčkněte <gui>Nastavení serveru</gui>. Zobrazí se nastavení serveru a klikáním je můžete měnit. Až máte vše podle požadavku, zmáčkněte <gui>Použít</gui> a Convey nastavení zkontroluje a po té aktualizuje účet. Upozorňujeme, že u účtů přidaných přes panel <app>Účty on-line</app> v <app>Nastaveních GNOME</app> nelze měnit jejich název, zabezpečení, přihlašovací jméno a heslo.</p>
+
+    <p>Zaškrtávací políčko <gui>Ukládat koncepty zpráv na serveru</gui> řídí, jestli editor bude ukládat kopie rozepsaných e-mailových zpráv do složky <gui>Koncepty</gui>. Pokud políčko není zaškrtnuté, nebudete moci při zavření editoru uložit koncept zprávy.</p>
+
+    <p>Zaškrtávací políčko <gui>Ukládat odeslané zprávy na serveru</gui> řídí, jestli Convey bude ukládat kopie zpráv, které odešly, do složky <gui>Odeslané</gui>. Pokud políčko není zaškrtnuté, nebudete si moci prohlížet zprávy, které jste odeslali, ledaže je automaticky ukládá server.</p>
+  </section>
+
+  <section id="removing-accounts">
+    <title>Odebírání účtů</title>
+
+    <p>Účty, které byly přidány přes panel <app>Účty on-line</app> v <app>Nastaveních GNOME</app> je zapotřebí odebrat i tam. Když tak chcete učinit, otevřete <app>Účty on-line</app>, vyberte účet a zmáčkněte <gui>Odebrat</gui>.</p>
+
+    <p>Když chcete odebrat účet přidaný přímo v Convey, otevřete editor účtů a zvolte účet, jenž si přejete odebrat. Convey zobrazí jeho nastavení. Posuňte se do spodní části okna a zmáčkněte <gui>Odebrat účet</gui>.</p>
+  </section>
+
+</page>

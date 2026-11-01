@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="limits" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+  </info>
+
+  <title>Omezení</title>
+
+  <p>Convey je prozatím ve stádiu ranného vývoje. Podporuje IMAP a byl testován vůči poštovním serverům Gmail, Yahoo a svobodnému Dovecotu. Pokusně je poskytována podpora pro Outlook.com. S některými jinými servery IMAP nemusí Convey pracovat úplně správně. V současnosti schází také řada různých funkcí, včetně práce při odpojení od sítě.</p>
+
+  <p>To learn more about the features we're working on and the future
+  of Convey, please visit Convey's <link href="https://wiki.gnome.org/Apps/Geary">wiki page</link>.</p>
+
+</page>

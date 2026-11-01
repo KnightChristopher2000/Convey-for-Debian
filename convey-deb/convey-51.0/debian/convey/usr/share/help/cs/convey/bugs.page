@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="bugs" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="limits"/>
+  </info>
+
+  <title>Potřebujete s Convey pomoct?</title>
+
+  <section id="getting-support">
+    <title>Získání podpory</title>
+
+    <p>If you are having trouble using Convey, please <link href="https://wiki.gnome.org/Apps/Geary/Contact">get in
+    touch</link> with the Convey community about the problem.</p>
+  </section>
+
+  <section id="reporting-bugs">
+    <title>Hlášení chyb</title>
+
+    <p>Jestliže předpokládáte, že jste v Convey našli chybu, postupujte prosím podle <link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">návodu k hlášení chyb</link>, aby bylo možné problém diagnostikovat a opravit.</p>
+
+    <p>Abyste jim pomohli problém co nejrychleji diagnostikovat, doplňte prosím do zprávy tyto informace:</p>
+
+    <list>
+      <item><p>Verze aplikace Convey a způsob její instalace (distribuční balíček, Flathub, zdrojový kód, …)</p></item>
+      <item><p>Vaše uživatelské prostředí (GNOME, KDE, Xfce, …)</p></item>
+      <item><p>Váš operační systém a jeho verze (Ubuntu 18.04, Fedora 28, FreeBSD, …)</p></item>
+      <item><p>Poskytovatel e-mailu (Gmail, Yahoo!, Outlook.com, …)</p></item>
+      <item><p>Kroky vedoucí k zopakování chyby</p></item>
+      <item><p>Co se stalo</p></item>
+      <item><p>Co jste očekávali, že se má stát</p></item>
+    </list>
+
+    <p>K souborům se záznamy se dostanete pomocí Inspektora Convey. Otevřete jej zmáčknutím <keyseq><key>Alt</key><key>I</key></keyseq>, vyberte a uložte příslušný soubor se záznamy a připojte jej k hlášení chyby.</p>
+  </section>
+
+</page>

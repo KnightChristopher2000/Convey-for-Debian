@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="star" xml:lang="cs">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="write"/>
+    </info>
+	<title>Označení zprávy hvězdičkou nebo jako přečtená/nepřečtená</title>
+	<section id="star-messages">
+	<title>Označení zpráv hvězdičkou</title>
+	<p>Zprávy si můžete označovat hvězdičkou, abyste věděli, že jsou pro vás důležité. Pokud tak chcete učinit, klikněte na ikonu hvězdičky u konverzace v seznamu konverzací. Hvězdičkou můžete označit i jednotlivou zprávu, stačí kliknout na hvězdičku v pravém horním rohu zprávy.</p>
+	<p>V účtech Gmail se zprávy označené hvězdičkou objeví ve složce „S hvězdičkou“ v seznamu složek.</p>
+	</section>
+	<section id="mark-read-unread">
+	<title>Označování zpráv, jako přečtené nebo nepřečtené</title>
+	<p>Convey označuje zprávy automaticky jako přečtené, když si je přečtete. Když chcete zprávu jako přečtenou či nepřečtenou označit ručně, klikněte na ikonu kolečka v seznamu konverzace.</p>
+	
+	<p>Případně můžete k přepnutí stavu přečteno/nepřečteno u vybrané konverzace použít <gui>Označit jako přečtené</gui> či <gui>Označit jako nepřečtené</gui> v nabídce <gui>Označit</gui> na nástrojové liště.</p>
+	
+	<p>Pro označení jednotlivé zprávy jako přečtené vyberte <gui>Označit jako přečtené</gui> v rozbalovací nabídce.</p>
+	
+	</section>
+</page>

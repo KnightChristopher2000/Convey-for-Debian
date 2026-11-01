@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="search" xml:lang="cs">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="star"/>
+    </info>
+	<title>Hledání</title>
+	
+	<p>Convey podporuje vyhledávání v úplně všech textech v jednotlivých účtech. Když chcete vyhledávat, vyberte složku patřící k účtu, ve kterém si přejete hledat. Pak klikněte na vyhledávací pole na nástrojové liště (nebo zmáčkněte <keyseq><key>Ctrl</key><key>S</key></keyseq>) a začněte psát. Po chvilce se začnou objevovat výsledky.</p>
+	
+	<p>Rozsah vyhledávání pokrývá text zpráv, e-mailové adresy (od, komu a kopie), řádek s předmětem a názvy souborů v přílohách.</p>
+	
+	<p>Klíčová slova, která vyhovují vašemu hledání, se v zobrazení zprávy zvýrazní. Convey umí rozpoznat i různé varianty téhož slova, například při hledání „oběd“ bude vyhovovat i „obědvat“ a „obědový“.</p>
+	
+	<section id="search-operators">
+	<title>Operátory vyhledávání</title>
+	<p>Convey podporuje následující operátory omezující rozsah vyhledávání:</p>
+	<table frame="all" rules="rows">
+	<tr>
+		<td><p><input>attachment:<var>název_souboru</var></input></p></td>
+		<td><p>Najít zprávy, jejich přílohy mají název odpovídající <var>názvu_souboru</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>bcc:<var>příjemce</var></input></p></td>
+		<td><p>Najít zprávy, ve kterých <var>příjemce</var> odpovídá e-mailové adrese v poli „Skrytá kopie“.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>body:<var>text</var></input></p></td>
+		<td><p>Najít zprávy, jejichž tělo obsahuje <var>text</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cc:<var>příjemce</var></input></p></td>
+		<td><p>Najít zprávy, ve kterých <var>příjemce</var> odpovídá e-mailové adrese v poli „Kopie“.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>from:<var>odesilatel</var></input></p></td>
+		<td><p>Najít zprávy, ve kterých <var>odesilatel</var> odpovídá e-mailové adrese v poli „Od“.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:read</input></p></td>
+		<td><p>Najít zprávy, které jsou označené jako přečtené.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:starred</input></p></td>
+		<td><p>Najít zprávy, které jsou označené hvězdičkou</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:unread</input></p></td>
+		<td><p>Najít zprávy, které jsou označené jako nepřečtené.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>subject:<var>text</var></input></p></td>
+		<td><p>Najít zprávy, jejichž předmět obsahuje <var>text</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>to:<var>příjemce</var></input></p></td>
+		<td><p>Najít zprávy, ve kterých <var>příjemce</var> odpovídá e-mailové adrese v polích „Komu“, „Kopie“ nebo „Skrytá kopie“.</p></td>
+	</tr>
+	</table>
+
+	<p>Jako speciální případ podporují operátory <input>bcc</input>, <input>cc</input>, <input>from</input> a <input>to</input> argument <input>me</input>, který hledá e-mailové adresy účtu v příslušném kontextu.</p>
+	</section>
+</page>
