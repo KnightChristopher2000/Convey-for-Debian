@@ -1,0 +1,76 @@
+Source: convey
+Section: mail
+Maintainer: Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Danial Behzadi <dani.behzi@ubuntu.com>,
+Build-Depends:
+ debhelper-compat (= 14),
+ architecture-is-little-endian,
+ aspell-en <!nocheck>,
+ ca-certificates <!nocheck>,
+ dbus-daemon <!nocheck>,
+ desktop-file-utils,
+ gettext,
+ gnutls-bin <!nocheck>,
+ gobject-introspection,
+ iso-codes,
+ itstool,
+ libadwaita-1-dev,
+ libcairo2-dev,
+ libenchant-2-dev,
+ libfolks-dev,
+ libgck-2-dev,
+ libgcr-4-dev,
+ libgee-0.8-dev,
+ libgio-2.0-dev,
+ libglib2.0-dev,
+ libgmime-3.0-dev,
+ libgoa-1.0-dev,
+ libgstreamer-plugins-bad1.0-dev,
+ libgstreamer1.0-dev,
+ libgtk-4-dev,
+ libical-dev,
+ libicu-dev,
+ libjavascriptcoregtk-6.0-dev,
+ libjson-glib-dev,
+ libmessaging-menu-dev,
+ libpeas-2-dev,
+ libsecret-1-dev,
+ libsoup-3.0-dev,
+ libsqlite3-dev,
+ libstemmer-dev,
+ libunwind-dev,
+ libwebkitgtk-6.0-dev,
+ libxml2-dev,
+ libytnef0-dev,
+ localehelper <!nocheck>,
+ meson,
+ valac,
+ xauth <!nocheck>,
+ xvfb <!nocheck>,
+Standards-Version: 4.7.4
+Homepage: https://gitlab.gnome.org/donnybeelo/convey
+Vcs-Browser: https://salsa.debian.org/gnome-team/extras/convey
+Vcs-Git: https://salsa.debian.org/gnome-team/extras/convey.git
+
+Package: convey
+Architecture: any
+Depends:
+ gnome-keyring | kwalletmanager,
+ ${misc:Depends},
+ ${shlibs:Depends},
+Provides:
+ imap-client,
+ mail-reader,
+Breaks:
+ geary (<< 47.0-1),
+Description: Send and receive email
+ Convey is an email application built around conversations, for the GNOME
+ desktop. It allows you to read, find and send email with a straightforward,
+ modern interface.
+ .
+ Conversations allow you to read a complete discussion without having to find
+ and click from message to message.
+ .
+ Convey is a fork of Geary, originally developed by the Geary Development Team
+ and the Software Freedom Conservancy.
