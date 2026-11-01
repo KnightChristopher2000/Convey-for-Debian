@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="search" xml:lang="fr">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="star"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014\n</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>vanadiae</mal:name>
+      <mal:email>vanadiae35@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2014, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irénée Thirion</mal:name>
+      <mal:email>irenee.thirion@e.email</mal:email>
+      <mal:years>2023</mal:years>
+    </mal:credit>
+  </info>
+	<title>Recherche</title>
+	
+	<p>Convey propose une recherche de texte par comptes. Pour débuter, sélectionnez un dossier associé au compte où vous voulez faire la recherche. Puis cliquez dans la barre de recherche de la barre d’outils (ou appuyez sur <keyseq><key>Ctrl</key><key>S</key></keyseq>) et commencez la saisie. Les résultats s’afficheront après un court délai.</p>
+	
+	<p>La recherche par texte inclus le texte des messages, les adresses courriel (champs « à », « de » et « cc »), les sujets et les noms des fichiers joints.</p>
+	
+	<p>Les mots clefs correspondants à votre recherche sont mis en évidence dans le panneau message. Convey détecte les formes analogues au mot recherché. Par exemple la recherche pour « marche » renverra aussi « marcher » et « marcheur ».</p>
+	
+	<section id="search-operators">
+	<title>Filtres de recherche</title>
+	<p>Convey permet d’utiliser les filtres suivants pour limiter les recherches :</p>
+	<table frame="all" rules="rows">
+	<tr>
+		<td><p><input>piècejointe:<var>nom de fichier</var></input></p></td>
+		<td><p>Recherche les messages avec une pièce jointe dont le nom correspond à <var>nom de fichier</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cci:<var>destinataire</var></input></p></td>
+		<td><p>Cherche les messages pour lesquels le <var>destinataire</var> correspond à l’en tête BCC.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>corps:<var>texte</var></input></p></td>
+		<td><p>Cherche les messages dont le corps contient le <var>texte</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cc:<var>destinataire</var></input></p></td>
+		<td><p>Cherche les messages dont le champ Cc correspond à <var>destinataire</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>de:<var>expéditeur</var></input></p></td>
+		<td><p>Cherche les messages dont le champ De correspond à <var>expéditeur</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>est:lu</input></p></td>
+		<td><p>Cherche les messages qui ont été marqués comme lus.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>est:marqué</input></p></td>
+		<td><p>Trouve les messages qui ont été marqués avec une étoile.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>est:non-lu</input></p></td>
+		<td><p>Cherche les messages qui ont été marqués non lus.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>objet:<var>texte</var></input></p></td>
+		<td><p>Cherche les messages dont l’objet contient <var>texte</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>à:<var>destinataire</var></input></p></td>
+		<td><p>Cherche les messages où l’<var>expéditeur</var> correspond aux champs De, Cc ou Cci du courriel.</p></td>
+	</tr>
+	</table>
+
+	<p>Cas particulier, les champs <input>cci</input>, <input>cc</input>, <input>de</input> et <input>à</input> acceptent <input>moi</input> comme argument, ce qui recherche l’adresse courriel du compte dans le contexte approprié.</p>
+	</section>
+</page>

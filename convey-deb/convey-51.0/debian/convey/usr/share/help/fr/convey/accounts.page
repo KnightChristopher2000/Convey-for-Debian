@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="accounts" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="archive"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014\n</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>vanadiae</mal:name>
+      <mal:email>vanadiae35@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2014, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irénée Thirion</mal:name>
+      <mal:email>irenee.thirion@e.email</mal:email>
+      <mal:years>2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Comptes</title>
+
+  <section id="accounts-editor">
+    <title>Éditeur de comptes</title>
+
+    <p>Vos comptes de courriel peuvent être ajoutés, mis à jour et retirés depuis l’<em>éditeur de comptes</em>. Pour l’ouvrir, cliquez sur le bouton menu d’application de Convey dans la fenêtre principale au dessus de la liste de dossiers, puis cliquez sur <gui>Comptes</gui> dans le menu déroulant.</p>
+
+    <p>Pour changer l’ordre d’affichage des comptes dans la liste de dossiers, cliquez-glissez la poignée d’un compte dans l’éditeur de comptes, ou donnez le focus à un compte avec <key>Tabulation</key>, puis utilisez <keyseq><key>Ctrl</key><key>↑</key></keyseq> et <keyseq><key>Ctrl</key><key>↓</key></keyseq> pour repositionner le compte actuellement sélectionné.</p>
+  </section>
+
+  <section id="adding-accounts">
+    <title>Ajout d’un compte</title>
+
+    <p>Convey utilisera automatiquement n’importe quel compte de courriel que vous avez ajouté via le panneau <app>Comptes en ligne</app> des <app>Paramètres</app>. Si vous n’avez pas de comptes ajoutés à <app>Comptes en ligne</app>, vous serez invités à en ajouter un lors du premier démarrage de Convey.</p>
+
+    <p>Pour ajouter des comptes supplémentaires, ouvrez l’éditeur de comptes puis choisissez le fournisseur de courriels qui convient dans la liste en bas de la fenêtre. Pour les fournisseur pris en charge par <app>Comptes en ligne</app>, les <app>Paramètres</app> s’ouvriront et vous aurez à donner là les informations du compte. Pour les autres fournisseurs de courriels, Convey vous demandera les informations de votre compte. Une fois saisies, cliquez sur <gui>Créer</gui> et les informations du compte seront vérifiées puis ajoutées.</p>
+  </section>
+
+  <section id="editing-accounts">
+    <title>Mettre à jour les comptes existants</title>
+
+    <p>Pour mettre à jour les comptes existants, ouvrez l’éditeur de comptes et choisissez le compte que vous souhaitez mettre à jour. Convey affiche les paramètres de ce compte. Dès lors, vous pouvez ajouter et retirer les adresses de messagerie des fournisseurs de courriel supplémentaires, modifier votre signature de courriel, et divers autres paramètres.</p>
+
+    <p>Le paramètre <gui>Télécharger les messages</gui> permet de configurer le nombre de courriels que Convey téléchargera et stockera localement. Convey peut seulement utiliser les courriels disponibles localement lors de l’affichage et la recherche de conversations.</p>
+
+    <p>Pour modifier les paramètres de serveur du compte, faites défiler vers le bas de la fenêtre et cliquez sur <gui>Paramètres du serveur</gui>. Vous pouvez cliquer sur les paramètres affichés pour les modifier. Cela fait, cliquez sur <gui>Appliquer</gui> et Convey vérifiera les paramètres puis mettra à jour le compte. Veuillez noter que, pour les comptes ajoutés à l’aide du panneau <app>Comptes en ligne</app> des <app>Paramètres</app>, on ne peut pas changer les paramètres nom de serveur, sécurité, identifiant, mot de passe.</p>
+
+    <p>La case à cocher <gui>Enregistrer les brouillons sur le serveur</gui> contrôle si l’éditeur doit enregistrer une copie des courriels en cours d’écriture dans le dossier <gui>Brouillons</gui>. Si elle n’est pas cochée, vous ne pourrez pas sauvegarder les courriels à l’état de brouillon à la fermeture de l’éditeur.</p>
+
+    <p>La case à cocher <gui>Enregistrer les messages envoyés sur le serveur</gui> contrôle si Convey enregistre une copie des courriels qui ont été transmis au dossier <gui>Messages envoyés</gui>. Si elle n’est pas cochée, vous n’aurez plus la possibilité de voir les messages de courriel que vous avez envoyés, sauf si votre serveur les enregistre automatiquement pour vous.</p>
+  </section>
+
+  <section id="removing-accounts">
+    <title>Suppression de comptes</title>
+
+    <p>Les comptes ajoutés depuis le panneau <app>Comptes en ligne</app> des <app>Paramètres</app> doivent aussi pouvoir être supprimés de ce même panneau. Pour cela, ouvrez <app>Comptes en ligne</app>, sélectionnez le compte et cliquez sur <gui>Supprimer</gui>.</p>
+
+    <p>Pour supprimer un compte ajouté via Convey, ouvrez l’éditeur de comptes et choisissez le compte que vous souhaitez supprimer. Convey affiche les paramètres du compte. Faites défiler la fenêtre vers le bas et cliquez sur <gui>Supprimer le compte</gui>. Il vous sera demandé de confirmer la suppression du compte. Après confirmation, si vous avez changé d’avis vous pouvez toujours annuler cette suppression  en cliquant sur <gui>Annuler</gui> dans la fenêtre de notification qui surgit, ou en tapant <keyseq><key>Ctrl</key><key>U</key></keyseq>.</p>
+  </section>
+
+</page>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="overview" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#introduction"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014\n</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>vanadiae</mal:name>
+      <mal:email>vanadiae35@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2014, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irénée Thirion</mal:name>
+      <mal:email>irenee.thirion@e.email</mal:email>
+      <mal:years>2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Aperçu</title>
+
+  <p>Convey est une application de courriel construite autour de conversations, pour le bureau GNOME 3. Elle vous permet de lire, trouver et envoyer des courriels avec une interface moderne et facile à utiliser.</p>
+
+  <p>Les conversations vous permettent de lire une discussion en entier sans avoir à trouver et cliquer de message en message.</p>
+
+  <p>La fenêtre principale de Convey est divisée en plusieurs zones : la liste de dossiers, la liste des conversations et le visionneur de conversation.</p>
+
+  <section id="folder-list">
+    <title>Liste des dossiers</title>
+
+    <p>La <em>liste des dossiers</em> affiche tous les <em>dossiers</em> et <em>étiquettes</em> de votre compte de courriel. Convey utilise le terme <em>étiquette</em> pour n’importe quel dossier que vous avez créé afin d’organiser vos messages.</p>
+
+    <p>Sélectionnez un dossier ou une étiquette pour afficher dans la liste des conversations les conversations qu'il ou elle contient.</p>
+  </section>
+
+  <section id="conversation-list">
+    <title>Liste des conversations</title>
+
+    <p>La <em>liste des conversations</em> affiche les conversations dans le dossier sélectionné. Les conversations les plus récentes sont en haut.</p>
+
+    <p>Chaque nom d’expéditeur figure en gras s’il y a des messages non lus qui proviennent de lui. Si une conversation contient plusieurs messages, Convey affiche leur nombre.</p>
+
+    <p>Convey ne télécharge pas automatiquement tous les messages dans chacun des dossiers de messagerie. Quand vous ouvrez la boîte de réception ou tout autre dossier pour la première fois, Convey télécharge les messages les plus récents dans ce dossier. Pour voir plus de messages, faites défiler la liste des conversations et Convey téléchargera automatiquement plus de messages.</p>
+
+    <p>Certaines commandes de Convey peuvent s’appliquer à un groupe de conversations. Pour sélectionner plusieurs conversations, gardez la touche <key>Ctrl</key> enfoncée et cliquez sur chaque conversation à sélectionner. Vous pouvez aussi cliquer sur la première conversation d’une série, garder la touche <key>Maj</key> enfoncée et cliquer sur la dernière.</p>
+  </section>
+
+  <section id="conversation-viewer">
+    <title>Visionneur de conversation</title>
+
+    <p>Le <em>visionneur de conversation</em> affiche tous les messages de la conversation sélectionnée, avec le message le plus ancien tout en haut.</p>
+
+    <p>Quand vous visionnez une conversation, Convey replie les messages que vous avez déjà lus. Cliquez sur les messages repliés pour les déplier. Cliquez sur l’en-tête d’un message déplié pour le replier.</p>
+
+    <p>Cliquez sur le nom ou l’adresse de courriel du destinataire ou de l’expéditeur pour un message afin d’ouvrir le <em>menu du contact</em> qui affichera des informations supplémentaires et des options pour l’adresse de courriel. Vous pouvez débuter une nouvelle conversation, copier l’adresse de courriel dans le presse-papier et rechercher des conversations apparentées. Si l’adresse de courriel est présente dans le carnet d’adresses de l’ordinateur, il montrera la photo du contact, son nom préféré et si c’est un contact favori. Vous pouvez aussi ouvrir le contact dans le carnet d’adresse. Si l’adresse de courriel n’est pas déjà présente, vous pouvez choisir de l’ajouter au carnet d’adresse et de mettre à jour la préférence pour le chargement des images distantes concernant cette adresse.</p>
+
+    <p>Cliquez sur le bouton étoile présent sur chaque message pour marquer ou dé-marquer un message avec une étoile. Marquer un message d’une étoile marquera l’ensemble de la conversation avec une étoile, et Convey affichera le premier message marqué d’une étoile dans une conversation quand il y revient.</p>
+
+    <p>Cliquez sur le bouton de menu présent sur chaque message pour ouvrir le <em>menu du message</em> qui vous permet de répondre et transférer un message spécifique, mettre à jour les messages marqués comme lus ou non-lus, imprimer un message et ainsi de suite.</p>
+
+    <p>Toute pièce jointe à un message figure en bas du message. Double-cliquez sur une pièce jointe pour l’ouvrir ou utilisez le bouton Ouvrir et Enregistrer pour ouvrir et enregistrer les pièces jointes sélectionnées.</p>
+  </section>
+
+</page>

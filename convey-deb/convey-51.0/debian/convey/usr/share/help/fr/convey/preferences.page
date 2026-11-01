@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="preferences" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="search"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014\n</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>vanadiae</mal:name>
+      <mal:email>vanadiae35@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2014, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irénée Thirion</mal:name>
+      <mal:email>irenee.thirion@e.email</mal:email>
+      <mal:years>2023</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Préférences</title>
+
+  <p>Convey vous permet de personnaliser son fonctionnement avec sa fenêtre <gui style="group">Préférences</gui>. Pour ouvrir la fenêtre, sélectionnez <gui style="menuitem">Préférences</gui> depuis le menu de l’application dans la barre d’outils de la fenêtre principale. Vous pouvez changer les options suivantes :</p>
+
+  <terms>
+    <item>
+      <title><gui>Sélectionner automatiquement le message suivant</gui></title>
+      <p>Si cette option est activée, Convey sélectionne automatiquement le dernier message quand vous sélectionnez un dossier. De plus, après avoir archivé un message, Convey sélectionne automatiquement un message adjacent.</p>
+    </item>
+    <item>
+      <title><gui>Afficher l’aperçu de la conversation</gui></title>
+      <p>Active l’aperçu des messages dans la liste des conversations. L’aperçu montre quelques lignes du début de chaque message.</p>
+    </item>
+    <item>
+      <title><gui>Utiliser les raccourcis clavier d’une seule touche pour le courriel</gui></title>
+      <p>Activer les raccourcis clavier pour les actions de messagerie qui ne nécessitent pas d’appuyer sur<key>Ctrl</key>. Ceux-ci correspondent aux raccourcis utilisés par GMail. Référez-vous à <link xref="shortcuts"/> pour plus de détails.</p>
+    </item>
+    <item>
+      <title><gui>Vérifier s’il y a de nouveaux messages après la fermeture</gui></title>
+      <p>Convey surveillera vos comptes dans l’attente de nouveaux courriels même lorsque la fenêtre principale n’est pas ouverte. </p>
+    </item>
+  </terms>
+
+</page>
