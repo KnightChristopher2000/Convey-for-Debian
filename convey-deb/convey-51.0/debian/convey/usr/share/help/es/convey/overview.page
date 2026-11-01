@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="overview" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#introduction"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2014 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Adolfo Jayme Barrientos</mal:name>
+      <mal:email>fitojb@ubuntu.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Información general</title>
+
+  <p>Convey es una aplicación de correo-e pensada para las conversaciones, para el escritorio GNOME 3. Le permite leer, buscar y enviar correos con una interfaz sencilla y moderna.</p>
+
+  <p>Las conversaciones le permiten leer un hilo completo si tener que buscar y pulsa cada mensaje individual.</p>
+
+  <p>La ventana principal de Convey se divide en varias áreas: la lista de carpetas, la lista de conversaciones y el visor de conversaciones.</p>
+
+  <section id="folder-list">
+    <title>Lista de carpetas</title>
+
+    <p>La <em>lista de carpetas</em> muestra todas las <em>carpetas</em> y <em>etiquetas</em> de sus cuentas de correo. Convey usa el término <em>etiqueta</em> para cualquier carpeta que se crea para organizar los mensajes.</p>
+
+    <p>Seleccione una carpeta o etiqueta para mostrar la conversación que contiene en la lista de conversaciones.</p>
+  </section>
+
+  <section id="conversation-list">
+    <title>Lista de conversaciones</title>
+
+    <p>La <em>lista de conversación</em> muestra una lista de conversaciones en la carpeta seleccionada. Las conversaciones más nuevas se muestran al comienzo.</p>
+
+    <p>Cada nombre de remitente se muestra en negrita si hay mensajes sin leer del remitente. Si una conversación tiene más de un mensaje, Convey muestra el número de mensajes en la conversación.</p>
+
+    <p>Convey no descarga automáticamente todos los mensajes en todas las carpetas de correo. Cuando se visualiza por primera vez la Bandeja de entrada o cualquier otra carpeta, Convey descarga los mensajes más recientes. Para ver más mensajes, desplácese hacia abajo la lista de conversación y Convey recuperará más mensajes automáticamente.</p>
+
+    <p>Algunos comandos en Convey pueden ejecutarse sobre un grupo de conversaciones. Para seleccionar varias conversaciones, mantenga pulsada la tecla <key>Ctrl</key> y pulse cada conversación de una en una en la lista de conversaciones. Alternativamente, pulse la primera conversación en un rango, mantenga pulsada la tecla <key>Mayús</key> y luego pulse en la última conversación.</p>
+  </section>
+
+  <section id="conversation-viewer">
+    <title>Visor de conversaciones</title>
+
+    <p>El <em>visor de conversaciones</em> muestra todos los mensajes en la conversación seleccionada, con el mensaje más antiguo en la parte superior.</p>
+
+    <p>Cuando visualiza una conversación, Convey contrae los mensajes que ya ha leído. Pulse en los mensajes contraídos para expandirlos. Pulse en la cabecera de un mensaje expandido para contraerlo.</p>
+
+    <p>Pulse en el nombre o la dirección de cualquiera de de los remitentes o destinatarios de un correo para abrir el <em>menú de contactos</em>, donde se muestra información adicional y opciones sobre la cuenta de correo. Puede iniciar una conversación nueva, copiar la dirección de correo al portapapeles y buscar conversaciones relacionadas. Si la dirección de correo está en la libreta de direcciones de su escritorio se mostrará la foto, el nombre preferido y si es un contacto favorito. También puede abrir el contacto en la libreta de direcciones. Si la dirección de correo no está guardada puede añadirla a la libreta de direcciones y actualizar las opciones de carga remota de la imagen para esa dirección.</p>
+
+    <p>Pulse el botón de estrella de cada mensaje para marcarlo o desmarcarlo como favorito. Marcar un mensaje como favorito marcará la conversación completa y Convey mostrará el primer mensaje favorito cuando vuelva a ella.</p>
+
+    <p>Pulse el botón de menú presente en cada mensaje para abrir el <em>menú del mensaje</em> que le permite responder y reenviar un mensaje concreto, actualizar qué mensajes se han marcado como leídos o no leídos, imprimir un mensaje y más cosas.</p>
+
+    <p>Los archivos adjuntos de un mensaje aparecerán en la parte inferior de este. Pulse dos veces sobre un adjunto para abrirlo o use los botones Abrir y Guardar para abrir y guardar los adjuntos seleccionados.</p>
+  </section>
+
+</page>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="search" xml:lang="es">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="star"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2014 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Adolfo Jayme Barrientos</mal:name>
+      <mal:email>fitojb@ubuntu.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+	<title>Búsqueda</title>
+	
+	<p>Convey puede realizar búsquedas de texto completo por cada cuenta. Para comenzar una búsqueda, seleccione una carpeta asociada con la cuenta que quiera buscar. Luego, pulse en el cuadro de búsqueda ubicado en la barra de herramientas (o bien, presione <keyseq><key>Ctrl</key><key>S</key></keyseq>) y comience a escribir. Los resultados aparecerán tras una breve pausa.</p>
+	
+	<p>La búsqueda de texto completo incluye texto del correo electrónico, direcciones (remitente, destinatario y CC), asuntos y nombres de archivos adjuntos.</p>
+	
+	<p>Las palabras clave que coinciden con la búsqueda se resaltan en la vista del mensaje. Convey encuentra diferentes formas de la misma palabra, por ejemplo buscar «caminar» encuentra «caminando» y «caminado».</p>
+	
+	<section id="search-operators">
+	<title>Operadores de búsqueda</title>
+	<p>Convey admite los siguientes operadores para filtrar los resultados:</p>
+	<table frame="all" rules="rows">
+	<tr>
+		<td><p><input>attachment:<var>nombre de archivo</var></input></p></td>
+		<td><p>Busca mensajes con adjuntos cuyo nombre coincida con <var>Nombre de archivo</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>bcc:<var>destinatario</var></input></p></td>
+		<td><p>Busca mensajes donde <var>destinatario</var> coincida con la cabecera de CCO.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>body:<var>texto</var></input></p></td>
+		<td><p>Busca mensajes cuyo cuerpo contenga <var>texto</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cc:<var>destinatario</var></input></p></td>
+		<td><p>Busca mensajes donde <var>destinatario</var> coincida con la cabecera de CC.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>from:<var>remitente</var></input></p></td>
+		<td><p>Busca mensajes donde <var>remitente</var> coincide con la cabecera De parte de.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:read</input></p></td>
+		<td><p>Buscar mensajes marcados como leídos.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:starred</input></p></td>
+		<td><p>Buscar mensajes marcados como favoritos.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>is:unread</input></p></td>
+		<td><p>Buscar mensajes marcados como no leídos.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>subject:<var>texto</var></input></p></td>
+		<td><p>Encuentra mensajes cuyo asunto contiene <var>texto</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>to:<var>destinatario</var></input></p></td>
+		<td><p>Busca mensajes donde <var>remitente</var> coincide con las cabeceras Para, CC, o CCO.</p></td>
+	</tr>
+	</table>
+
+	<p>Como caso especial, los operadores <input>ccc</input>, <input>cc</input>, <input>from</input>, y <input>to</input> soportan <input>me</input>, como argumento, que busca la cuenta de dirección de correo electrónico en el contexto apropiado.</p>
+	</section>
+</page>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="contributing" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+    <link type="next" xref="bugs"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2014 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Adolfo Jayme Barrientos</mal:name>
+      <mal:email>fitojb@ubuntu.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Contribuir con Convey</title>
+
+  <p>¿Quiere ayudar a mejorar Convey? Hay varias formas de colaborar:</p>
+
+  <list>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/ReportingABug">Informar de errores</link>—informar de errores o solicitar características nuevas</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Translating">Traducción</link>—traducir la interfaz de Convey y el manual del usuario a diferentes idiomas</p></item>
+    <item><p><link href="https://wiki.gnome.org/Apps/Geary/Development">Desarrollo</link>—corrección de errores y añadir nuevas funcionalidades</p></item>
+  </list>
+
+  <p>See <link href="https://wiki.gnome.org/Apps/Geary/Contribute">the
+  wiki</link> for more information and options for contributing
+  financially to Convey's development.</p>
+</page>
