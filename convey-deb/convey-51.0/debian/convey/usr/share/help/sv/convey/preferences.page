@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="preferences" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="search"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>l10nl18nsweja@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Inställningar</title>
+
+  <p>Convey låter dig anpassa hur det fungerar genom sin meny <gui style="group">Inställningar</gui>. För att öppna fönstret, välj <gui style="menuitem">Inställningar</gui> från programmenyn i huvudfönstrets verktygsfält. Du kan ändra följande alternativ:</p>
+
+  <terms>
+    <item>
+      <title><gui>Välj nästa meddelande automatiskt</gui></title>
+      <p>När detta alternativ är aktiverat väljer Convey automatiskt det senaste meddelandet i en mapp när du går in i den. Convey väljer också ett närliggande meddelande efter att ha arkiverat ett meddelande.</p>
+    </item>
+    <item>
+      <title><gui>Visa förhandsvisning av konversation</gui></title>
+      <p>Aktivera förhandsvisning av meddelanden i konversationslistan. Förhandsvisning visar de första få raderna av varje meddelande.</p>
+    </item>
+    <item>
+      <title><gui>Använd e-postkortkommandon med en tangent</gui></title>
+      <p>Aktivera tangentbordsgenvägar för e-poståtgärder som inte kräver att <key>Ctrl</key> trycks ned. Dessa matchar kortkommandona som används av GMail. se <link xref="shortcuts"/> för detaljer.</p>
+    </item>
+    <item>
+      <title><gui>Kontrollera om det finns ny e-post vid avslut</gui></title>
+      <p>Convey kommer att kontrollera efter ny e-post även när huvudfönstret inte är öppet. För att göra detta kommer det att starta tyst när du loggar in i din dator och fortsätter att köra efter att du har stängt alla fönster.</p>
+    </item>
+  </terms>
+
+</page>

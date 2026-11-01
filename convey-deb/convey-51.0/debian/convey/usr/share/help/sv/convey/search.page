@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="search" xml:lang="sv">
+
+    <info>
+        <link type="guide" xref="index#overview"/>
+        
+        <link type="next" xref="star"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>l10nl18nsweja@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+	<title>Sök</title>
+	
+	<p>Convey stöder textsökning per konto. För att påbörja en sökning, välj mappen associerad med kontot du vill söka i. Klicka i sökrutan i verktygsfältet (eller tryck ned <keyseq><key>Ctrl</key><key>S</key></keyseq>) och börja skriva. Resultat kommer att visas efter en kort fördröjning.</p>
+	
+	<p>Textsökningen omfattar e-posttext, e-postadresser (till, från och cc), ämnesrader och bilagors filnamn.</p>
+	
+	<p>Sökträffar markeras i meddelandevyn. Convey kommer att få träff på olika former av samma ord, exempelvis ger sökning på ”hej” också träff på ”hejsan” och ”hejdå”.</p>
+	
+	<section id="search-operators">
+	<title>Sökoperator</title>
+	<p>Convey stödjer följande operatorer för att begränsa omfattningen av sökningar:</p>
+	<table frame="all" rules="rows">
+	<tr>
+		<td><p><input>bilaga:<var>filnamn</var></input></p></td>
+		<td><p>Hittar meddelanden med bilagor vars namn matchar <var>filnamn</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>bcc:<var>mottagare</var></input></p></td>
+		<td><p>Hittar meddelanden där <var>mottagare</var> matchar meddelandets Bcc-fält.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>innehåll:<var>text</var></input></p></td>
+		<td><p>Hittar meddelanden vars text innehåller <var>text</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>cc:<var>mottagare</var></input></p></td>
+		<td><p>Hittar meddelanden där <var>mottagare</var> matchar meddelandets Cc-fält.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>från:<var>avsändare</var></input></p></td>
+		<td><p>Hittar meddelanden där <var>avsändare</var> matchar med meddelandets Från-fält.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>är:läst</input></p></td>
+		<td><p>Hittar meddelanden som har markerats som lästa.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>är:stjärnmärkt</input></p></td>
+		<td><p>Hittar meddelanden som har markerats som stjärnmärkta.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>är:oläst</input></p></td>
+		<td><p>Hittar meddelanden som har markerats som ej lästa.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>ämne:<var>text</var></input></p></td>
+		<td><p>Hittar meddelanden vars ämne innehåller <var>text</var>.</p></td>
+	</tr>
+	<tr>
+		<td><p><input>till:<var>mottagare</var></input></p></td>
+		<td><p>Hittar meddelanden där <var>mottagare</var> matchar något av fälten Till, Cc eller Bcc.</p></td>
+	</tr>
+	</table>
+
+	<p>Som ett specialfall stöder operatorerna <input>bcc</input>, <input>cc</input>, <input>från</input> och <input>till</input> att ta <input>mig</input> som sitt argument, vilket söker efter kontots e-postadress i sammanhanget.</p>
+	</section>
+</page>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="limits" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#contribute"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>l10nl18nsweja@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Begränsningar</title>
+
+  <p>Convey är fortfarande i tidig utveckling. Convey stöder IMAP och har testas med Gmail, Yahoo och den fria Dovecot-servern. Experimentellt stöd för Outlook.com tillhandahålls. Convey kanske inte fungerar perfekt ännu med vissa IMAP-servrar. Just nu saknar Convey fortfarande några viktiga funktioner som frånkopplat läge.</p>
+
+  <p>To learn more about the features we're working on and the future
+  of Convey, please visit Convey's <link href="https://wiki.gnome.org/Apps/Geary">wiki page</link>.</p>
+
+</page>

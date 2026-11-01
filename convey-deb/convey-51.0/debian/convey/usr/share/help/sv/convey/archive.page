@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive" xml:lang="sv">
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="shortcuts"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>l10nl18nsweja@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+  <title>Arkivera, lägg i papperskorg och ta bort meddelanden</title>
+
+  <p>Convey låter dig arkivera meddelanden om din server stöder det. Att klicka på verktygsfältsknappen <gui style="button">Arkivera</gui> flyttar konversationen från aktuell mapp till mappen <gui>Arkiv</gui> för de flesta e-posttjänster, eller till <gui>All e-post</gui> för GMail. Arkivering hjälper till att hålla din e-post organiserad genom att flytta gammal och besvarad e-post ur vägen.</p>
+
+  <p>För att flytta konversationer till mappen <gui>Papperskorg</gui>, markera dem och klicka på knappen <gui style="button">Papperskorg</gui> i verktygsfältet. För att permanent ta bort konversationer, håll nere <key>Skift</key> och klicka på knappen <gui style="button">Ta bort</gui> som visas i stället för knappen <gui>Papperskorg</gui>, eller öppna konversationen i mappen <gui>Papperskorg</gui> och klicka där på <gui style="button">Ta bort</gui>.</p>
+
+  <note style="tip">
+    <title>Ångra ändringar</title>
+    <p>Observera att du alltid kan ångra arkivering eller flytt till papperskorgen av ett meddelande om du ändrar dig. Klicka på <gui style="button">Ångra</gui> i poppuppaviseringen som visas, eller tryck <keyseq><key>Ctrl</key><key>Z</key></keyseq>, eller öppna mappen, hitta meddelandet, och flytta sedan tillbaka det till din <gui>Inkorg</gui></p>
+  </note>
+
+  <p>Medan både <gui style="button">Arkivera</gui> och <gui style="button">Flytta till papperskorg</gui> tar bort konversationer från din <gui>Inkorg</gui>-mapp, så finns det en viktig skillnad. Att klicka på <gui style="button">Arkivera</gui> kommer säkerställa att dina konversationer behålls så att du kan hitta dem igen senare. Att klicka på <gui style="button">Flytta till papperskorg</gui> kommer få konversationer att döljas från <link xref="search"/>, och de kommer troligen att tas bort i framtiden.</p>
+
+</page>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="write" xml:lang="sv">
+  <info>
+    <link type="guide" xref="index#overview"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>l10nl18nsweja@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+  <title>Skriva nya meddelanden och svara</title>
+
+  <section id="overview">
+    <title>Skriva meddelanden och svara</title>
+
+    <p>För att starta en ny e-postkonversation, klicka på knappen <gui style="button">Skriv</gui> i verktygsfältet. Skriv in e-postadressen för personerna som ska få meddelandet i textfältet <gui style="input">Till</gui>, och en ämnesrad i fältet <gui style="input">Ämne</gui>. Du kan sedan skriva in ditt meddelande i textområdet under dessa. När meddelandet är klart att skickas kan du klicka <gui style="button">Skicka</gui> eller trycka <keyseq><key>Ctrl</key><key>Retur</key></keyseq> för att skicka meddelandet.</p>
+
+    <note style="tip">
+      <title>Ångra sändning</title>
+      <p>Då du skickar ett e-postmeddelande kommer Convey att vänta fem sekunder innan meddelandet skickas. Under denna tid kommer du kunna klicka <gui style="button">Ångra</gui> i poppuppaviseringen som visas eller trycka <keyseq><key>Ctrl</key><key>Z</key></keyseq> för att öppna e-postmeddelandet på nytt och göra fler ändringar i det.</p>
+    </note>
+
+    <p>För att visa fälten <gui style="input">Cc</gui>, <gui style="input">Bcc</gui> och <gui style="input">Svara-till</gui>, klicka på knappen <gui style="input">Fler inställningar</gui> i slutet av fältet <gui style="input">Till</gui>. Cc låter dig skicka en kopia av meddelandet till andra, sekundära mottagare. Bcc liknar detta, men Bcc-listan är dold för mottagarna. Fältet Svara-till anger en e-postadress att svara till, om mottagare ska svara till en annan e-postadress än avsändarens.</p>
+
+    <p>När en e-postadress matas in i något av dessa fält så kommer Convey att tillhandahålla förslag från ditt skrivbords adressbok och från tidigare skickade och mottagna e-postmeddelanden. För att välja ett av dessa förslag, klicka helt enkelt på det.</p>
+
+    <p>För att besvara den aktuellt markerade konversationen, klicka på en av verktygsfältsknapparna <gui style="button">Svara</gui>, <gui style="button">Svara alla</gui> eller <gui style="button">Vidarebefordra</gui>. Detta kommer öppna en ny e-postredigerare för svar eller vidarebefordran för det senaste meddelandet i konversationen.</p>
+
+    <p>Vid svar kommer meddelandet som besvaras att citeras och kopieras till sidfoten på det nya svaret. Detta kan tas bort innan ett svar skrivs genom att trycka <key>Backsteg</key>. Alternativt kan text citeras selektivt genom att markera den önskade texten i ett meddelande och klicka på <gui style="button">Svara</gui> eller <gui style="button">Svara alla</gui>, så kommer endast den markerade texten att citeras.</p>
+
+    <p>För att svara på ett specifikt e-postmeddelande, öppna meddelandemenyn i meddelandets övre hörn och välj <gui>Svara</gui>, <gui>Svara alla</gui> eller <gui>Vidarebefordra</gui>.</p>
+  </section>
+
+  <section id="features">
+    <title>Textformatering, bilder och bilagor</title>
+
+    <p>Conveys e-postredigerare låter dig använda textstilar så som <em>fet</em> och <em>kursiv</em>, indentera text för att citera den, och länkar till webbsidor. Markera helt enkelt texten och klicka på lämplig knapp i formateringsverktygsfältet längst ner i redigeringsytan.</p>
+
+    <p>Punktlistor och numrerade listor kan infogas och tas bort genom att klicka på knapparna <gui style="button">Infoga punktlista</gui> och <gui style="button">Infoga numrerad lista</gui> i formateringsverktygsfältet. Indenteringsnivån kan justeras med knapparna <gui style="button">Indentera</gui> och <gui style="button">Avindentera</gui> i formateringsverktygsfältet.</p>
+
+    <p>Bilder kan infogas i rich text-meddelanden genom att klicka på knappen <gui style="button">Infoga en bild</gui> i formateringsverktygsfältet och välja bilden som ska bifogas, genom att dra en bild från programmet <gui>Filer</gui> in i meddelandet och sedan släppa den, eller genom att klistra in en bild som har kopierats till urklipp från ett annat program.</p>
+
+    <p>Dokument, musik, videoklipp och andra filer kan bifogas till e-postmeddelandet genom att klicka på knappen <gui style="button">Bifoga fil</gui> längst ner i redigerarfönstret och välja dokumentet som ska bifogas, eller genom att dra en fil från programmet <gui>Filer</gui> till redigerarfönstret, och släppa den antingen på textfälten högst upp i fönstret eller på verktygsfältet längst ner.</p>
+
+    <p>Ett antal tangentbordsgenvägar är tillgängliga i redigeraren; se <link xref="shortcuts"/> för detaljer.</p>
+
+    <p>Du kan ange en signatur att infoga i meddelandets sidfot i redigeraren via dialogrutan <link xref="accounts"/>.</p>
+  </section>
+
+  <section id="spellcheck">
+    <title>Kontrollera stavning</title>
+
+    <p>Convey har stöd för att stavningskontrollera dina skrivna meddelanden på ett eller flera språk under tiden du skriver. För att aktivera stavningskontroll, säkerställ först att din dator har ordböcker för stavningskontroll för de önskade språken. Konsultera din dators hjälp för att avgöra hur ordböcker ska installeras om de inte finns.</p>
+
+    <p>För att välja språk för stavningskontroll, klicka på knappen <gui style="button">Stavningskontroll</gui> i formateringsverktygsfältet, så kommer kontextfönstret för språkval att dyka upp. Klicka på ett språk i listan för att aktivera/inaktivera det, och klicka på knappen <gui style="button">-</gui> för att ta bort det från listan. Om ett språk inte finns i listan kan du söka det genom att skriva dess namn i sökrutan, och sedan klicka på knappen <gui style="button">+</gui> för att lägga till det.</p>
+  </section>
+
+  <section id="drafts">
+    <title>Spara utkast och återställa förkastade meddelanden</title>
+
+    <p>För e-postservrar som stöder utkast kommer Convey automatiskt att spara meddelandet allt eftersom du skriver på servern efter en kort fördröjning.</p>
+
+    <p>För att redigera ett befintligt utkast, välj mappen <gui>Utkast</gui> i mapplistan, välj meddelandet och klicka på ”Redigera utkast” i konversationsvisaren.</p>
+
+    <p>Convey kommer ta bort utkastet när du skickar meddelandet.</p>
+
+    <note style="tip">
+      <p>Om du sparar eller förkastar ett skrivet meddelande så kan du öppna det på nytt genom att klicka på <gui style="button">Ångra</gui> i poppuppaviseringen som visas eller genom att trycka <keyseq><key>Ctrl</key><key>Z</key></keyseq>. Redigeringsfönster kan öppnas på nytt upp till 30 minuter efter att de har stängts. Efter det så kommer du behöva öppna meddelandet på nytt via mappen <gui>Utkast</gui>, om den finns.</p>
+    </note>
+  </section>
+
+  <section id="plain-text">
+    <title>Vanliga textmeddelanden</title>
+
+    <p>Convey kan också skicka meddelanden i vanlig text. Tryck på knappen <gui style="button">Fler inställningar</gui> i slutet på verktygsfältet längst ner, välj sedan ”Rich Text” eller ”Vanlig text”. Läget för vanlig text är användbart när du skickar meddelanden till sändlistor som inte tillåter meddelanden i rich text (HTML), eller när e-post skickas till personer som inte använder moderna klienter som Convey.</p>
+
+    <p>I läget för vanlig text kommer text automatiskt att radbrytas med mjuk radbrytning så att den inte är längre än 74 tecken bred, och indenterad text kommer att radbrytas och citeras med ett ”&gt;”-tecken för varje citationsnivå.</p>
+  </section>
+
+</page>
