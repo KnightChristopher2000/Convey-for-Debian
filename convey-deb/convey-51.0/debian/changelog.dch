@@ -1,9 +1,0 @@
-convey (51.0-1) CUSTOM; urgency=medium
-
-  [ Danial Behzadi ]
-  * Initial release. (Closes: #1148397)
-
-  [ Christopher M. Bryan ]
-  * Package upstream Convey 51.0 for Debian.
-
- -- Christopher M. Bryan <christoferus.21@gmail.com>  Sat, 31 Oct 2026 16:54:46 -0500

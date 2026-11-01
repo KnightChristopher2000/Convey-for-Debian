@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=net.donnybeelo.Convey
-Exec=/usr/bin/convey --gapplication-service
